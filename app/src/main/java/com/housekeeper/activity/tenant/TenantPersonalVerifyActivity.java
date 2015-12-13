@@ -31,6 +31,7 @@ import com.ares.house.dto.app.MyAppAgentDto;
 import com.ares.house.dto.app.UserAppDto;
 import com.housekeeper.activity.BaseActivity;
 import com.housekeeper.activity.CropImageActivity;
+import com.housekeeper.activity.ModifyLoginPWDActivity;
 import com.housekeeper.activity.SetTransferPWDActivity;
 import com.housekeeper.activity.VerifyEmergencyContactActivity;
 import com.housekeeper.activity.VerifyHasSetTransferPWDActivity;
@@ -57,7 +58,7 @@ import java.util.Map;
 
 /**
  * Created by sth on 9/13/15.
- * <p/>
+ * <p>
  * 房管家  我  个人认证
  */
 public class TenantPersonalVerifyActivity extends BaseActivity implements View.OnClickListener {
@@ -66,8 +67,7 @@ public class TenantPersonalVerifyActivity extends BaseActivity implements View.O
     private CustomNetworkImageView headImageView;
     private DavinciView transferPwdView;
 
-    private DavinciView contactView;
-    private DavinciView wechatView;
+    private DavinciView modifyLoginPwdView;
 
     private MyAppAgentDto agentDto = null;
 
@@ -128,17 +128,11 @@ public class TenantPersonalVerifyActivity extends BaseActivity implements View.O
         transferPwdView.getTipTextView().setText("");
         transferPwdView.setOnClickListener(this);
 
-        contactView = (DavinciView) this.findViewById(R.id.contactView);
-        contactView.getLogoImageView().setVisibility(View.GONE);
-        contactView.getTitleTextView().setText("紧急联系人");
-        contactView.getTipTextView().setText("");
-        contactView.setOnClickListener(this);
-
-        wechatView = (DavinciView) this.findViewById(R.id.wechatView);
-        wechatView.getLogoImageView().setVisibility(View.GONE);
-        wechatView.getTitleTextView().setText("微信认证");
-        wechatView.getTipTextView().setText("");
-        wechatView.setOnClickListener(this);
+        modifyLoginPwdView = (DavinciView) this.findViewById(R.id.modifyLoginPwdView);
+        modifyLoginPwdView.getLogoImageView().setVisibility(View.GONE);
+        modifyLoginPwdView.getTitleTextView().setText("修改登录密码");
+        modifyLoginPwdView.getTipTextView().setText("");
+        modifyLoginPwdView.setOnClickListener(this);
     }
 
     @Override
@@ -168,15 +162,8 @@ public class TenantPersonalVerifyActivity extends BaseActivity implements View.O
             }
             break;
 
-            case R.id.contactView: {
-                Intent intent = new Intent(this, VerifyEmergencyContactActivity.class);
-                this.startActivityForResult(intent, 0);
-            }
-            break;
-
-            case R.id.wechatView: {
-                Intent intent = new Intent(this, VerifyWechatActivity.class);
-                intent.putExtra("status", statusMap.get("WEBCHAT").charAt(0));
+            case R.id.modifyLoginPwdView: {
+                Intent intent = new Intent(this, ModifyLoginPWDActivity.class);
                 this.startActivityForResult(intent, 0);
             }
             break;
@@ -337,8 +324,6 @@ public class TenantPersonalVerifyActivity extends BaseActivity implements View.O
     private void responseAllState() {
         try {
             transferPwdView.getTipTextView().setText(statusMap.get("TRANSACTION_PASSWORD").charAt(0) == 'a' ? "未设置" : "已设置");
-            contactView.getTipTextView().setText(statusMap.get("EMERGENCY_CONTACT").charAt(0) == 'a' ? "未设置" : "已设置");
-            wechatView.getTipTextView().setText(getStateMsg(statusMap.get("WEBCHAT").charAt(0)));
 
         } catch (Exception e) {
             e.printStackTrace();
@@ -381,8 +366,7 @@ public class TenantPersonalVerifyActivity extends BaseActivity implements View.O
 
     private void hideAllState() {
         transferPwdView.getTipTextView().setText("");
-        contactView.getTipTextView().setText("");
-        wechatView.getTipTextView().setText("");
+        modifyLoginPwdView.getTipTextView().setText("");
     }
 
     /**

@@ -212,6 +212,13 @@
             android:screenOrientation="portrait"
             android:windowSoftInputMode="stateHidden|adjustPan" />
         <activity
+            android:name="com.housekeeper.activity.ModifyLoginPWDActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustPan" />
+
+
+        <activity
             android:name="com.housekeeper.activity.gesture.GestureLockVerifyActivity"
             android:configChanges="orientation|keyboardHidden"
             android:label="@string/app_name"

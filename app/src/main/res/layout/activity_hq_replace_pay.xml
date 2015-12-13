@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray_2"
+    android:orientation="vertical">
+
+    <include
+        layout="@layout/layout_topbar"
+        android:layout_width="fill_parent"
+        android:layout_height="50dip" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dip"
+        android:orientation="horizontal"
+        android:paddingLeft="15dip"
+        android:paddingRight="15dip">
+
+        <ImageView
+            android:layout_width="8dip"
+            android:layout_height="8dip"
+            android:layout_marginTop="3dip"
+            android:background="@drawable/bg_yellow_circle" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dip"
+            android:lineSpacingExtra="3dip"
+            android:text="租金将在每月最后一天自动从您的账户余额中扣除，不足将从活期账户中补扣。"
+            android:textColor="#1D1D1D"
+            android:textSize="13sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dip"
+        android:orientation="horizontal"
+        android:paddingLeft="15dip"
+        android:paddingRight="15dip">
+
+        <ImageView
+            android:layout_width="8dip"
+            android:layout_height="8dip"
+            android:layout_marginTop="3dip"
+            android:background="@drawable/bg_yellow_circle" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dip"
+            android:lineSpacingExtra="3dip"
+            android:text="不误租金，还可心情享受10%鼓鼓理财活期收益。"
+            android:textColor="#1D1D1D"
+            android:textSize="13sp" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1px"
+        android:layout_marginTop="20dip"
+        android:background="@color/gray" />
+
+    <!-- 开启代扣 -->
+    <RelativeLayout
+        android:id="@+id/toggleGestureLockLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:paddingBottom="10dip"
+        android:paddingLeft="15dip"
+        android:paddingRight="15dip"
+        android:paddingTop="10dip">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/tenant_img_20"
+            android:drawablePadding="15dip"
+            android:gravity="center"
+            android:text="开启代扣"
+            android:textColor="#1F1F1F"
+            android:textSize="15sp" />
+
+        <Button
+            android:id="@+id/toggleGestureLockBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/btn_toggle_on" />
+
+
+    </RelativeLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1px"
+        android:background="@color/gray" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dip"
+        android:orientation="horizontal"
+        android:paddingLeft="15dip"
+        android:paddingRight="15dip">
+
+        <ImageView
+            android:layout_width="8dip"
+            android:layout_height="8dip"
+            android:layout_marginTop="3dip"
+            android:background="@drawable/bg_gray_circle" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dip"
+            android:lineSpacingExtra="3dip"
+            android:text="账户安全由“我有房”和“鼓鼓理财”运营公司吴合之众科技发展（北京）有限公司承保。"
+            android:textColor="#999999"
+            android:textSize="13sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dip"
+        android:orientation="horizontal"
+        android:paddingLeft="15dip"
+        android:paddingRight="15dip">
+
+        <ImageView
+            android:layout_width="8dip"
+            android:layout_height="8dip"
+            android:layout_marginTop="3dip"
+            android:background="@drawable/bg_gray_circle" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dip"
+            android:lineSpacingExtra="3dip"
+            android:text="第三方支付公司“万达快钱”提供技术支持。"
+            android:textColor="#999999"
+            android:textSize="13sp" />
+    </LinearLayout>
+
+
+</LinearLayout>

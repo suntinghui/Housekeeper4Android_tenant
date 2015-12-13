@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_white_corner"
+    android:gravity="center_vertical"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:visibility="gone"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dip"
+        android:layout_marginTop="20dip"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="分享成功后请返回鼓鼓理财"
+            android:textColor="#999999"
+            android:textSize="13sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="领取奖励"
+            android:textColor="@color/orange"
+            android:textSize="13sp" />
+
+    </LinearLayout>
+
+    <View
+        android:visibility="gone"
+        android:layout_width="fill_parent"
+        android:layout_height="1px"
+        android:layout_marginTop="20dip"
+        android:background="@color/gray" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingBottom="20dip"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip"
+        android:paddingTop="20dip">
+
+        <TextView
+            android:id="@+id/timelineTextView"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawablePadding="10dip"
+            android:drawableTop="@drawable/umeng_socialize_wxcircle"
+            android:gravity="center_horizontal"
+            android:text="朋友圈"
+            android:textColor="@color/blueme"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/QZoneTextView"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawablePadding="10dip"
+            android:drawableTop="@drawable/umeng_socialize_qzone_on"
+            android:gravity="center_horizontal"
+            android:text="QQ空间"
+            android:textColor="@color/blueme"
+            android:textSize="15sp" />
+
+    </LinearLayout>
+
+</LinearLayout>

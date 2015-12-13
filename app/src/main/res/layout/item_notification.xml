@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="10dip"
+    android:paddingRight="10dip"
+    android:paddingTop="15dip">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bg_gray_corner"
+        android:paddingBottom="12dip"
+        android:paddingTop="12dip">
+
+        <com.housekeeper.activity.view.CustomNetworkImageView
+            android:id="@+id/iconImageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dip"
+            android:background="@drawable/icon_message" />
+
+        <TextView
+            android:id="@+id/titleTextView"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@id/iconImageView"
+            android:layout_marginLeft="15dip"
+            android:layout_marginRight="15dip"
+            android:layout_toRightOf="@id/iconImageView"
+            android:singleLine="true"
+            android:text="鼓鼓理财"
+            android:textColor="#333333"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/contentTextView"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/titleTextView"
+            android:layout_marginLeft="15dip"
+            android:layout_marginRight="15dip"
+            android:layout_marginTop="8dip"
+            android:layout_toRightOf="@id/iconImageView"
+            android:maxLines="3"
+            android:text="鼓鼓理财"
+            android:textColor="#999999"
+            android:textSize="13sp" />
+
+        <View
+            android:id="@+id/lineView"
+            android:layout_width="fill_parent"
+            android:layout_height="1px"
+            android:layout_below="@id/contentTextView"
+            android:layout_marginBottom="10dip"
+            android:layout_marginTop="10dip"
+            android:background="#cccccc" />
+
+        <TextView
+            android:id="@+id/queryTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/lineView"
+            android:layout_marginLeft="15dip"
+            android:text="点击查看"
+            android:textColor="#666666"
+            android:textSize="13sp" />
+
+        <TextView
+            android:id="@+id/timeTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/lineView"
+            android:layout_marginRight="15dip"
+            android:text="2015-01-01"
+            android:textColor="#aaaaaa"
+            android:textSize="13sp" />
+
+    </RelativeLayout>
+
+</LinearLayout>

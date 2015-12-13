@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="/workspace/androidstudio/Housekeeper4Android_tenant/asymmetric_gridview/src/main/assets"/></dataSet><dataSet config="release"><source path="/workspace/androidstudio/Housekeeper4Android_tenant/asymmetric_gridview/src/release/assets"/></dataSet></merger>

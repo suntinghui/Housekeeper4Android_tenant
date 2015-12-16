@@ -37,6 +37,7 @@
     <color name="orange_1">#ff5000</color>
     <color name="orange_2">#FBA014</color>
     <color name="orange_3">#66FBA014</color>
+    <color name="orange_4">#88ff9900</color>
     <color name="orange_f50000">#f50000</color>
     <color name="orangeme">#FDBF60</color>
     <color name="gray">#CCCCCC</color>
@@ -53,6 +54,9 @@
     <color name="gray_10">#bbbbbb</color>
     <color name="gray_11">#D1d1d1</color>
     <color name="gray_12">#66D1d1d1</color>
+    <color name="gray_13">#bbcccccc</color>
+    <color name="gray_14">#bbbbbb</color>
+    <color name="gray_15">#eecccccc</color>
     <color name="gray_666666">#666666</color>
     <color name="lightgray">#EEEEEE</color>
     <color name="green">#33cc00</color>

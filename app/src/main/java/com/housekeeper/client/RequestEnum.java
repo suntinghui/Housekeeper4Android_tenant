@@ -129,6 +129,7 @@ public class RequestEnum {
             requestMap.put(DEBTPACKAGE_COUNTDOWN, new RequestModel(DEBTPACKAGE_COUNTDOWN, Constants.HOST_IP_REQ + "/rpc/debtpackage/countdown.app"));
             requestMap.put(DEBTPACKAGE_REMINDME, new RequestModel(DEBTPACKAGE_REMINDME, Constants.HOST_IP_REQ + "/rpc/debtpackage/remindme.app"));
             requestMap.put(USER_UPDATE_LOGIN_PWD, new RequestModel(USER_UPDATE_LOGIN_PWD, Constants.HOST_IP_REQ + "/rpc/user/password/update.app"));
+            requestMap.put(USER_LANDLORD_TOPIMG, new RequestModel(USER_LANDLORD_TOPIMG, Constants.HOST_IP_REQ + "/rpc/user/landlord/topimg.app"));
 
             // 注意保留 rpc
         }
@@ -251,6 +252,7 @@ public class RequestEnum {
     public static final String DEBTPACKAGE_COUNTDOWN = "DEBTPACKAGE_COUNTDOWN"; // 倒计时
     public static final String DEBTPACKAGE_REMINDME = "DEBTPACKAGE_REMINDME"; // 添加提醒
     public static final String USER_UPDATE_LOGIN_PWD = "USER_UPDATE_LOGIN_PWD"; // 修改登录密码
+    public static final String USER_LANDLORD_TOPIMG = "USER_LANDLORD_TOPIMG"; // 房东下载页面
 
 
 }

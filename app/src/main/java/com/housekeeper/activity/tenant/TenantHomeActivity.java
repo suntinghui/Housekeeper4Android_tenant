@@ -25,6 +25,7 @@ import com.ecloud.pulltozoomview.PullToZoomScrollViewEx;
 import com.housekeeper.activity.BaseActivity;
 import com.housekeeper.activity.HousePushIntentService;
 import com.housekeeper.activity.MessageListActivity;
+import com.housekeeper.activity.landlord.LandlordContactKeeperActivity;
 import com.housekeeper.activity.view.HouseRecommendLayout;
 import com.housekeeper.activity.view.MediaImagePagerAdapter;
 import com.housekeeper.client.Constants;
@@ -428,7 +429,7 @@ public class TenantHomeActivity extends BaseActivity implements View.OnClickList
             break;
 
             case R.id.landlordLayout: {
-                Intent intent = new Intent(this, TenantDownloadLandlordActivity.class);
+                Intent intent = new Intent(this, LandlordContactKeeperActivity.class);
                 this.startActivity(intent);
             }
             break;

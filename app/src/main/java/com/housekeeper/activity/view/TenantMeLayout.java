@@ -87,7 +87,7 @@ public class TenantMeLayout extends LinearLayout {
 
         this.headImageView.setImageUrl(Constants.HOST_IP + dto.getIndexImg(), ImageCacheManager.getInstance().getImageLoader());
         this.nameTextView.setText(dto.getCommunity() + "  " + dto.getHouseType());
-        this.positionTextView.setText(Html.fromHtml(dto.getAreaStr() + " • " + dto.getSize() + "<font color=#FDC005> • " + dto.getLeaseType() + "</font>"));
+        this.positionTextView.setText(Html.fromHtml(dto.getAreaStr() + " · " + dto.getSize() + "<font color=#FDC005> · " + dto.getLeaseType() + "</font>"));
         this.monthMoneyTextView.setText(dto.getMonthMoney());
 
         if (dto.getStatus() == 'b') {

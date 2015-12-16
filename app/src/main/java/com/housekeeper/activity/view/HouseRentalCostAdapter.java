@@ -68,7 +68,6 @@ public class HouseRentalCostAdapter extends BaseAdapter {
             holder.contentLayout = (LinearLayout) convertView.findViewById(R.id.contentLayout);
             holder.logoImageView = (ImageView) convertView.findViewById(R.id.logoImageView);
             holder.titleTextView = (TextView) convertView.findViewById(R.id.titleTextView);
-            holder.lineView = convertView.findViewById(R.id.lineView);
 
             convertView.setTag(holder);
 
@@ -92,9 +91,6 @@ public class HouseRentalCostAdapter extends BaseAdapter {
             holder.titleTextView.setTextColor(Color.parseColor("#222222"));
         }
 
-        // 每列的最后一项不显示竖分隔线
-        holder.lineView.setVisibility(View.GONE);
-
         return convertView;
     }
 
@@ -102,7 +98,6 @@ public class HouseRentalCostAdapter extends BaseAdapter {
         private LinearLayout contentLayout;
         private ImageView logoImageView;
         private TextView titleTextView;
-        private View lineView;
     }
 
     // 选中一个 或  取消选中一个

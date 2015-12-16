@@ -220,6 +220,7 @@ public class KeeperHouseInfoPublishActivity extends BaseActivity implements View
 
         lookCountBadgeView = new BadgeView(this, lookListTextView);
         lookCountBadgeView.setBadgePosition(BadgeView.POSITION_TOP_RIGHT);
+        lookCountBadgeView.setTextSize(12);
 
         applyLookTextView = (TextView) this.findViewById(R.id.applyLookTextView);
         applyLookTextView.setOnClickListener(this);
@@ -417,6 +418,11 @@ public class KeeperHouseInfoPublishActivity extends BaseActivity implements View
         this.subwayTextView.setText(Html.fromHtml("<font color=#999999>地铁：</font><font color=#222222>" + appDto.getSubway() + "</font>"));
 
         this.applyLookTextView.setEnabled(appDto.isAdd());
+        if (appDto.isAdd()) {
+            this.applyLookTextView.setText("我要看房");
+        } else {
+            this.applyLookTextView.setText("已加到看房清单");
+        }
 
         if (appDto.getReserveCount() == 0) {
             lookCountBadgeView.hide();
@@ -494,6 +500,7 @@ public class KeeperHouseInfoPublishActivity extends BaseActivity implements View
 
     private void responseReserve() {
         this.applyLookTextView.setEnabled(false);
+        this.applyLookTextView.setText("已加到看房清单");
 
         if (lookCountBadgeView.isShown()) {
             lookCountBadgeView.increment(1);

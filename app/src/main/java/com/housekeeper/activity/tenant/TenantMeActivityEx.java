@@ -93,6 +93,7 @@ public class TenantMeActivityEx extends BaseActivity implements View.OnClickList
 
         countBadgeView = new BadgeView(this, topRecordTextView);
         countBadgeView.setBadgePosition(BadgeView.POSITION_TOP_RIGHT);
+        countBadgeView.setTextSize(13);
         countBadgeView.hide();
 
         topSettingTextView = (TextView) this.findViewById(R.id.topSettingTextView);

@@ -1,6 +1,5 @@
 package com.housekeeper.activity;
 
-import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -9,11 +8,6 @@ import android.widget.Toast;
 import com.android.volley.Response;
 import com.ares.house.dto.app.AppMessageDto;
 import com.ares.house.dto.app.AppResponseStatus;
-import com.ares.house.dto.app.UserAppDto;
-import com.housekeeper.activity.gesture.GestureLockSetupActivity;
-import com.housekeeper.activity.gesture.GestureLockUtil;
-import com.housekeeper.activity.gesture.GestureLockVerifyActivity;
-import com.housekeeper.activity.tenant.TenantMeActivityEx;
 import com.housekeeper.client.RequestEnum;
 import com.housekeeper.client.net.JSONRequest;
 import com.wufriends.housekeeper.tenant.R;
@@ -76,8 +70,7 @@ public class HQReplacePayActivity extends BaseActivity implements View.OnClickLi
                     AppMessageDto<String> dto = objectMapper.readValue(jsonObject, type);
 
                     if (dto.getStatus() == AppResponseStatus.SUCCESS) {
-                        Toast.makeText(HQReplacePayActivity.this, "设置成功", Toast.LENGTH_SHORT).show();
-                        finish();
+                        Toast.makeText(HQReplacePayActivity.this, open ? "已开启" : "已关闭", Toast.LENGTH_SHORT).show();
 
                     } else {
                         Toast.makeText(HQReplacePayActivity.this, dto.getMsg(), Toast.LENGTH_SHORT).show();

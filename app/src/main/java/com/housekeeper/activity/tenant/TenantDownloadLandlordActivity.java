@@ -19,6 +19,7 @@ import com.ares.house.dto.app.AppResponseStatus;
 import com.ares.house.dto.app.ImageAppDto;
 import com.ares.house.dto.app.Paginable;
 import com.ares.house.dto.app.ReserveListAppDto;
+import com.ares.house.dto.app.UserLandLordAppDto;
 import com.housekeeper.activity.BaseActivity;
 import com.housekeeper.activity.landlord.LandlordContactKeeperActivity;
 import com.housekeeper.client.Constants;
@@ -49,7 +50,7 @@ public class TenantDownloadLandlordActivity extends BaseActivity implements View
     private LinearLayout indicatorLayout;
     private ImageView[] indicatorImageViews = null;
 
-    private UserLandLordDto appDto = null;
+    private UserLandLordAppDto appDto = null;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -174,9 +175,9 @@ public class TenantDownloadLandlordActivity extends BaseActivity implements View
             public void onResponse(String jsonObject) {
                 ObjectMapper objectMapper = new ObjectMapper();
                 objectMapper.configure(DeserializationConfig.Feature.FAIL_ON_UNKNOWN_PROPERTIES, false);
-                JavaType javaType = objectMapper.getTypeFactory().constructParametricType(AppMessageDto.class, UserLandLordDto.class);
+                JavaType javaType = objectMapper.getTypeFactory().constructParametricType(AppMessageDto.class, UserLandLordAppDto.class);
 
-                AppMessageDto<UserLandLordDto> dto = null;
+                AppMessageDto<UserLandLordAppDto> dto = null;
 
                 try {
                     dto = objectMapper.readValue(jsonObject, javaType);
@@ -200,7 +201,7 @@ public class TenantDownloadLandlordActivity extends BaseActivity implements View
     }
 
     private void responseUserLandlord() {
-        imageURLList = appDto.getTopImages();
+        imageURLList = appDto.getTopImgs();
         initViewPager();
         viewPagerAdapter.notifyDataSetChanged();
 
@@ -228,7 +229,7 @@ public class TenantDownloadLandlordActivity extends BaseActivity implements View
 
                 Intent intent = new Intent();
                 intent.setAction("android.intent.action.VIEW");
-                intent.setData(Uri.parse(appDto.getDownloadUrl()));
+                intent.setData(Uri.parse(appDto.getDownLoadUrl()));
                 startActivity(intent);
             }
             break;

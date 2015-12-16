@@ -423,13 +423,13 @@ public class TenantHomeActivity extends BaseActivity implements View.OnClickList
             break;
 
             case R.id.keeperLayout: {
-                Intent intent = new Intent(this, TenantDownloadLandlordActivity.class);
+                Intent intent = new Intent(this, LandlordContactKeeperActivity.class);
                 this.startActivity(intent);
             }
             break;
 
             case R.id.landlordLayout: {
-                Intent intent = new Intent(this, LandlordContactKeeperActivity.class);
+                Intent intent = new Intent(this, TenantDownloadLandlordActivity.class);
                 this.startActivity(intent);
             }
             break;

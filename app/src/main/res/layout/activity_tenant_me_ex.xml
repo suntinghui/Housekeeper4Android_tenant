@@ -11,7 +11,7 @@
         android:background="#40444F"
         android:orientation="horizontal"
         android:paddingBottom="20dip"
-        android:paddingTop="40dip">
+        android:paddingTop="20dip">
 
         <LinearLayout
             android:id="@+id/headLayout"
@@ -32,10 +32,10 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="15dip"
+                android:layout_marginTop="10dip"
                 android:layout_weight="1"
                 android:gravity="center_horizontal"
-                android:text="我"
+                android:text="个人设置"
                 android:textColor="#ffffff" />
 
         </LinearLayout>
@@ -45,7 +45,7 @@
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:drawablePadding="15dip"
+            android:drawablePadding="10dip"
             android:drawableTop="@drawable/tenant_img_22"
             android:gravity="center_horizontal"
             android:text="银行卡"
@@ -56,7 +56,7 @@
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:drawablePadding="15dip"
+            android:drawablePadding="10dip"
             android:drawableTop="@drawable/tenant_img_23"
             android:gravity="center_horizontal"
             android:text="看房记录"
@@ -67,7 +67,7 @@
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:drawablePadding="15dip"
+            android:drawablePadding="10dip"
             android:drawableTop="@drawable/tenant_img_24"
             android:gravity="center_horizontal"
             android:text="系统"
@@ -102,7 +102,7 @@
                     android:layout_height="wrap_content"
                     android:drawableLeft="@drawable/tenant_img_25"
                     android:drawablePadding="10dip"
-                    android:text="活期账户"
+                    android:text="活期账户（元）"
                     android:textColor="#333333"
                     android:textSize="13sp" />
 
@@ -113,30 +113,42 @@
                     android:gravity="center_vertical"
                     android:orientation="horizontal">
 
-                    <TextView
-                        android:id="@+id/totalMoneyTextView"
-                        android:layout_width="fill_parent"
+                    <com.yuan.magic.MagicScrollView
+                        android:id="@+id/magicScrollView"
+                        android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:text="0.00"
-                        android:textColor="#ffffff"
-                        android:textSize="35sp" />
+                        android:background="@android:color/transparent"
+                        android:focusable="false"
+                        android:scrollbars="none">
+
+                        <com.yuan.magic.MagicTextView
+                            android:id="@+id/totalMoneyTextView"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:focusable="false"
+                            android:singleLine="true"
+                            android:text="0.00"
+                            android:textColor="#ffffff"
+                            android:textSize="35sp" />
+                    </com.yuan.magic.MagicScrollView>
 
                     <TextView
                         android:id="@+id/yesterdayEarningsTextView"
-                        android:layout_width="wrap_content"
+                        android:layout_width="fill_parent"
                         android:layout_height="wrap_content"
+                        android:layout_weight="1"
                         android:drawablePadding="8dip"
                         android:drawableRight="@drawable/hq_right_arrow"
-                        android:text="昨日收益：0.00 元"
+                        android:gravity="right"
+                        android:text="昨日收益：0.00"
                         android:textColor="#ffffff"
-                        android:textSize="15sp" />
+                        android:textSize="13sp" />
                 </LinearLayout>
 
             </LinearLayout>
 
             <TextView
-                android:id="@+id/tipTextView"
+                android:id="@+id/guguTextView"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:drawablePadding="5dip"
@@ -146,7 +158,7 @@
                 android:paddingTop="10dip"
                 android:text="鼓鼓理财，为您创造10%的活期理财收益"
                 android:textColor="#333333"
-                android:textSize="14sp" />
+                android:textSize="13sp" />
 
             <!-- 账户余额 -->
             <LinearLayout
@@ -187,7 +199,7 @@
                         android:singleLine="true"
                         android:text="点击提现（投资请点击活期账户）"
                         android:textColor="#999999"
-                        android:textSize="12sp" />
+                        android:textSize="11sp" />
 
                 </LinearLayout>
 
@@ -196,7 +208,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="0.00"
-                    android:textColor="#FDC005"
+                    android:textColor="#FF9900"
                     android:textSize="18sp" />
 
                 <ImageView
@@ -299,6 +311,12 @@
                 android:drawableLeft="@drawable/yellow_line_1"
                 android:drawablePadding="8dip"
                 android:text="我的租房信息" />
+
+            <ImageView
+                android:id="@+id/noHouseImageView"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/nohouse" />
 
             <LinearLayout
                 android:id="@+id/contentLayout"

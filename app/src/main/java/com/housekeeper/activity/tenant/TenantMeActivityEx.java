@@ -1,5 +1,6 @@
 package com.housekeeper.activity.tenant;
 
+import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.text.Html;
@@ -20,11 +21,13 @@ import com.housekeeper.activity.TransferHistoryActivity;
 import com.housekeeper.activity.WithdrawalsActivity;
 import com.housekeeper.activity.YesterdayEarningsActivity;
 import com.housekeeper.activity.view.TenantMeLayout;
+import com.housekeeper.client.ActivityManager;
 import com.housekeeper.client.Constants;
 import com.housekeeper.client.RequestEnum;
 import com.housekeeper.client.net.JSONRequest;
 import com.housekeeper.utils.AdapterUtil;
 import com.readystatesoftware.viewbadger.BadgeView;
+import com.umeng.analytics.MobclickAgent;
 import com.wufriends.housekeeper.tenant.R;
 
 import org.codehaus.jackson.map.DeserializationConfig;
@@ -224,6 +227,29 @@ public class TenantMeActivityEx extends BaseActivity implements View.OnClickList
                 this.startActivity(intent);
             }
             break;
+        }
+    }
+
+    @Override
+    public void onBackPressed() {
+        exitApp();
+    }
+
+    private long exitTimeMillis = 0;
+
+    private void exitApp() {
+        if ((System.currentTimeMillis() - exitTimeMillis) > 2000) {
+            Toast.makeText(this, "再按一次退出程序", Toast.LENGTH_SHORT).show();
+            exitTimeMillis = System.currentTimeMillis();
+        } else {
+            MobclickAgent.onKillProcess(this); // 用来保存统计数据
+
+            for (Activity act : ActivityManager.getInstance().getAllActivity()) {
+                act.finish();
+            }
+
+            android.os.Process.killProcess(android.os.Process.myPid());
+            System.exit(1);
         }
     }
 }

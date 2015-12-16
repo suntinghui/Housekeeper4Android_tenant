@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
 <resources>
-    <string name="app_name">我有房（租户版）</string>
+    <string name="app_name">我有房</string>
     <string name="base_promt_area">选择地区</string>
     <string name="base_promt_id">选择身份</string>
     <string name="readtips"><u>阅读需知</u></string>

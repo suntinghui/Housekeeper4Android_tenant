@@ -31,6 +31,7 @@ import com.ares.house.dto.app.MyAppAgentDto;
 import com.ares.house.dto.app.UserAppDto;
 import com.housekeeper.activity.BaseActivity;
 import com.housekeeper.activity.CropImageActivity;
+import com.housekeeper.activity.ManageGestureLockActivity;
 import com.housekeeper.activity.ModifyLoginPWDActivity;
 import com.housekeeper.activity.SetTransferPWDActivity;
 import com.housekeeper.activity.VerifyEmergencyContactActivity;
@@ -46,6 +47,7 @@ import com.housekeeper.client.net.JSONRequest;
 import com.housekeeper.utils.ActivityUtil;
 import com.wufriends.housekeeper.tenant.R;
 
+import org.apache.commons.lang3.StringUtils;
 import org.codehaus.jackson.map.DeserializationConfig;
 import org.codehaus.jackson.map.ObjectMapper;
 import org.codehaus.jackson.type.JavaType;
@@ -58,7 +60,7 @@ import java.util.Map;
 
 /**
  * Created by sth on 9/13/15.
- * <p>
+ * <p/>
  * 房管家  我  个人认证
  */
 public class TenantPersonalVerifyActivity extends BaseActivity implements View.OnClickListener {
@@ -66,8 +68,8 @@ public class TenantPersonalVerifyActivity extends BaseActivity implements View.O
     private DavinciView headLogoView;
     private CustomNetworkImageView headImageView;
     private DavinciView transferPwdView;
-
     private DavinciView modifyLoginPwdView;
+    private DavinciView modifyGestureLockView;
 
     private MyAppAgentDto agentDto = null;
 
@@ -106,7 +108,7 @@ public class TenantPersonalVerifyActivity extends BaseActivity implements View.O
     }
 
     private void initView() {
-        ((TextView) this.findViewById(R.id.titleTextView)).setText("个人认证");
+        ((TextView) this.findViewById(R.id.titleTextView)).setText("我");
         this.findViewById(R.id.backBtn).setOnClickListener(this);
 
         headLogoView = (DavinciView) this.findViewById(R.id.headLogoView);
@@ -133,6 +135,12 @@ public class TenantPersonalVerifyActivity extends BaseActivity implements View.O
         modifyLoginPwdView.getTitleTextView().setText("修改登录密码");
         modifyLoginPwdView.getTipTextView().setText("");
         modifyLoginPwdView.setOnClickListener(this);
+
+        modifyGestureLockView = (DavinciView) this.findViewById(R.id.modifyGestureLockView);
+        modifyGestureLockView.getLogoImageView().setVisibility(View.GONE);
+        modifyGestureLockView.getTitleTextView().setText("管理手势密码");
+        modifyGestureLockView.getTipTextView().setText("");
+        modifyGestureLockView.setOnClickListener(this);
     }
 
     @Override
@@ -150,7 +158,7 @@ public class TenantPersonalVerifyActivity extends BaseActivity implements View.O
 
             case R.id.transferPwdView: {
                 // 如果已经设置了交易密码，则进入提示界面;如果没有设置则直接进入设置界面
-                if (statusMap.get("TRANSACTION_PASSWORD").charAt(0) == 'a') {
+                if (StringUtils.isNotBlank(statusMap.get("TRANSACTION_PASSWORD"))) {
                     Intent intent = new Intent(this, SetTransferPWDActivity.class);
                     intent.putExtra("TYPE", SetTransferPWDActivity.TYPE_SET);
                     intent.putExtra("loginPassword", ""); // 初次设置不需要登录密码；修改需要登录密码。
@@ -167,6 +175,13 @@ public class TenantPersonalVerifyActivity extends BaseActivity implements View.O
                 this.startActivityForResult(intent, 0);
             }
             break;
+
+            case R.id.modifyGestureLockView: {
+                Intent intent = new Intent(this, ManageGestureLockActivity.class);
+                this.startActivityForResult(intent, 0);
+            }
+            break;
+
         }
     }
 
@@ -292,7 +307,7 @@ public class TenantPersonalVerifyActivity extends BaseActivity implements View.O
     }
 
     private void requestAllState() {
-        JSONRequest request = new JSONRequest(this, RequestEnum.SECURITY_CENTER_INFO, null, new Response.Listener<String>() {
+        JSONRequest request = new JSONRequest(this, RequestEnum.SECURITY_CENTER_BANK_INFO, null, new Response.Listener<String>() {
 
             @Override
             public void onResponse(String jsonObject) {
@@ -323,7 +338,7 @@ public class TenantPersonalVerifyActivity extends BaseActivity implements View.O
 
     private void responseAllState() {
         try {
-            transferPwdView.getTipTextView().setText(statusMap.get("TRANSACTION_PASSWORD").charAt(0) == 'a' ? "未设置" : "已设置");
+            transferPwdView.getTipTextView().setText(StringUtils.isBlank(statusMap.get("TRANSACTION_PASSWORD")) ? "未设置" : "已设置");
 
         } catch (Exception e) {
             e.printStackTrace();
@@ -367,6 +382,7 @@ public class TenantPersonalVerifyActivity extends BaseActivity implements View.O
     private void hideAllState() {
         transferPwdView.getTipTextView().setText("");
         modifyLoginPwdView.getTipTextView().setText("");
+        modifyGestureLockView.getTipTextView().setText("");
     }
 
     /**

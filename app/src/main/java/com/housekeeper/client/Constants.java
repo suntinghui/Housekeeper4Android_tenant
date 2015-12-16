@@ -4,24 +4,23 @@ import com.housekeeper.utils.ActivityUtil;
 
 public class Constants {
 
-    // 类型
-    public static final String kCURRENT_TYPE = "kCURRENT_TYPE";
-
     public static final int SMS_MAX_TIME = 60; // 短信平台重发最大时间 秒
     public static final int INITIAL_DELAY_MILLIS = 175;
 
     public static final int PAGESIZE = 20;
+
+    public static final String ROLE = "USER";
 
     // 生产
 //    public static final String HOST_IP = "http://www.baggugu.com";
 //    public static final String HOST_IP_REQ = HOST_IP + ":8111";
 
     // 测试
-//    public static final String HOST_IP = "http://182.92.217.168:8112";
-//    public static final String HOST_IP_REQ = HOST_IP;
-
-    public static final String HOST_IP = "http://192.168.1.106:8716";
+    public static final String HOST_IP = "http://182.92.217.168:8111";
     public static final String HOST_IP_REQ = HOST_IP;
+
+//    public static final String HOST_IP = "http://192.168.1.106:8716";
+//    public static final String HOST_IP_REQ = HOST_IP;
 
     public static final String PROTOCOL_IP = HOST_IP + "/app/agreement.html";
 
@@ -53,6 +52,5 @@ public class Constants {
 
     public static String ACTION_CHECK_TABHOST = "com.housekeeper.check.tabhost";
     public static String ACTION_CHECK_RELATION = "ACTION_CHECK_RELATION";
-
 
 }

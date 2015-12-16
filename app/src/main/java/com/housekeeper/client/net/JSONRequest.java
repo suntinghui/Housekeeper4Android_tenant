@@ -34,7 +34,6 @@ import com.housekeeper.activity.keeper.KeeperPersonalVerifyActivity;
 import com.housekeeper.client.Constants;
 import com.housekeeper.client.NoSetInfoException;
 import com.housekeeper.client.RequestEnum;
-import com.housekeeper.client.RoleTypeEnum;
 import com.housekeeper.client.TokenExpiredException;
 import com.housekeeper.utils.ActivityUtil;
 import com.housekeeper.utils.StringUtil;
@@ -143,7 +142,7 @@ public class JSONRequest extends StringRequest {
         } catch (NoSetInfoException e) {
             e.printStackTrace();
 
-            if (ActivityUtil.getSharedPreferences().getString(Constants.kCURRENT_TYPE, RoleTypeEnum.KEEPER).equalsIgnoreCase(RoleTypeEnum.KEEPER)) {
+            if (Constants.ROLE.equalsIgnoreCase("AGENT")) {
                 Toast.makeText(HousekeeperApplication.getInstance().getCurrentActivity(), "请先完善个人认证信息", Toast.LENGTH_SHORT).show();
 
                 Intent intent = new Intent(HousekeeperApplication.getInstance().getCurrentActivity(), KeeperPersonalVerifyActivity.class);

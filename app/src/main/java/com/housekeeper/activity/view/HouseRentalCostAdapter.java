@@ -82,22 +82,18 @@ public class HouseRentalCostAdapter extends BaseAdapter {
         if (this.editable) {
             if (dto.isSelected()) {
                 holder.logoImageView.setBackgroundResource(HousekeeperApplication.getInstance().getResources().getIdentifier(dto.getImg().toLowerCase() + "_selected", "drawable", HousekeeperApplication.getInstance().getPackageName()));
-                holder.titleTextView.setTextColor(Color.parseColor("#F5AE3C"));
+                holder.titleTextView.setTextColor(Color.parseColor("#222222"));
             } else {
                 holder.logoImageView.setBackgroundResource(HousekeeperApplication.getInstance().getResources().getIdentifier(dto.getImg().toLowerCase() + "_normal", "drawable", HousekeeperApplication.getInstance().getPackageName()));
                 holder.titleTextView.setTextColor(Color.parseColor("#999999"));
             }
         } else {
             holder.logoImageView.setBackgroundResource(HousekeeperApplication.getInstance().getResources().getIdentifier(dto.getImg().toLowerCase() + "_selected", "drawable", HousekeeperApplication.getInstance().getPackageName()));
-            holder.titleTextView.setTextColor(Color.parseColor("#F5AE3C"));
+            holder.titleTextView.setTextColor(Color.parseColor("#222222"));
         }
 
         // 每列的最后一项不显示竖分隔线
-        if (position % 3 == 2) {
-            holder.lineView.setVisibility(View.GONE);
-        } else {
-            holder.lineView.setVisibility(View.VISIBLE);
-        }
+        holder.lineView.setVisibility(View.GONE);
 
         return convertView;
     }

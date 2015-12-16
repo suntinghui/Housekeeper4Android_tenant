@@ -25,13 +25,10 @@ import com.ecloud.pulltozoomview.PullToZoomScrollViewEx;
 import com.housekeeper.activity.BaseActivity;
 import com.housekeeper.activity.HousePushIntentService;
 import com.housekeeper.activity.MessageListActivity;
-import com.housekeeper.activity.keeper.KeeperHouseInfoPublishActivity;
-import com.housekeeper.activity.landlord.LandlordMainActivity;
 import com.housekeeper.activity.view.HouseRecommendLayout;
 import com.housekeeper.activity.view.MediaImagePagerAdapter;
 import com.housekeeper.client.Constants;
 import com.housekeeper.client.RequestEnum;
-import com.housekeeper.client.RoleTypeEnum;
 import com.housekeeper.client.UMengShareClient;
 import com.housekeeper.client.net.JSONRequest;
 import com.housekeeper.utils.ActivityUtil;
@@ -89,8 +86,6 @@ public class TenantHomeActivity extends BaseActivity implements View.OnClickList
         this.setContentView(R.layout.activity_tenant_home);
 
         this.findViewById(R.id.messageBtn).setOnClickListener(this);
-
-        ActivityUtil.getSharedPreferences().edit().putString(Constants.kCURRENT_TYPE, RoleTypeEnum.TENANT).commit();
 
         loadViewForCode();
 
@@ -270,7 +265,7 @@ public class TenantHomeActivity extends BaseActivity implements View.OnClickList
         }
     }
 
-    private void requestTopImage(){
+    private void requestTopImage() {
         HashMap<String, String> tempMap = new HashMap<String, String>();
         tempMap.put("type", "USER_INDEX");
 
@@ -303,7 +298,7 @@ public class TenantHomeActivity extends BaseActivity implements View.OnClickList
         this.addToRequestQueue(request, "正在发送请稍候...");
     }
 
-    private void responseTopImage(List<ImageAppDto> list){
+    private void responseTopImage(List<ImageAppDto> list) {
         imageURLList = list;
         initViewPager();
         viewPagerAdapter.notifyDataSetChanged();
@@ -383,7 +378,7 @@ public class TenantHomeActivity extends BaseActivity implements View.OnClickList
             layout.setData(infoDto);
 
             LinearLayout.LayoutParams params = new LinearLayout.LayoutParams(LinearLayout.LayoutParams.MATCH_PARENT, LinearLayout.LayoutParams.WRAP_CONTENT);
-            params.setMargins(0, 0, 0, AdapterUtil.dip2px(this, 20));
+            params.setMargins(AdapterUtil.dip2px(this, 15), 0, AdapterUtil.dip2px(this, 15), AdapterUtil.dip2px(this, 20));
 
             recommendLayout.addView(layout, params);
         }

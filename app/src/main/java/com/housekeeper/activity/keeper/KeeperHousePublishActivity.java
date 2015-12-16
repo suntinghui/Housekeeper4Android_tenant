@@ -17,17 +17,12 @@ import com.appeaser.sublimepickerlibrary.recurrencepicker.SublimeRecurrencePicke
 import com.ares.house.dto.app.AppMessageDto;
 import com.ares.house.dto.app.AppResponseStatus;
 import com.ares.house.dto.app.HouseReleaseAppDto;
-import com.ares.house.dto.app.HouseReleaseInfoAppDto;
 import com.ares.house.dto.app.HouseTagAppDto;
 import com.housekeeper.activity.BaseActivity;
 import com.housekeeper.activity.view.SublimePickerDialog;
-import com.housekeeper.client.Constants;
 import com.housekeeper.client.RequestEnum;
-import com.housekeeper.client.RoleTypeEnum;
 import com.housekeeper.client.net.JSONRequest;
-import com.housekeeper.utils.ActivityUtil;
 import com.housekeeper.utils.DateUtil;
-import com.housekeeper.utils.StringUtil;
 import com.wufriends.housekeeper.tenant.R;
 import com.zhy.view.flowlayout.FlowLayout;
 import com.zhy.view.flowlayout.TagAdapter;
@@ -39,7 +34,6 @@ import org.codehaus.jackson.map.DeserializationConfig;
 import org.codehaus.jackson.map.ObjectMapper;
 import org.codehaus.jackson.type.JavaType;
 
-import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Iterator;

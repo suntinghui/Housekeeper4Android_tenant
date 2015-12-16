@@ -14,19 +14,13 @@ import android.widget.Toast;
 import com.android.volley.Response;
 import com.ares.house.dto.app.AppMessageDto;
 import com.ares.house.dto.app.AppResponseStatus;
-import com.ares.house.dto.app.ImageAppDto;
 import com.ares.house.dto.app.ReserveListAppDto;
-import com.housekeeper.activity.BaseActivity;
-import com.housekeeper.activity.keeper.KeeperAddHouseDeedActivity;
 import com.housekeeper.activity.keeper.KeeperRemarkActivity;
 import com.housekeeper.activity.keeper.KeeperReserveListActivity;
-import com.housekeeper.activity.keeper.KeeperSystemSettingActivity;
 import com.housekeeper.client.Constants;
 import com.housekeeper.client.RequestEnum;
-import com.housekeeper.client.RoleTypeEnum;
 import com.housekeeper.client.net.ImageCacheManager;
 import com.housekeeper.client.net.JSONRequest;
-import com.housekeeper.utils.ActivityUtil;
 import com.wufriends.housekeeper.tenant.R;
 
 import org.apache.commons.lang3.StringUtils;
@@ -35,7 +29,6 @@ import org.codehaus.jackson.map.ObjectMapper;
 import org.codehaus.jackson.type.JavaType;
 
 import java.util.HashMap;
-import java.util.List;
 
 import cn.pedant.SweetAlert.SweetAlertDialog;
 import io.github.onivas.promotedactions.PromotedActionsLibrary;

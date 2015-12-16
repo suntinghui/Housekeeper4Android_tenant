@@ -59,7 +59,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="整租"
-                    android:textColor="#666666"
+                    android:textColor="#222222"
                     android:textSize="18sp" />
 
                 <TextView
@@ -107,7 +107,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="合租"
-                    android:textColor="#666666"
+                    android:textColor="#222222"
                     android:textSize="18sp" />
 
                 <TextView
@@ -164,7 +164,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="单间"
-                    android:textColor="#666666"
+                    android:textColor="#222222"
                     android:textSize="18sp" />
 
                 <TextView
@@ -212,7 +212,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="床位"
-                    android:textColor="#666666"
+                    android:textColor="#222222"
                     android:textSize="18sp" />
 
                 <TextView
@@ -237,7 +237,7 @@
     <LinearLayout
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="15dip"
+        android:layout_marginTop="10dip"
         android:orientation="horizontal">
 
         <!-- 我是房东 -->
@@ -276,7 +276,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="我是房东"
-                    android:textColor="#666666"
+                    android:textColor="#222222"
                     android:textSize="18sp" />
 
                 <TextView
@@ -292,7 +292,7 @@
         </LinearLayout>
 
         <View
-            android:layout_width="15dip"
+            android:layout_width="8dip"
             android:layout_height="fill_parent"
             android:background="@android:color/transparent" />
 
@@ -333,7 +333,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="房管家"
-                    android:textColor="#666666"
+                    android:textColor="#222222"
                     android:textSize="18sp" />
 
                 <TextView
@@ -394,7 +394,7 @@
         android:layout_marginBottom="10dip"
         android:layout_marginLeft="15dip"
         android:layout_marginTop="20dip"
-        android:drawableLeft="@drawable/blue_line_1"
+        android:drawableLeft="@drawable/yellow_line_1"
         android:drawablePadding="10dip"
         android:text="推荐房源"
         android:textColor="#666666"

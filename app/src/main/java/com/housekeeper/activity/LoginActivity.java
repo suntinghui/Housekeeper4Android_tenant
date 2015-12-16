@@ -20,11 +20,9 @@ import com.ares.house.dto.app.AppResponseStatus;
 import com.ares.house.dto.app.ImSubAccountsAppDto;
 import com.housekeeper.activity.gesture.GestureLockSetupActivity;
 import com.housekeeper.activity.gesture.GestureLockUtil;
-import com.housekeeper.activity.tenant.TenantHomeActivity;
 import com.housekeeper.activity.tenant.TenantMainActivity;
 import com.housekeeper.client.Constants;
 import com.housekeeper.client.RequestEnum;
-import com.housekeeper.client.RoleTypeEnum;
 import com.housekeeper.client.net.JSONRequest;
 import com.housekeeper.utils.ActivityUtil;
 import com.housekeeper.utils.UMengPushUtil;
@@ -69,12 +67,7 @@ public class LoginActivity extends BaseActivity implements OnClickListener, OnFo
 
 	private void initView() {
 		((Button) this.findViewById(R.id.backBtn)).setOnClickListener(this);
-
-		if (ActivityUtil.getSharedPreferences().getString(Constants.kCURRENT_TYPE, RoleTypeEnum.TENANT).equalsIgnoreCase(RoleTypeEnum.TENANT)) {
-			((TextView) this.findViewById(R.id.titleTextView)).setText("租户登录");
-		} else {
-			((TextView) this.findViewById(R.id.titleTextView)).setText("房东登录");
-		}
+		((TextView) this.findViewById(R.id.titleTextView)).setText("租户登录");
 
 		changeUserTextView = (TextView) this.findViewById(R.id.changeUserTextView);
 		changeUserTextView.setOnClickListener(this);
@@ -217,7 +210,7 @@ public class LoginActivity extends BaseActivity implements OnClickListener, OnFo
 		HashMap<String, String> tempMap = new HashMap<String, String>();
 		tempMap.put("username", telphone);
 		tempMap.put("userpass", pwd);
-		tempMap.put("userType", ActivityUtil.getSharedPreferences().getString(Constants.kCURRENT_TYPE, RoleTypeEnum.TENANT));
+		tempMap.put("userType", Constants.ROLE);
 		tempMap.put("deviceToken", ActivityUtil.getSharedPreferences().getString(Constants.DEVICETOKEN, ""));
 
 		JSONRequest request = new JSONRequest(this, RequestEnum.USER_LOGIN, tempMap, new Response.Listener<String>() {

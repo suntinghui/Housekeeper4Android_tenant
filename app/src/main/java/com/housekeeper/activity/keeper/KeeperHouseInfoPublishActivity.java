@@ -4,13 +4,11 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.view.ViewPager;
 import android.text.Html;
-import android.util.Log;
 import android.view.GestureDetector;
 import android.view.LayoutInflater;
 import android.view.MotionEvent;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.AdapterView;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
@@ -21,18 +19,6 @@ import com.ares.house.dto.app.AppMessageDto;
 import com.ares.house.dto.app.AppResponseStatus;
 import com.ares.house.dto.app.HouseReleaseInfoAppDto;
 import com.ares.house.dto.app.ImageAppDto;
-import com.baidu.mapapi.map.BaiduMap;
-import com.baidu.mapapi.map.BitmapDescriptor;
-import com.baidu.mapapi.map.BitmapDescriptorFactory;
-import com.baidu.mapapi.map.MapPoi;
-import com.baidu.mapapi.map.MapStatus;
-import com.baidu.mapapi.map.MapStatusUpdate;
-import com.baidu.mapapi.map.MapStatusUpdateFactory;
-import com.baidu.mapapi.map.MapView;
-import com.baidu.mapapi.map.Marker;
-import com.baidu.mapapi.map.MarkerOptions;
-import com.baidu.mapapi.model.LatLng;
-import com.baidu.mapapi.model.inner.GeoPoint;
 import com.felipecsl.asymmetricgridview.library.widget.AsymmetricGridView;
 import com.felipecsl.asymmetricgridview.library.widget.AsymmetricGridViewAdapter;
 import com.housekeeper.activity.BaseActivity;
@@ -42,10 +28,8 @@ import com.housekeeper.activity.view.CustomNetworkImageView;
 import com.housekeeper.activity.view.EquipmentAdapter;
 import com.housekeeper.activity.view.HouseRentalCostAdapter;
 import com.housekeeper.activity.view.HouseShareDialog;
-import com.housekeeper.activity.view.MessageShareDialog;
 import com.housekeeper.client.Constants;
 import com.housekeeper.client.RequestEnum;
-import com.housekeeper.client.RoleTypeEnum;
 import com.housekeeper.client.net.ImageCacheManager;
 import com.housekeeper.client.net.JSONRequest;
 import com.housekeeper.model.RentContainAppDtoEx;
@@ -176,7 +160,7 @@ public class KeeperHouseInfoPublishActivity extends BaseActivity implements View
         gridView = (AsymmetricGridView) this.findViewById(R.id.gridView);
 
         gridView.setRequestedColumnCount(3);
-        gridView.setRowHeight(45);
+        gridView.setRowHeight(40);
         gridView.determineColumns();
         gridView.setAllowReordering(true);
         gridView.isAllowReordering(); // true
@@ -332,7 +316,7 @@ public class KeeperHouseInfoPublishActivity extends BaseActivity implements View
         HashMap<String, String> tempMap = new HashMap<String, String>();
         tempMap.put("houseId", this.getIntent().getStringExtra("houseId"));
         tempMap.put("telphone", ActivityUtil.getSharedPreferences().getString(Constants.UserName, ""));
-        tempMap.put("userType", ActivityUtil.getSharedPreferences().getString(Constants.kCURRENT_TYPE, RoleTypeEnum.KEEPER));
+        tempMap.put("userType", Constants.ROLE);
 
         JSONRequest request = new JSONRequest(this, RequestEnum.HOUSE_RELEASE_INFO, tempMap, new Response.Listener<String>() {
 
@@ -415,7 +399,7 @@ public class KeeperHouseInfoPublishActivity extends BaseActivity implements View
         items2 = outList;
         adapter2.setData(items2, false);
 
-        locationInfoTextView.setText(appDto.getAreaStr());
+        locationInfoTextView.setText(appDto.getCommunity());
 
         try {
             Double.parseDouble(appDto.getLongitude());

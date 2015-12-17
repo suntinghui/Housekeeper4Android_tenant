@@ -102,8 +102,9 @@ public class TenantPayRentActivity extends BaseActivity implements View.OnClickL
 
         circleProgress = (CircleProgress) this.findViewById(R.id.circleProgress);
         circleProgress.setType(CircleProgress.ARC);
-        circleProgress.setPaintWidth(20);
+        circleProgress.setPaintWidth(15);
         circleProgress.setSubPaintColor(Color.parseColor("#FED262"));
+        circleProgress.setBottomPaintColor(Color.parseColor("#33FED262"));
 
         waveView = (WaveView) this.findViewById(R.id.waveView);
 

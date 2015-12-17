@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/com.wufriends.housekeeper.tenant"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#E3E3E3"
+    android:background="@color/gray_2"
     android:orientation="vertical">
 
     <include
@@ -246,7 +246,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginTop="3dip"
                             android:text="______________"
-                            android:textColor="#222222"
+                            android:textColor="#666666"
                             android:textSize="12sp" />
 
                         <TextView
@@ -256,7 +256,7 @@
                             android:layout_marginTop="10dip"
                             android:text="01/12"
                             android:textColor="#333333"
-                            android:textSize="13sp" />
+                            android:textSize="15sp" />
                     </LinearLayout>
 
                 </FrameLayout>
@@ -320,6 +320,7 @@
                     android:layout_height="5dip"
                     android:layout_alignBottom="@id/applyBtn"
                     android:layout_gravity="center"
+                    android:layout_marginBottom="20dip"
                     android:layout_marginTop="10dip"
                     android:progressDrawable="@drawable/progressbar_bg_yellow" />
 

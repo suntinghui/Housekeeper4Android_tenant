@@ -268,7 +268,7 @@
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="bottom"
-        android:background="@drawable/blue_button_selector_2"
+        android:background="@drawable/yellow_button_selector_2"
         android:paddingBottom="10dip"
         android:paddingTop="10dip"
         android:text="发布房源"

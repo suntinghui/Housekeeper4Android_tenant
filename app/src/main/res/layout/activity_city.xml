@@ -36,7 +36,7 @@
             android:layout_marginLeft="10dip"
             android:layout_marginRight="10dip"
             android:layout_marginTop="10dip"
-            android:background="@drawable/blue_button_selector"
+            android:background="@drawable/yellow_button_selector"
             android:text="确定" />
     </LinearLayout>
 

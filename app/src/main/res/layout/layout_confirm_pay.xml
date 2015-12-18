@@ -3,7 +3,7 @@
     android:layout_width="fill_parent"
     android:layout_height="wrap_content"
     android:background="@drawable/bg_transfer_pwd"
-    android:orientation="vertical" >
+    android:orientation="vertical">
 
     <!-- 支付金额 -->
 
@@ -12,7 +12,7 @@
         android:layout_height="wrap_content"
         android:layout_marginLeft="20dip"
         android:layout_marginTop="20dip"
-        android:orientation="horizontal" >
+        android:orientation="horizontal">
 
         <TextView
             android:layout_width="wrap_content"
@@ -56,7 +56,7 @@
         android:gravity="center_vertical"
         android:orientation="horizontal"
         android:paddingLeft="20dip"
-        android:paddingRight="0dip" >
+        android:paddingRight="0dip">
 
         <CheckBox
             android:id="@+id/useBalanceCheckBox"
@@ -66,7 +66,7 @@
             android:checked="true"
             android:paddingLeft="0dip"
             android:paddingRight="20dip"
-            android:visibility="invisible"/>
+            android:visibility="gone" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -101,7 +101,7 @@
         android:layout_height="wrap_content"
         android:layout_marginLeft="20dip"
         android:layout_marginTop="15dip"
-        android:orientation="horizontal" >
+        android:orientation="horizontal">
 
         <CheckBox
             style="@style/CustomCheckboxTheme"
@@ -110,7 +110,7 @@
             android:checked="true"
             android:paddingLeft="0dip"
             android:paddingRight="20dip"
-            android:visibility="invisible" />
+            android:visibility="gone" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -151,7 +151,7 @@
         android:layout_marginLeft="20dip"
         android:layout_marginRight="20dip"
         android:layout_marginTop="15dip"
-        android:orientation="horizontal" >
+        android:orientation="horizontal">
 
         <Button
             android:id="@+id/cancelBtn"

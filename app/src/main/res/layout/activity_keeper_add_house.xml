@@ -48,7 +48,7 @@
         android:id="@+id/addNewHouseTextView"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:background="@drawable/blue_button_selector_2"
+        android:background="@drawable/yellow_button_selector_2"
         android:gravity="center"
         android:paddingBottom="12dip"
         android:paddingTop="12dip"

@@ -63,7 +63,7 @@
                     android:layout_alignParentEnd="true"
                     android:layout_alignParentRight="true"
                     android:layout_centerVertical="true"
-                    android:background="@drawable/fb_send_btn_bg"
+                    android:background="@drawable/yellow_button_selector_2"
                     android:gravity="center"
                     android:text="@string/umeng_fb_send"
                     android:textColor="@android:color/white"

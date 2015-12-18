@@ -727,7 +727,7 @@
             android:name="com.umeng.message.RegistrationReceiver"
             android:exported="false">
             <intent-filter>
-                <action android:name="com.wufriends.housekeeper.intent.action.COMMAND" />
+                <action android:name="com.wufriends.housekeeper.tenant.intent.action.COMMAND" />
             </intent-filter>
         </receiver>
         <receiver android:name="com.umeng.message.BootBroadcastReceiver">
@@ -742,10 +742,10 @@
             android:label="PushService"
             android:process=":push">
             <intent-filter>
-                <action android:name="com.wufriends.housekeeper.intent.action.START" />
+                <action android:name="com.wufriends.housekeeper.tenant.intent.action.START" />
             </intent-filter>
             <intent-filter>
-                <action android:name="com.wufriends.housekeeper.intent.action.COCKROACH" />
+                <action android:name="com.wufriends.housekeeper.tenant.intent.action.COCKROACH" />
             </intent-filter>
             <intent-filter>
                 <action android:name="org.agoo.android.intent.action.PING_V4" />

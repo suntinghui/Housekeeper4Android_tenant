@@ -117,7 +117,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="15dip"
                 android:layout_weight="1"
-                android:background="@drawable/blue_button_selector"
+                android:background="@drawable/yellow_button_selector"
                 android:enabled="false"
                 android:paddingBottom="10dip"
                 android:paddingTop="10dip"

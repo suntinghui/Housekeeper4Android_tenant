@@ -1,5 +1,7 @@
 package com.housekeeper.activity.landlord;
 
+import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.text.Html;
 import android.view.View;
@@ -14,6 +16,7 @@ import com.ares.house.dto.app.ContactAppDto;
 import com.ares.house.dto.app.OpenCityAppDto;
 import com.housekeeper.activity.BaseActivity;
 import com.housekeeper.activity.view.ContactCityLayout;
+import com.housekeeper.client.Constants;
 import com.housekeeper.client.RequestEnum;
 import com.housekeeper.client.net.JSONRequest;
 import com.wufriends.housekeeper.tenant.R;
@@ -83,6 +86,7 @@ public class LandlordContactKeeperActivity extends BaseActivity implements View.
     private void responseContactInfo() {
         String str = "我们正在努力和更多城市的优秀房产经纪公司合作，如您希望和我们合用，请致电：" + "<a href=\"tel:" + this.infoDto.getTelphone() + "\">" + this.infoDto.getTelphone() + "</a>";
         this.telphoneTextView.setText(Html.fromHtml(str));
+        this.telphoneTextView.setOnClickListener(this);
 
         this.contentLayout.removeAllViews();
         for (OpenCityAppDto dto : this.infoDto.getOpenCitys()) {
@@ -100,6 +104,13 @@ public class LandlordContactKeeperActivity extends BaseActivity implements View.
             case R.id.backBtn:
                 this.finish();
                 break;
+
+            case R.id.telphoneTextView: {
+                Intent intent = new Intent(Intent.ACTION_DIAL, Uri.parse("tel:" + this.infoDto.getTelphone()));
+                intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+                startActivity(intent);
+            }
+            break;
         }
     }
 }

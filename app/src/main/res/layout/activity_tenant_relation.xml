@@ -88,7 +88,7 @@
             android:layout_height="wrap_content"
             android:layout_below="@id/inputLayout"
             android:layout_marginTop="30dip"
-            android:background="@drawable/blue_button_selector"
+            android:background="@drawable/yellow_button_selector"
             android:paddingBottom="10dip"
             android:paddingTop="10dip"
             android:text="确  定"

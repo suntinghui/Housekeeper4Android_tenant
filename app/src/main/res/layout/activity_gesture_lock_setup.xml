@@ -2,14 +2,14 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/bg_gesture_lock"
-    android:orientation="vertical" >
+    android:orientation="vertical">
 
     <RelativeLayout
         android:id="@+id/topbarLayout"
         android:layout_width="fill_parent"
         android:layout_height="50dip"
         android:background="@color/barcolor"
-        android:orientation="horizontal" >
+        android:orientation="horizontal">
 
         <Button
             android:id="@+id/backBtn"
@@ -21,23 +21,24 @@
 
         <TextView
             android:id="@+id/titleTextView"
-            android:textSize="18sp"
-            android:textColor="#222222"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerInParent="true"
-            android:text="设置手势密码" />
+            android:text="设置手势密码"
+            android:textColor="#222222"
+            android:textSize="18sp" />
 
         <TextView
             android:id="@+id/skipTextView"
-            style="@style/white_18"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentRight="true"
             android:layout_centerVertical="true"
             android:paddingLeft="20dip"
             android:paddingRight="20dip"
-            android:text="跳过" />
+            android:text="跳过"
+            android:textColor="#222222"
+            android:textSize="15sp" />
     </RelativeLayout>
 
     <TextView

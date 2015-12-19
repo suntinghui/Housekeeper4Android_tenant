@@ -78,7 +78,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="20dip"
-            android:text="输入关联码进行关联，即刻线上收取房租"
+            android:text="输入关联码进行关联，即刻线上支付房租"
             android:textColor="#CECECC"
             android:textSize="15sp" />
 

@@ -1,5 +1,6 @@
 package com.housekeeper.activity;
 
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.graphics.Color;
 import android.os.Bundle;
@@ -28,6 +29,7 @@ import com.ares.house.dto.app.AppResponseStatus;
 import com.ares.house.dto.app.ImSubAccountsAppDto;
 import com.housekeeper.activity.gesture.GestureLockSetupActivity;
 import com.housekeeper.activity.tenant.TenantMainActivity;
+import com.housekeeper.activity.view.LoginAfterDialog;
 import com.housekeeper.client.Constants;
 import com.housekeeper.client.RequestEnum;
 import com.housekeeper.client.net.JSONRequest;
@@ -141,6 +143,22 @@ public class RegisterActivity extends BaseActivity implements OnClickListener {
         this.finish();
     }
 
+    private void showSuccessDialog() {
+        LoginAfterDialog dialog = new LoginAfterDialog(this);
+        dialog.setOnDismissListener(new DialogInterface.OnDismissListener() {
+            @Override
+            public void onDismiss(DialogInterface dialogInterface) {
+                Intent intent = new Intent(RegisterActivity.this, TenantMainActivity.class);
+                RegisterActivity.this.startActivity(intent);
+
+                RegisterActivity.this.setResult(RESULT_OK);
+                RegisterActivity.this.finish();
+            }
+        });
+
+        dialog.show();
+    }
+
     private boolean checkValue() {
         if (TextUtils.isEmpty(codeEditText.getText().toString().trim())) {
             Toast.makeText(this, "请输入验证码", Toast.LENGTH_SHORT).show();
@@ -208,11 +226,7 @@ public class RegisterActivity extends BaseActivity implements OnClickListener {
 
                         ActivityUtil.getSharedPreferences().edit().putString(Constants.USERID, dto.getData().getUserId()).commit();
 
-                        Intent intent = new Intent(RegisterActivity.this, TenantMainActivity.class);
-                        RegisterActivity.this.startActivity(intent);
-
-                        RegisterActivity.this.setResult(RESULT_OK);
-                        RegisterActivity.this.finish();
+                        showSuccessDialog();
 
                     } else {
                         Toast.makeText(RegisterActivity.this, dto.getMsg(), Toast.LENGTH_SHORT).show();
@@ -312,7 +326,7 @@ public class RegisterActivity extends BaseActivity implements OnClickListener {
         SpannableString spStr = new SpannableString(htmlLinkText);
 
         TouchableSpan clickSpan = new TouchableSpan();
-        spStr.setSpan(clickSpan, 9, 15, Spanned.SPAN_INCLUSIVE_EXCLUSIVE);
+        spStr.setSpan(clickSpan, 9, 16, Spanned.SPAN_INCLUSIVE_EXCLUSIVE);
 
         protocolTextView.setText(spStr);
         protocolTextView.setMovementMethod(new LinkTouchMovementMethod());

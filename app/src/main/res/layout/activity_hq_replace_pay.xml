@@ -53,7 +53,7 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="15dip"
             android:lineSpacingExtra="3dip"
-            android:text="不误租金，还可心情享受10%鼓鼓理财活期收益。"
+            android:text="不误租金，还可尽情享受10%鼓鼓理财活期收益。"
             android:textColor="#1D1D1D"
             android:textSize="13sp" />
     </LinearLayout>

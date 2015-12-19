@@ -158,7 +158,7 @@ public class TenantPersonalVerifyActivity extends BaseActivity implements View.O
 
             case R.id.transferPwdView: {
                 // 如果已经设置了交易密码，则进入提示界面;如果没有设置则直接进入设置界面
-                if (StringUtils.isNotBlank(statusMap.get("TRANSACTION_PASSWORD"))) {
+                if (StringUtils.isBlank(statusMap.get("TRANSACTION_PASSWORD"))) {
                     Intent intent = new Intent(this, SetTransferPWDActivity.class);
                     intent.putExtra("TYPE", SetTransferPWDActivity.TYPE_SET);
                     intent.putExtra("loginPassword", ""); // 初次设置不需要登录密码；修改需要登录密码。

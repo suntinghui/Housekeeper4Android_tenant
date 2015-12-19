@@ -51,7 +51,7 @@
         <com.housekeeper.activity.view.CustomNetworkImageView
             android:id="@+id/picImageView"
             android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="90dip"
             android:layout_below="@id/contentTextView"
             android:layout_marginLeft="15dip"
             android:layout_marginRight="15dip"

@@ -94,11 +94,16 @@ public class HouseShareDialog extends Dialog implements View.OnClickListener {
         circleMedia.setShareContent(getShareContent());
         circleMedia.setTitle(getShareContent());
         circleMedia.setTargetUrl(Constants.HOST_IP + "/share/house/" + dto.getHouseId() + ".html");
+        circleMedia.setShareImage(new UMImage(this.context, R.drawable.share_logo));
+
+        /*
         if (dto.getTopImages().size() == 0) {
             circleMedia.setShareImage(new UMImage(this.context, R.drawable.share_money_1000_wechat));
         } else {
             circleMedia.setShareImage(new UMImage(this.context, Constants.HOST_IP + dto.getTopImages().get(0).getUrl()));
         }
+        */
+
         mController.setShareMedia(circleMedia);
         mController.postShare(this.context, SHARE_MEDIA.WEIXIN_CIRCLE, new SnsPostListener() {
             @Override

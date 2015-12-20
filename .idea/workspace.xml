@@ -9,213 +9,7 @@
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="01c228a2-5ec3-41ca-b37f-a5ea3f50e4a0" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/com/wufriends/housekeeper/tenant/wxapi/WXEntryActivity.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/asymmetric_gridview/build/outputs/aar/asymmetric_gridview-debug.aar" afterPath="$PROJECT_DIR$/asymmetric_gridview/build/outputs/aar/asymmetric_gridview-debug.aar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/asymmetric_gridview/build/outputs/aar/asymmetric_gridview-release.aar" afterPath="$PROJECT_DIR$/asymmetric_gridview/build/outputs/aar/asymmetric_gridview-release.aar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/cache.properties.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/asymmetric_gridview/build/intermediates/bundles/debug/classes.jar" afterPath="$PROJECT_DIR$/asymmetric_gridview/build/intermediates/bundles/debug/classes.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/asymmetric_gridview/build/intermediates/bundles/release/classes.jar" afterPath="$PROJECT_DIR$/asymmetric_gridview/build/intermediates/bundles/release/classes.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cropview/build/intermediates/bundles/debug/classes.jar" afterPath="$PROJECT_DIR$/cropview/build/intermediates/bundles/debug/classes.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/recyclerview_animators/build/intermediates/bundles/debug/classes.jar" afterPath="$PROJECT_DIR$/recyclerview_animators/build/intermediates/bundles/debug/classes.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/recyclerview_animators/build/intermediates/bundles/release/classes.jar" afterPath="$PROJECT_DIR$/recyclerview_animators/build/intermediates/bundles/release/classes.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cropview/build/outputs/aar/cropview-debug.aar" afterPath="$PROJECT_DIR$/cropview/build/outputs/aar/cropview-debug.aar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/fileHashes.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/fileSnapshots.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/gradle_project_sync_data.bin" afterPath="$PROJECT_DIR$/build/intermediates/gradle_project_sync_data.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/outputFileStates.bin" afterPath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/outputFileStates.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/recyclerview_animators/build/outputs/aar/recyclerview_animators-debug.aar" afterPath="$PROJECT_DIR$/recyclerview_animators/build/outputs/aar/recyclerview_animators-debug.aar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/recyclerview_animators/build/outputs/aar/recyclerview_animators-release.aar" afterPath="$PROJECT_DIR$/recyclerview_animators/build/outputs/aar/recyclerview_animators-release.aar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/asymmetric_gridview/build/intermediates/res/resources-debug-androidTest.ap_" afterPath="$PROJECT_DIR$/asymmetric_gridview/build/intermediates/res/resources-debug-androidTest.ap_" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cropview/build/intermediates/res/resources-debug-androidTest.ap_" afterPath="$PROJECT_DIR$/cropview/build/intermediates/res/resources-debug-androidTest.ap_" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/recyclerview_animators/build/intermediates/res/resources-debug-androidTest.ap_" afterPath="$PROJECT_DIR$/recyclerview_animators/build/intermediates/res/resources-debug-androidTest.ap_" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/taskArtifacts.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/utils/ActivityUtil.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/utils/ActivityUtil.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/view/AlertHUD.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/view/AlertHUD.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/BindedBankActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/BindedBankActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/BindingBankActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/BindingBankActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/BindingSuccessActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/BindingSuccessActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/external/de/hdodenhof/circleimageview/CircleImageView.java" afterPath="$PROJECT_DIR$/app/external/de/hdodenhof/circleimageview/CircleImageView.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/CityActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/CityActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/view/CityPicker.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/view/CityPicker.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/view/ClaimsItemInfoView.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/view/ClaimsItemInfoView.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/view/ClaimsView.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/view/ClaimsView.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/view/ConfirmPayDialog.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/view/ConfirmPayDialog.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/view/ContactCityLayout.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/view/ContactCityLayout.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/view/CreditReviceDialog.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/view/CreditReviceDialog.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/view/CreditReviewItem.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/view/CreditReviewItem.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/CropImageActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/CropImageActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/CurrentInvestmentSourceActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/CurrentInvestmentSourceActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/CurrentTransferInActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/CurrentTransferInActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/CurrentTransferOutActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/CurrentTransferOutActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/external/com/jeremyfeinstein/slidingmenu/lib/CustomViewBehind.java" afterPath="$PROJECT_DIR$/app/external/com/jeremyfeinstein/slidingmenu/lib/CustomViewBehind.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/view/DavinciView.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/view/DavinciView.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/view/DiaoyuView.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/view/DiaoyuView.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/view/EquipmentAdapter.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/view/EquipmentAdapter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/FeedBackactivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/FeedBackactivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/ForgetPwdActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/ForgetPwdActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/gesture/GestureLockModifyActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/gesture/GestureLockModifyActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/gesture/GestureLockSetupActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/gesture/GestureLockSetupActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/gesture/GestureLockVerifyActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/gesture/GestureLockVerifyActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/external/com/jungly/gridpasswordview/GridPasswordView.java" afterPath="$PROJECT_DIR$/app/external/com/jungly/gridpasswordview/GridPasswordView.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/HQReplacePayActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/HQReplacePayActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/view/HighlightView.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/view/HighlightView.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/HouseInfoActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/HouseInfoActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/HouseLocationInfoActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/HouseLocationInfoActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/HousePushIntentService.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/HousePushIntentService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/view/HouseRecommendLayout.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/view/HouseRecommendLayout.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/view/HouseRentalCostAdapter.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/view/HouseRentalCostAdapter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/view/HouseShareDialog.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/view/HouseShareDialog.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/IdentityActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/IdentityActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/view/IdentityPicker.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/view/IdentityPicker.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/external/cn/trinea/android/view/autoscrollviewpager/ImagePagerAdapter.java" afterPath="$PROJECT_DIR$/app/external/cn/trinea/android/view/autoscrollviewpager/ImagePagerAdapter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/ImageZoomActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/ImageZoomActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/InvestmentActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/InvestmentActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/view/InvestmentCurrentLayout.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/view/InvestmentCurrentLayout.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/view/InvestmentScheduledLayout.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/view/InvestmentScheduledLayout.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/view/ItemDescOfRushView.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/view/ItemDescOfRushView.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/view/ItemDescOfScheduledView.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/view/ItemDescOfScheduledView.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/view/ItemDescOfTransferView.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/view/ItemDescOfTransferView.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/keeper/KeeperAddHouseActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/keeper/KeeperAddHouseActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/keeper/KeeperAddHouseAgencyContractActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/keeper/KeeperAddHouseAgencyContractActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/keeper/KeeperAddHouseDeedActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/keeper/KeeperAddHouseDeedActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/keeper/KeeperAddHouseDetailActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/keeper/KeeperAddHouseDetailActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/keeper/KeeperAddHouseEquipmentActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/keeper/KeeperAddHouseEquipmentActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/keeper/KeeperAddHouseImageActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/keeper/KeeperAddHouseImageActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/keeper/KeeperAddHouseInfoActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/keeper/KeeperAddHouseInfoActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/keeper/KeeperAddHouseListActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/keeper/KeeperAddHouseListActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/keeper/KeeperAddHouseRelationActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/keeper/KeeperAddHouseRelationActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/keeper/KeeperAddHouseRentalCostActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/keeper/KeeperAddHouseRentalCostActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/keeper/KeeperAddHouseTrafficActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/keeper/KeeperAddHouseTrafficActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/keeper/KeeperAddLandlordRelationQRActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/keeper/KeeperAddLandlordRelationQRActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/keeper/KeeperAddTenantRelationQRActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/keeper/KeeperAddTenantRelationQRActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/keeper/KeeperEmployeeCardActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/keeper/KeeperEmployeeCardActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/keeper/KeeperFindHouseActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/keeper/KeeperFindHouseActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/keeper/KeeperHomeActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/keeper/KeeperHomeActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/keeper/KeeperHouseInfoPublishActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/keeper/KeeperHouseInfoPublishActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/keeper/KeeperHousePublishActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/keeper/KeeperHousePublishActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/keeper/KeeperIDCardActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/keeper/KeeperIDCardActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/keeper/KeeperLeaseAddressActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/keeper/KeeperLeaseAddressActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/keeper/KeeperLeaseContractActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/keeper/KeeperLeaseContractActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/keeper/KeeperLeaseFeeActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/keeper/KeeperLeaseFeeActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/keeper/KeeperLeaseIdCardActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/keeper/KeeperLeaseIdCardActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/keeper/KeeperLeaseInfoActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/keeper/KeeperLeaseInfoActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/keeper/KeeperLeaseRelationActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/keeper/KeeperLeaseRelationActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/view/KeeperLeasedAdapter.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/view/KeeperLeasedAdapter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/keeper/KeeperMainActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/keeper/KeeperMainActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/keeper/KeeperMeActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/keeper/KeeperMeActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/keeper/KeeperPersonalVerifyActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/keeper/KeeperPersonalVerifyActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/keeper/KeeperRemarkActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/keeper/KeeperRemarkActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/keeper/KeeperRentRecordDetailActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/keeper/KeeperRentRecordDetailActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/keeper/KeeperRentRecordListActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/keeper/KeeperRentRecordListActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/view/KeeperReserveLayout.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/view/KeeperReserveLayout.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/keeper/KeeperReserveListActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/keeper/KeeperReserveListActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/keeper/KeeperReturnActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/keeper/KeeperReturnActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/keeper/KeeperSystemSettingActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/keeper/KeeperSystemSettingActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/view/KeeperUnLeaseAdapter.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/view/KeeperUnLeaseAdapter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/landlord/LandlordContactKeeperActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/landlord/LandlordContactKeeperActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/landlord/LandlordHomeActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/landlord/LandlordHomeActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/view/LandlordHomeLayout.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/view/LandlordHomeLayout.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/landlord/LandlordMainActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/landlord/LandlordMainActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/landlord/LandlordPersonalSettingActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/landlord/LandlordPersonalSettingActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/landlord/LandlordRelationActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/landlord/LandlordRelationActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/landlord/LandlordRelationActivityEx.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/landlord/LandlordRelationActivityEx.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/landlord/LandlordSettingActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/landlord/LandlordSettingActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/external/com/dacer/androidcharts/LineView.java" afterPath="$PROJECT_DIR$/app/external/com/dacer/androidcharts/LineView.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/gesture/LockPatternView.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/gesture/LockPatternView.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/LoginActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/LoginActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/view/LoginAfterDialog.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/view/LoginAfterDialog.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/view/LookListAdapter.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/view/LookListAdapter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/ManageGestureLockActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/ManageGestureLockActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/view/MessageAdapter.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/view/MessageAdapter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/MessageListActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/MessageListActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/view/MessageShareDialog.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/view/MessageShareDialog.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/ModifyLoginPWDActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/ModifyLoginPWDActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/view/MySuccessTickView.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/view/MySuccessTickView.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/view/NetErrorDialog.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/view/NetErrorDialog.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/view/NoZoomControllWebView.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/view/NoZoomControllWebView.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/NotFirstPayActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/NotFirstPayActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/view/NotificationAdapter.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/view/NotificationAdapter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/external/com/daimajia/numberprogressbar/NumberProgressBar.java" afterPath="$PROJECT_DIR$/app/external/com/daimajia/numberprogressbar/NumberProgressBar.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/external/ru/suvitruf/overscrolllistview/OverscrollListView.java" afterPath="$PROJECT_DIR$/app/external/ru/suvitruf/overscrolllistview/OverscrollListView.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/view/PacificView.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/view/PacificView.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/PaySuccessActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/PaySuccessActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/view/PayUseBalanceDialog.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/view/PayUseBalanceDialog.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/ProductTourActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/ProductTourActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/view/ProgressHUD.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/view/ProgressHUD.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/external/cn/pedant/SweetAlert/ProgressHelper.java" afterPath="$PROJECT_DIR$/app/external/cn/pedant/SweetAlert/ProgressHelper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/external/cn/pedant/SweetAlert/ProgressWheel.java" afterPath="$PROJECT_DIR$/app/external/cn/pedant/SweetAlert/ProgressWheel.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/view/PublishRoommateAdapter.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/view/PublishRoommateAdapter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/RegisterActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/RegisterActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/RegisterAndLoginActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/RegisterAndLoginActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/external/cn/pedant/SweetAlert/Rotate3dAnimation.java" afterPath="$PROJECT_DIR$/app/external/cn/pedant/SweetAlert/Rotate3dAnimation.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/view/ScrollerNumberPicker.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/view/ScrollerNumberPicker.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/view/SelectCityLayout.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/view/SelectCityLayout.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/SetBranchActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/SetBranchActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/SetTransferPWDActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/SetTransferPWDActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/external/com/romainpiel/shimmer/ShimmerViewHelper.java" afterPath="$PROJECT_DIR$/app/external/com/romainpiel/shimmer/ShimmerViewHelper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/ShowNotificationActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/ShowNotificationActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/ShowShareWebViewActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/ShowShareWebViewActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/ShowWebViewActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/ShowWebViewActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/external/com/my/sortlistview/SideBar.java" afterPath="$PROJECT_DIR$/app/external/com/my/sortlistview/SideBar.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/external/com/jeremyfeinstein/slidingmenu/lib/app/SlidingActivityHelper.java" afterPath="$PROJECT_DIR$/app/external/com/jeremyfeinstein/slidingmenu/lib/app/SlidingActivityHelper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/external/com/jeremyfeinstein/slidingmenu/lib/SlidingMenu.java" afterPath="$PROJECT_DIR$/app/external/com/jeremyfeinstein/slidingmenu/lib/SlidingMenu.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/external/com/my/sortlistview/SortAdapter.java" afterPath="$PROJECT_DIR$/app/external/com/my/sortlistview/SortAdapter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/SplashActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/SplashActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/StagingUserActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/StagingUserActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/StagingUserActivityEx.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/StagingUserActivityEx.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/view/SublimePickerDialog.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/view/SublimePickerDialog.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/external/cn/pedant/SweetAlert/SuccessTickView.java" afterPath="$PROJECT_DIR$/app/external/cn/pedant/SweetAlert/SuccessTickView.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/external/cn/pedant/SweetAlert/SweetAlertDialog.java" afterPath="$PROJECT_DIR$/app/external/cn/pedant/SweetAlert/SweetAlertDialog.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/tenant/TenantAgentInfoActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/tenant/TenantAgentInfoActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/tenant/TenantCardSettingActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/tenant/TenantCardSettingActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/tenant/TenantDownloadLandlordActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/tenant/TenantDownloadLandlordActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/tenant/TenantHomeActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/tenant/TenantHomeActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/tenant/TenantKeeperDetailActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/tenant/TenantKeeperDetailActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/tenant/TenantLookListActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/tenant/TenantLookListActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/tenant/TenantMainActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/tenant/TenantMainActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/tenant/TenantMeActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/tenant/TenantMeActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/tenant/TenantMeActivityEx.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/tenant/TenantMeActivityEx.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/view/TenantMeLayout.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/view/TenantMeLayout.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/tenant/TenantPayRentActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/tenant/TenantPayRentActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/tenant/TenantPersonalVerifyActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/tenant/TenantPersonalVerifyActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/tenant/TenantPublishListActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/tenant/TenantPublishListActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/tenant/TenantRelationActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/tenant/TenantRelationActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/tenant/TenantRelationActivityEx.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/tenant/TenantRelationActivityEx.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/tenant/TenantSettingActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/tenant/TenantSettingActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/tenant/TenantShareRentActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/tenant/TenantShareRentActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/tenant/TenantTransferHistoryActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/tenant/TenantTransferHistoryActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/tenant/TenantWholeRentActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/tenant/TenantWholeRentActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/TransferHistoryActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/TransferHistoryActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/VerifyEmergencyContactActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/VerifyEmergencyContactActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/VerifyHasSetTransferPWDActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/VerifyHasSetTransferPWDActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/VerifyLoginPWDActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/VerifyLoginPWDActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/view/VerifyTransferPWDDialog.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/view/VerifyTransferPWDDialog.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/VerifyWechatActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/VerifyWechatActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/VoteOfRushActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/VoteOfRushActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/VoteOfScheduledActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/VoteOfScheduledActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/view/VoteOfScheduledAdapter.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/view/VoteOfScheduledAdapter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/VoteOfTransferActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/VoteOfTransferActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/view/VoteRushRankingLayout.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/view/VoteRushRankingLayout.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/external/com/john/waveview/Wave.java" afterPath="$PROJECT_DIR$/app/external/com/john/waveview/Wave.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/external/com/john/waveview/WaveView.java" afterPath="$PROJECT_DIR$/app/external/com/john/waveview/WaveView.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/view/WithdrawalExAdapter.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/view/WithdrawalExAdapter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/WithdrawalRecordsActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/WithdrawalRecordsActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/WithdrawalsActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/WithdrawalsActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/view/XuRadioView.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/view/XuRadioView.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/YesterdayEarningsActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/YesterdayEarningsActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/view/YesterdayEarningsAdapter.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/view/YesterdayEarningsAdapter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_tenant_agent_info.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_tenant_agent_info.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_tenant_me_ex.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_tenant_me_ex.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_tenant_payrent.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_tenant_payrent.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build.gradle" afterPath="$PROJECT_DIR$/app/build.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" afterPath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cropview/cropview.iml" afterPath="$PROJECT_DIR$/cropview/cropview.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/local.properties" afterPath="$PROJECT_DIR$/local.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/menu/menu_main.xml" afterPath="$PROJECT_DIR$/app/src/main/res/menu/menu_main.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="01c228a2-5ec3-41ca-b37f-a5ea3f50e4a0" name="Default" comment="" />
     <ignored path="Housekeeper4Android_tenant.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -241,7 +35,18 @@
     <favorites_list name="Housekeeper4Android_tenant" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="AndroidManifest.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.23746702">
+              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -7967,72 +7772,6 @@
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Housekeeper4Android_tenant" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="housekeeper" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Housekeeper4Android_tenant" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="housekeeper" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="client" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Housekeeper4Android_tenant" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="manifests" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidManifestsGroupNode" />
             </PATH_ELEMENT>
@@ -8477,13 +8216,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="723" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25767368" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3294893" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3294893" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39868203" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4497529" sideWeight="0.5129241" order="7" side_tool="true" content_ui="tabs" />
@@ -8931,8 +8670,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="4.601583">
-          <caret line="744" column="38" selection-start-line="744" selection-start-column="38" selection-end-line="744" selection-end-column="38" />
+        <state vertical-scroll-proportion="0.23746702">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
           <folding />
         </state>
       </provider>

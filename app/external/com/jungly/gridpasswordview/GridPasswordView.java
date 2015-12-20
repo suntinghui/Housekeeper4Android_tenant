@@ -22,7 +22,7 @@ import android.widget.EditText;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import com.wufriends.housekeeper.tenant.R;
+import com.wufriends.housekeeper.R;
 import com.jungly.gridpasswordview.imebugfixer.ImeDelBugFixedEditText;
 
 /**

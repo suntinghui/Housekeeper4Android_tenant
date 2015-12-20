@@ -13,7 +13,7 @@ import com.ares.house.dto.app.ImageAppDto;
 import com.housekeeper.activity.view.TouchImageView;
 import com.housekeeper.client.Constants;
 import com.housekeeper.client.net.MyImageRequest;
-import com.wufriends.housekeeper.tenant.R;
+import com.wufriends.housekeeper.R;
 
 /**
  * Created by sth on 9/30/15.

@@ -23,7 +23,7 @@ import com.housekeeper.activity.view.SublimePickerDialog;
 import com.housekeeper.client.RequestEnum;
 import com.housekeeper.client.net.JSONRequest;
 import com.housekeeper.utils.DateUtil;
-import com.wufriends.housekeeper.tenant.R;
+import com.wufriends.housekeeper.R;
 import com.zhy.view.flowlayout.FlowLayout;
 import com.zhy.view.flowlayout.TagAdapter;
 import com.zhy.view.flowlayout.TagFlowLayout;

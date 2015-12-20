@@ -8,7 +8,7 @@ import android.widget.Button;
 
 import com.ares.house.dto.app.TreeNodeAppDto;
 import com.housekeeper.activity.view.IdentityPicker;
-import com.wufriends.housekeeper.tenant.R;
+import com.wufriends.housekeeper.R;
 
 public class IdentityActivity extends BaseActivity implements OnClickListener {
 

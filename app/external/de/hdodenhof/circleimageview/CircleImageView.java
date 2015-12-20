@@ -2,7 +2,7 @@ package de.hdodenhof.circleimageview;
 
 import com.android.volley.VolleyError;
 import com.android.volley.toolbox.ImageLoader;
-import com.wufriends.housekeeper.tenant.R;
+import com.wufriends.housekeeper.R;
 import com.housekeeper.client.net.ImageCacheManager;
 
 import android.content.Context;

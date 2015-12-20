@@ -19,7 +19,7 @@ import com.umeng.fb.push.FeedbackPush;
 import com.umeng.message.UTrack;
 import com.umeng.message.UmengBaseIntentService;
 import com.umeng.message.entity.UMessage;
-import com.wufriends.housekeeper.tenant.R;
+import com.wufriends.housekeeper.R;
 
 import org.android.agoo.client.BaseConstants;
 import org.json.JSONObject;

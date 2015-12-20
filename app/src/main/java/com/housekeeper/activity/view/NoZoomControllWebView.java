@@ -19,7 +19,7 @@ import android.webkit.WebView;
 import android.widget.ProgressBar;
 import android.widget.ZoomButtonsController;
 
-import com.wufriends.housekeeper.tenant.R;
+import com.wufriends.housekeeper.R;
 
 public class NoZoomControllWebView extends WebView {
 

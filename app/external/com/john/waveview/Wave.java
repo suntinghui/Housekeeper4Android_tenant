@@ -8,7 +8,7 @@ import android.util.AttributeSet;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.wufriends.housekeeper.tenant.R;
+import com.wufriends.housekeeper.R;
 
 // y=Asin(ωx+φ)+k
 class Wave extends View {

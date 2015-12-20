@@ -10,24 +10,210 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="01c228a2-5ec3-41ca-b37f-a5ea3f50e4a0" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/login_after_dialog.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/view/LoginAfterDialog.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/layout/layout_login_after.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/com/wufriends/housekeeper/tenant/wxapi/WXEntryActivity.java" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/asymmetric_gridview/build/outputs/aar/asymmetric_gridview-debug.aar" afterPath="$PROJECT_DIR$/asymmetric_gridview/build/outputs/aar/asymmetric_gridview-debug.aar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/asymmetric_gridview/build/outputs/aar/asymmetric_gridview-release.aar" afterPath="$PROJECT_DIR$/asymmetric_gridview/build/outputs/aar/asymmetric_gridview-release.aar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/cache.properties.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/asymmetric_gridview/build/intermediates/bundles/debug/classes.jar" afterPath="$PROJECT_DIR$/asymmetric_gridview/build/intermediates/bundles/debug/classes.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/asymmetric_gridview/build/intermediates/bundles/release/classes.jar" afterPath="$PROJECT_DIR$/asymmetric_gridview/build/intermediates/bundles/release/classes.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cropview/build/intermediates/bundles/debug/classes.jar" afterPath="$PROJECT_DIR$/cropview/build/intermediates/bundles/debug/classes.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/recyclerview_animators/build/intermediates/bundles/debug/classes.jar" afterPath="$PROJECT_DIR$/recyclerview_animators/build/intermediates/bundles/debug/classes.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/recyclerview_animators/build/intermediates/bundles/release/classes.jar" afterPath="$PROJECT_DIR$/recyclerview_animators/build/intermediates/bundles/release/classes.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cropview/build/outputs/aar/cropview-debug.aar" afterPath="$PROJECT_DIR$/cropview/build/outputs/aar/cropview-debug.aar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/fileHashes.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/fileSnapshots.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/gradle_project_sync_data.bin" afterPath="$PROJECT_DIR$/build/intermediates/gradle_project_sync_data.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/outputFileStates.bin" afterPath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/outputFileStates.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/recyclerview_animators/build/outputs/aar/recyclerview_animators-debug.aar" afterPath="$PROJECT_DIR$/recyclerview_animators/build/outputs/aar/recyclerview_animators-debug.aar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/recyclerview_animators/build/outputs/aar/recyclerview_animators-release.aar" afterPath="$PROJECT_DIR$/recyclerview_animators/build/outputs/aar/recyclerview_animators-release.aar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/asymmetric_gridview/build/intermediates/res/resources-debug-androidTest.ap_" afterPath="$PROJECT_DIR$/asymmetric_gridview/build/intermediates/res/resources-debug-androidTest.ap_" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cropview/build/intermediates/res/resources-debug-androidTest.ap_" afterPath="$PROJECT_DIR$/cropview/build/intermediates/res/resources-debug-androidTest.ap_" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/recyclerview_animators/build/intermediates/res/resources-debug-androidTest.ap_" afterPath="$PROJECT_DIR$/recyclerview_animators/build/intermediates/res/resources-debug-androidTest.ap_" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/taskArtifacts.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/client/Constants.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/client/Constants.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/utils/ActivityUtil.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/utils/ActivityUtil.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/view/AlertHUD.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/view/AlertHUD.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/BindedBankActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/BindedBankActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/BindingBankActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/BindingBankActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/BindingSuccessActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/BindingSuccessActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/external/de/hdodenhof/circleimageview/CircleImageView.java" afterPath="$PROJECT_DIR$/app/external/de/hdodenhof/circleimageview/CircleImageView.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/CityActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/CityActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/view/CityPicker.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/view/CityPicker.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/view/ClaimsItemInfoView.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/view/ClaimsItemInfoView.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/view/ClaimsView.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/view/ClaimsView.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/view/ConfirmPayDialog.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/view/ConfirmPayDialog.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/view/ContactCityLayout.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/view/ContactCityLayout.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/view/CreditReviceDialog.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/view/CreditReviceDialog.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/view/CreditReviewItem.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/view/CreditReviewItem.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/CropImageActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/CropImageActivity.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/CurrentInvestmentSourceActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/CurrentInvestmentSourceActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/CurrentTransferInActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/CurrentTransferInActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/CurrentTransferOutActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/CurrentTransferOutActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/external/com/jeremyfeinstein/slidingmenu/lib/CustomViewBehind.java" afterPath="$PROJECT_DIR$/app/external/com/jeremyfeinstein/slidingmenu/lib/CustomViewBehind.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/view/DavinciView.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/view/DavinciView.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/view/DiaoyuView.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/view/DiaoyuView.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/view/EquipmentAdapter.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/view/EquipmentAdapter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/FeedBackactivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/FeedBackactivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/ForgetPwdActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/ForgetPwdActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/gesture/GestureLockModifyActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/gesture/GestureLockModifyActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/gesture/GestureLockSetupActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/gesture/GestureLockSetupActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/gesture/GestureLockVerifyActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/gesture/GestureLockVerifyActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/external/com/jungly/gridpasswordview/GridPasswordView.java" afterPath="$PROJECT_DIR$/app/external/com/jungly/gridpasswordview/GridPasswordView.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/HQReplacePayActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/HQReplacePayActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/view/HighlightView.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/view/HighlightView.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/HouseInfoActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/HouseInfoActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/HouseLocationInfoActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/HouseLocationInfoActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/HousePushIntentService.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/HousePushIntentService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/view/HouseRecommendLayout.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/view/HouseRecommendLayout.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/view/HouseRentalCostAdapter.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/view/HouseRentalCostAdapter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/view/HouseShareDialog.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/view/HouseShareDialog.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/IdentityActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/IdentityActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/view/IdentityPicker.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/view/IdentityPicker.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/external/cn/trinea/android/view/autoscrollviewpager/ImagePagerAdapter.java" afterPath="$PROJECT_DIR$/app/external/cn/trinea/android/view/autoscrollviewpager/ImagePagerAdapter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/ImageZoomActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/ImageZoomActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/InvestmentActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/InvestmentActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/view/InvestmentCurrentLayout.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/view/InvestmentCurrentLayout.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/view/InvestmentScheduledLayout.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/view/InvestmentScheduledLayout.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/view/ItemDescOfRushView.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/view/ItemDescOfRushView.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/view/ItemDescOfScheduledView.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/view/ItemDescOfScheduledView.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/view/ItemDescOfTransferView.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/view/ItemDescOfTransferView.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/keeper/KeeperAddHouseActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/keeper/KeeperAddHouseActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/keeper/KeeperAddHouseAgencyContractActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/keeper/KeeperAddHouseAgencyContractActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/keeper/KeeperAddHouseDeedActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/keeper/KeeperAddHouseDeedActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/keeper/KeeperAddHouseDetailActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/keeper/KeeperAddHouseDetailActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/keeper/KeeperAddHouseEquipmentActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/keeper/KeeperAddHouseEquipmentActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/keeper/KeeperAddHouseImageActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/keeper/KeeperAddHouseImageActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/keeper/KeeperAddHouseInfoActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/keeper/KeeperAddHouseInfoActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/keeper/KeeperAddHouseListActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/keeper/KeeperAddHouseListActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/keeper/KeeperAddHouseRelationActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/keeper/KeeperAddHouseRelationActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/keeper/KeeperAddHouseRentalCostActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/keeper/KeeperAddHouseRentalCostActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/keeper/KeeperAddHouseTrafficActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/keeper/KeeperAddHouseTrafficActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/keeper/KeeperAddLandlordRelationQRActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/keeper/KeeperAddLandlordRelationQRActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/keeper/KeeperAddTenantRelationQRActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/keeper/KeeperAddTenantRelationQRActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/keeper/KeeperEmployeeCardActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/keeper/KeeperEmployeeCardActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/keeper/KeeperFindHouseActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/keeper/KeeperFindHouseActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/keeper/KeeperHomeActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/keeper/KeeperHomeActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/keeper/KeeperHouseInfoPublishActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/keeper/KeeperHouseInfoPublishActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/keeper/KeeperHousePublishActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/keeper/KeeperHousePublishActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/keeper/KeeperIDCardActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/keeper/KeeperIDCardActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/keeper/KeeperLeaseAddressActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/keeper/KeeperLeaseAddressActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/keeper/KeeperLeaseContractActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/keeper/KeeperLeaseContractActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/keeper/KeeperLeaseFeeActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/keeper/KeeperLeaseFeeActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/keeper/KeeperLeaseIdCardActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/keeper/KeeperLeaseIdCardActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/keeper/KeeperLeaseInfoActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/keeper/KeeperLeaseInfoActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/keeper/KeeperLeaseRelationActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/keeper/KeeperLeaseRelationActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/view/KeeperLeasedAdapter.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/view/KeeperLeasedAdapter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/keeper/KeeperMainActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/keeper/KeeperMainActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/keeper/KeeperMeActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/keeper/KeeperMeActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/keeper/KeeperPersonalVerifyActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/keeper/KeeperPersonalVerifyActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/keeper/KeeperRemarkActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/keeper/KeeperRemarkActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/keeper/KeeperRentRecordDetailActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/keeper/KeeperRentRecordDetailActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/keeper/KeeperRentRecordListActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/keeper/KeeperRentRecordListActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/view/KeeperReserveLayout.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/view/KeeperReserveLayout.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/keeper/KeeperReserveListActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/keeper/KeeperReserveListActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/keeper/KeeperReturnActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/keeper/KeeperReturnActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/keeper/KeeperSystemSettingActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/keeper/KeeperSystemSettingActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/view/KeeperUnLeaseAdapter.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/view/KeeperUnLeaseAdapter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/landlord/LandlordContactKeeperActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/landlord/LandlordContactKeeperActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/landlord/LandlordHomeActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/landlord/LandlordHomeActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/view/LandlordHomeLayout.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/view/LandlordHomeLayout.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/landlord/LandlordMainActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/landlord/LandlordMainActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/landlord/LandlordPersonalSettingActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/landlord/LandlordPersonalSettingActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/landlord/LandlordRelationActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/landlord/LandlordRelationActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/landlord/LandlordRelationActivityEx.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/landlord/LandlordRelationActivityEx.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/landlord/LandlordSettingActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/landlord/LandlordSettingActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/external/com/dacer/androidcharts/LineView.java" afterPath="$PROJECT_DIR$/app/external/com/dacer/androidcharts/LineView.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/gesture/LockPatternView.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/gesture/LockPatternView.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/LoginActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/LoginActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/view/LoginAfterDialog.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/view/LoginAfterDialog.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/view/LookListAdapter.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/view/LookListAdapter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/ManageGestureLockActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/ManageGestureLockActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/view/MessageAdapter.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/view/MessageAdapter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/MessageListActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/MessageListActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/view/MessageShareDialog.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/view/MessageShareDialog.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/ModifyLoginPWDActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/ModifyLoginPWDActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/view/MySuccessTickView.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/view/MySuccessTickView.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/view/NetErrorDialog.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/view/NetErrorDialog.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/view/NoZoomControllWebView.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/view/NoZoomControllWebView.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/NotFirstPayActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/NotFirstPayActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/view/NotificationAdapter.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/view/NotificationAdapter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/external/com/daimajia/numberprogressbar/NumberProgressBar.java" afterPath="$PROJECT_DIR$/app/external/com/daimajia/numberprogressbar/NumberProgressBar.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/external/ru/suvitruf/overscrolllistview/OverscrollListView.java" afterPath="$PROJECT_DIR$/app/external/ru/suvitruf/overscrolllistview/OverscrollListView.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/view/PacificView.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/view/PacificView.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/PaySuccessActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/PaySuccessActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/view/PayUseBalanceDialog.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/view/PayUseBalanceDialog.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/ProductTourActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/ProductTourActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/view/ProgressHUD.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/view/ProgressHUD.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/external/cn/pedant/SweetAlert/ProgressHelper.java" afterPath="$PROJECT_DIR$/app/external/cn/pedant/SweetAlert/ProgressHelper.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/external/cn/pedant/SweetAlert/ProgressWheel.java" afterPath="$PROJECT_DIR$/app/external/cn/pedant/SweetAlert/ProgressWheel.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/view/PublishRoommateAdapter.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/view/PublishRoommateAdapter.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/RegisterActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/RegisterActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/RegisterAndLoginActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/RegisterAndLoginActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/external/cn/pedant/SweetAlert/Rotate3dAnimation.java" afterPath="$PROJECT_DIR$/app/external/cn/pedant/SweetAlert/Rotate3dAnimation.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/view/ScrollerNumberPicker.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/view/ScrollerNumberPicker.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/view/SelectCityLayout.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/view/SelectCityLayout.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/SetBranchActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/SetBranchActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/SetTransferPWDActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/SetTransferPWDActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/external/com/romainpiel/shimmer/ShimmerViewHelper.java" afterPath="$PROJECT_DIR$/app/external/com/romainpiel/shimmer/ShimmerViewHelper.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/ShowNotificationActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/ShowNotificationActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/ShowShareWebViewActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/ShowShareWebViewActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/ShowWebViewActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/ShowWebViewActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/external/com/my/sortlistview/SideBar.java" afterPath="$PROJECT_DIR$/app/external/com/my/sortlistview/SideBar.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/external/com/jeremyfeinstein/slidingmenu/lib/app/SlidingActivityHelper.java" afterPath="$PROJECT_DIR$/app/external/com/jeremyfeinstein/slidingmenu/lib/app/SlidingActivityHelper.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/external/com/jeremyfeinstein/slidingmenu/lib/SlidingMenu.java" afterPath="$PROJECT_DIR$/app/external/com/jeremyfeinstein/slidingmenu/lib/SlidingMenu.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/external/com/my/sortlistview/SortAdapter.java" afterPath="$PROJECT_DIR$/app/external/com/my/sortlistview/SortAdapter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/SplashActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/SplashActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/StagingUserActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/StagingUserActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/StagingUserActivityEx.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/StagingUserActivityEx.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/view/SublimePickerDialog.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/view/SublimePickerDialog.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/external/cn/pedant/SweetAlert/SuccessTickView.java" afterPath="$PROJECT_DIR$/app/external/cn/pedant/SweetAlert/SuccessTickView.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/external/cn/pedant/SweetAlert/SweetAlertDialog.java" afterPath="$PROJECT_DIR$/app/external/cn/pedant/SweetAlert/SweetAlertDialog.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/tenant/TenantAgentInfoActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/tenant/TenantAgentInfoActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/tenant/TenantCardSettingActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/tenant/TenantCardSettingActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/tenant/TenantDownloadLandlordActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/tenant/TenantDownloadLandlordActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/tenant/TenantHomeActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/tenant/TenantHomeActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/tenant/TenantKeeperDetailActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/tenant/TenantKeeperDetailActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/tenant/TenantLookListActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/tenant/TenantLookListActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/tenant/TenantMainActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/tenant/TenantMainActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/tenant/TenantMeActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/tenant/TenantMeActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/tenant/TenantMeActivityEx.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/tenant/TenantMeActivityEx.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/view/TenantMeLayout.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/view/TenantMeLayout.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/tenant/TenantPayRentActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/tenant/TenantPayRentActivity.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/tenant/TenantPersonalVerifyActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/tenant/TenantPersonalVerifyActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/tenant/TenantPublishListActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/tenant/TenantPublishListActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/tenant/TenantRelationActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/tenant/TenantRelationActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/tenant/TenantRelationActivityEx.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/tenant/TenantRelationActivityEx.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/tenant/TenantSettingActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/tenant/TenantSettingActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/tenant/TenantShareRentActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/tenant/TenantShareRentActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/tenant/TenantTransferHistoryActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/tenant/TenantTransferHistoryActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/tenant/TenantWholeRentActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/tenant/TenantWholeRentActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/TransferHistoryActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/TransferHistoryActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/VerifyEmergencyContactActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/VerifyEmergencyContactActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/VerifyHasSetTransferPWDActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/VerifyHasSetTransferPWDActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/VerifyLoginPWDActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/VerifyLoginPWDActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/view/VerifyTransferPWDDialog.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/view/VerifyTransferPWDDialog.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/VerifyWechatActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/VerifyWechatActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/VoteOfRushActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/VoteOfRushActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/VoteOfScheduledActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/VoteOfScheduledActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/view/VoteOfScheduledAdapter.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/view/VoteOfScheduledAdapter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/VoteOfTransferActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/VoteOfTransferActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/view/VoteRushRankingLayout.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/view/VoteRushRankingLayout.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/external/com/john/waveview/Wave.java" afterPath="$PROJECT_DIR$/app/external/com/john/waveview/Wave.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/external/com/john/waveview/WaveView.java" afterPath="$PROJECT_DIR$/app/external/com/john/waveview/WaveView.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/view/WithdrawalExAdapter.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/view/WithdrawalExAdapter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/WithdrawalRecordsActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/WithdrawalRecordsActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/WithdrawalsActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/WithdrawalsActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/view/XuRadioView.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/view/XuRadioView.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/YesterdayEarningsActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/YesterdayEarningsActivity.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/view/YesterdayEarningsAdapter.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/view/YesterdayEarningsAdapter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_hq_replace_pay.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_hq_replace_pay.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_tenant_relation_ex.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_tenant_relation_ex.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/item_message.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/item_message.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/item_yesterday_earnings.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/item_yesterday_earnings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/layout_current_investment_source.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/layout_current_investment_source.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_tenant_agent_info.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_tenant_agent_info.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_tenant_me_ex.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_tenant_me_ex.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_tenant_payrent.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_tenant_payrent.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build.gradle" afterPath="$PROJECT_DIR$/app/build.gradle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" afterPath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cropview/cropview.iml" afterPath="$PROJECT_DIR$/cropview/cropview.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/local.properties" afterPath="$PROJECT_DIR$/local.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/menu/menu_main.xml" afterPath="$PROJECT_DIR$/app/src/main/res/menu/menu_main.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Housekeeper4Android_tenant.iws" />
@@ -55,100 +241,7 @@
     <favorites_list name="Housekeeper4Android_tenant" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="Constants.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/housekeeper/client/Constants.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="41" column="0" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TransferClient.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/housekeeper/client/TransferClient.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="33" column="13" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="false" />
-                <element signature="e#4532#4533#0" expanded="false" />
-                <element signature="e#4616#4617#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AndroidManifest.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="682" column="38" selection-start-line="682" selection-start-column="32" selection-end-line="682" selection-end-column="38" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UMengShareClient.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/housekeeper/client/UMengShareClient.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TenantPersonalVerifyActivity.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/tenant/TenantPersonalVerifyActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="301" column="49" selection-start-line="301" selection-start-column="49" selection-end-line="301" selection-end-column="49" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="item_message.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/item_message.xml">
-          <provider editor-type-id="android-designer">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="20.0">
-              <caret line="50" column="61" selection-start-line="50" selection-start-column="61" selection-end-line="50" selection-end-column="61" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="layout_current_investment_source.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/layout_current_investment_source.xml">
-          <provider editor-type-id="android-designer">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.26708075">
-              <caret line="12" column="32" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TenantMeActivityEx.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/tenant/TenantMeActivityEx.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="231" column="54" selection-start-line="231" selection-start-column="54" selection-end-line="231" selection-end-column="54" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -232,6 +325,56 @@
         <entry key="$PROJECT_DIR$">
           <value>
             <list>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the components produced by root project 'Housekeeper4Android_tenant'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="components" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays all dependencies declared in root project 'Housekeeper4Android_tenant'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="dependencies" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the insight into a specific dependency in root project 'Housekeeper4Android_tenant'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="dependencyInsight" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays a help message." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="help" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Initializes a new Gradle build. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="init" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the configuration model of root project 'Housekeeper4Android_tenant'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="model" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the sub-projects of root project 'Housekeeper4Android_tenant'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="projects" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the properties of root project 'Housekeeper4Android_tenant'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="properties" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the tasks runnable from root project 'Housekeeper4Android_tenant' (some of the displayed tasks may belong to subprojects)." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="tasks" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Generates Gradle wrapper files. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="wrapper" />
+              </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Displays the Android dependencies of the project." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
@@ -1028,6 +1171,11 @@
                 <option name="name" value="compileReleaseUnitTestSources" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+                <option name="description" value="Displays the components produced by project ':app'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
+                <option name="name" value="components" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
                 <option name="description" value="Installs and runs instrumentation tests for all flavors on connected devices." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
                 <option name="name" value="connectedAndroidTest" />
@@ -1041,6 +1189,16 @@
                 <option name="description" value="Installs and runs the tests for debug on connected devices." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
                 <option name="name" value="connectedDebugAndroidTest" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays all dependencies declared in project ':app'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
+                <option name="name" value="dependencies" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the insight into a specific dependency in project ':app'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
+                <option name="name" value="dependencyInsight" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Installs and runs instrumentation tests using all Device Providers." />
@@ -1125,6 +1283,11 @@
                 <option name="name" value="generateReleaseSources" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+                <option name="description" value="Displays a help message." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
+                <option name="name" value="help" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
                 <option name="description" value="Installs the Debug build." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
                 <option name="name" value="installDebug" />
@@ -1190,6 +1353,11 @@
                 <option name="description" value="Creates a version of android.jar that's suitable for unit tests." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
                 <option name="name" value="mockableAndroidJar" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the configuration model of project ':app'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
+                <option name="name" value="model" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
@@ -1374,6 +1542,16 @@
                 <option name="name" value="processReleaseUnitTestJavaRes" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+                <option name="description" value="Displays the sub-projects of project ':app'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
+                <option name="name" value="projects" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the properties of project ':app'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
+                <option name="name" value="properties" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
                 <option name="description" value="Displays the signing info for each variant." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
                 <option name="name" value="signingReport" />
@@ -1382,6 +1560,11 @@
                 <option name="description" value="Prints out all the source sets defined in this project." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
                 <option name="name" value="sourceSets" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the tasks runnable from project ':app'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
+                <option name="name" value="tasks" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Run unit tests for all variants." />
@@ -1597,6 +1780,11 @@
                 <option name="name" value="compileReleaseUnitTestSources" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+                <option name="description" value="Displays the components produced by project ':asymmetric_gridview'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/asymmetric_gridview" />
+                <option name="name" value="components" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
                 <option name="description" value="Installs and runs instrumentation tests for all flavors on connected devices." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/asymmetric_gridview" />
                 <option name="name" value="connectedAndroidTest" />
@@ -1618,6 +1806,16 @@
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/asymmetric_gridview" />
                 <option name="name" value="copyReleaseLint" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays all dependencies declared in project ':asymmetric_gridview'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/asymmetric_gridview" />
+                <option name="name" value="dependencies" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the insight into a specific dependency in project ':asymmetric_gridview'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/asymmetric_gridview" />
+                <option name="name" value="dependencyInsight" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Installs and runs instrumentation tests using all Device Providers." />
@@ -1704,6 +1902,11 @@
                 <option name="name" value="generateReleaseSources" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+                <option name="description" value="Displays a help message." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/asymmetric_gridview" />
+                <option name="name" value="help" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
                 <option name="description" value="Installs the android (on device) tests for the Debug build." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/asymmetric_gridview" />
                 <option name="name" value="installDebugAndroidTest" />
@@ -1759,6 +1962,11 @@
                 <option name="description" value="Creates a version of android.jar that's suitable for unit tests." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/asymmetric_gridview" />
                 <option name="name" value="mockableAndroidJar" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the configuration model of project ':asymmetric_gridview'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/asymmetric_gridview" />
+                <option name="name" value="model" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/asymmetric_gridview" />
@@ -1907,6 +2115,16 @@
                 <option name="name" value="processReleaseUnitTestJavaRes" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+                <option name="description" value="Displays the sub-projects of project ':asymmetric_gridview'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/asymmetric_gridview" />
+                <option name="name" value="projects" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the properties of project ':asymmetric_gridview'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/asymmetric_gridview" />
+                <option name="name" value="properties" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
                 <option name="description" value="Displays the signing info for each variant." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/asymmetric_gridview" />
                 <option name="name" value="signingReport" />
@@ -1915,6 +2133,11 @@
                 <option name="description" value="Prints out all the source sets defined in this project." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/asymmetric_gridview" />
                 <option name="name" value="sourceSets" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the tasks runnable from project ':asymmetric_gridview'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/asymmetric_gridview" />
+                <option name="name" value="tasks" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Run unit tests for all variants." />
@@ -2116,6 +2339,11 @@
                 <option name="name" value="compileReleaseUnitTestSources" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+                <option name="description" value="Displays the components produced by project ':cropview'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/cropview" />
+                <option name="name" value="components" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
                 <option name="description" value="Installs and runs instrumentation tests for all flavors on connected devices." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/cropview" />
                 <option name="name" value="connectedAndroidTest" />
@@ -2137,6 +2365,16 @@
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/cropview" />
                 <option name="name" value="copyReleaseLint" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays all dependencies declared in project ':cropview'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/cropview" />
+                <option name="name" value="dependencies" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the insight into a specific dependency in project ':cropview'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/cropview" />
+                <option name="name" value="dependencyInsight" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Installs and runs instrumentation tests using all Device Providers." />
@@ -2223,6 +2461,11 @@
                 <option name="name" value="generateReleaseSources" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+                <option name="description" value="Displays a help message." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/cropview" />
+                <option name="name" value="help" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
                 <option name="description" value="Installs the android (on device) tests for the Debug build." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/cropview" />
                 <option name="name" value="installDebugAndroidTest" />
@@ -2278,6 +2521,11 @@
                 <option name="description" value="Creates a version of android.jar that's suitable for unit tests." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/cropview" />
                 <option name="name" value="mockableAndroidJar" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the configuration model of project ':cropview'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/cropview" />
+                <option name="name" value="model" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/cropview" />
@@ -2421,6 +2669,16 @@
                 <option name="name" value="processReleaseUnitTestJavaRes" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+                <option name="description" value="Displays the sub-projects of project ':cropview'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/cropview" />
+                <option name="name" value="projects" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the properties of project ':cropview'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/cropview" />
+                <option name="name" value="properties" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
                 <option name="description" value="Displays the signing info for each variant." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/cropview" />
                 <option name="name" value="signingReport" />
@@ -2429,6 +2687,11 @@
                 <option name="description" value="Prints out all the source sets defined in this project." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/cropview" />
                 <option name="name" value="sourceSets" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the tasks runnable from project ':cropview'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/cropview" />
+                <option name="name" value="tasks" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Run unit tests for all variants." />
@@ -2630,6 +2893,11 @@
                 <option name="name" value="compileReleaseUnitTestSources" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+                <option name="description" value="Displays the components produced by project ':dropDownMenu'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/dropDownMenu" />
+                <option name="name" value="components" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
                 <option name="description" value="Installs and runs instrumentation tests for all flavors on connected devices." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/dropDownMenu" />
                 <option name="name" value="connectedAndroidTest" />
@@ -2651,6 +2919,16 @@
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/dropDownMenu" />
                 <option name="name" value="copyReleaseLint" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays all dependencies declared in project ':dropDownMenu'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/dropDownMenu" />
+                <option name="name" value="dependencies" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the insight into a specific dependency in project ':dropDownMenu'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/dropDownMenu" />
+                <option name="name" value="dependencyInsight" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Installs and runs instrumentation tests using all Device Providers." />
@@ -2737,6 +3015,11 @@
                 <option name="name" value="generateReleaseSources" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+                <option name="description" value="Displays a help message." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/dropDownMenu" />
+                <option name="name" value="help" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
                 <option name="description" value="Installs the android (on device) tests for the Debug build." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/dropDownMenu" />
                 <option name="name" value="installDebugAndroidTest" />
@@ -2792,6 +3075,11 @@
                 <option name="description" value="Creates a version of android.jar that's suitable for unit tests." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/dropDownMenu" />
                 <option name="name" value="mockableAndroidJar" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the configuration model of project ':dropDownMenu'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/dropDownMenu" />
+                <option name="name" value="model" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/dropDownMenu" />
@@ -2940,6 +3228,16 @@
                 <option name="name" value="processReleaseUnitTestJavaRes" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+                <option name="description" value="Displays the sub-projects of project ':dropDownMenu'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/dropDownMenu" />
+                <option name="name" value="projects" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the properties of project ':dropDownMenu'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/dropDownMenu" />
+                <option name="name" value="properties" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
                 <option name="description" value="Displays the signing info for each variant." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/dropDownMenu" />
                 <option name="name" value="signingReport" />
@@ -2948,6 +3246,11 @@
                 <option name="description" value="Prints out all the source sets defined in this project." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/dropDownMenu" />
                 <option name="name" value="sourceSets" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the tasks runnable from project ':dropDownMenu'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/dropDownMenu" />
+                <option name="name" value="tasks" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Run unit tests for all variants." />
@@ -3149,6 +3452,11 @@
                 <option name="name" value="compileReleaseUnitTestSources" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+                <option name="description" value="Displays the components produced by project ':menuanimationlibrary'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/menuanimationlibrary" />
+                <option name="name" value="components" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
                 <option name="description" value="Installs and runs instrumentation tests for all flavors on connected devices." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/menuanimationlibrary" />
                 <option name="name" value="connectedAndroidTest" />
@@ -3170,6 +3478,16 @@
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/menuanimationlibrary" />
                 <option name="name" value="copyReleaseLint" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays all dependencies declared in project ':menuanimationlibrary'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/menuanimationlibrary" />
+                <option name="name" value="dependencies" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the insight into a specific dependency in project ':menuanimationlibrary'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/menuanimationlibrary" />
+                <option name="name" value="dependencyInsight" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Installs and runs instrumentation tests using all Device Providers." />
@@ -3246,6 +3564,11 @@
                 <option name="name" value="generateReleaseSources" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+                <option name="description" value="Displays a help message." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/menuanimationlibrary" />
+                <option name="name" value="help" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
                 <option name="description" value="Installs the android (on device) tests for the Debug build." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/menuanimationlibrary" />
                 <option name="name" value="installDebugAndroidTest" />
@@ -3293,6 +3616,11 @@
                 <option name="description" value="Creates a version of android.jar that's suitable for unit tests." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/menuanimationlibrary" />
                 <option name="name" value="mockableAndroidJar" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the configuration model of project ':menuanimationlibrary'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/menuanimationlibrary" />
+                <option name="name" value="model" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/menuanimationlibrary" />
@@ -3431,6 +3759,16 @@
                 <option name="name" value="processReleaseUnitTestJavaRes" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+                <option name="description" value="Displays the sub-projects of project ':menuanimationlibrary'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/menuanimationlibrary" />
+                <option name="name" value="projects" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the properties of project ':menuanimationlibrary'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/menuanimationlibrary" />
+                <option name="name" value="properties" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
                 <option name="description" value="Displays the signing info for each variant." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/menuanimationlibrary" />
                 <option name="name" value="signingReport" />
@@ -3439,6 +3777,11 @@
                 <option name="description" value="Prints out all the source sets defined in this project." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/menuanimationlibrary" />
                 <option name="name" value="sourceSets" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the tasks runnable from project ':menuanimationlibrary'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/menuanimationlibrary" />
+                <option name="name" value="tasks" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Run unit tests for all variants." />
@@ -3640,6 +3983,11 @@
                 <option name="name" value="compileReleaseUnitTestSources" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+                <option name="description" value="Displays the components produced by project ':nice_spinner'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/nice_spinner" />
+                <option name="name" value="components" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
                 <option name="description" value="Installs and runs instrumentation tests for all flavors on connected devices." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/nice_spinner" />
                 <option name="name" value="connectedAndroidTest" />
@@ -3661,6 +4009,16 @@
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/nice_spinner" />
                 <option name="name" value="copyReleaseLint" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays all dependencies declared in project ':nice_spinner'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/nice_spinner" />
+                <option name="name" value="dependencies" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the insight into a specific dependency in project ':nice_spinner'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/nice_spinner" />
+                <option name="name" value="dependencyInsight" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Installs and runs instrumentation tests using all Device Providers." />
@@ -3747,6 +4105,11 @@
                 <option name="name" value="generateReleaseSources" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+                <option name="description" value="Displays a help message." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/nice_spinner" />
+                <option name="name" value="help" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
                 <option name="description" value="Installs the android (on device) tests for the Debug build." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/nice_spinner" />
                 <option name="name" value="installDebugAndroidTest" />
@@ -3802,6 +4165,11 @@
                 <option name="description" value="Creates a version of android.jar that's suitable for unit tests." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/nice_spinner" />
                 <option name="name" value="mockableAndroidJar" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the configuration model of project ':nice_spinner'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/nice_spinner" />
+                <option name="name" value="model" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/nice_spinner" />
@@ -3950,6 +4318,16 @@
                 <option name="name" value="processReleaseUnitTestJavaRes" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+                <option name="description" value="Displays the sub-projects of project ':nice_spinner'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/nice_spinner" />
+                <option name="name" value="projects" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the properties of project ':nice_spinner'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/nice_spinner" />
+                <option name="name" value="properties" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
                 <option name="description" value="Displays the signing info for each variant." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/nice_spinner" />
                 <option name="name" value="signingReport" />
@@ -3958,6 +4336,11 @@
                 <option name="description" value="Prints out all the source sets defined in this project." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/nice_spinner" />
                 <option name="name" value="sourceSets" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the tasks runnable from project ':nice_spinner'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/nice_spinner" />
+                <option name="name" value="tasks" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Run unit tests for all variants." />
@@ -4159,6 +4542,11 @@
                 <option name="name" value="compileReleaseUnitTestSources" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+                <option name="description" value="Displays the components produced by project ':paginationseekbarlib'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/paginationseekbarlib" />
+                <option name="name" value="components" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
                 <option name="description" value="Installs and runs instrumentation tests for all flavors on connected devices." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/paginationseekbarlib" />
                 <option name="name" value="connectedAndroidTest" />
@@ -4180,6 +4568,16 @@
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/paginationseekbarlib" />
                 <option name="name" value="copyReleaseLint" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays all dependencies declared in project ':paginationseekbarlib'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/paginationseekbarlib" />
+                <option name="name" value="dependencies" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the insight into a specific dependency in project ':paginationseekbarlib'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/paginationseekbarlib" />
+                <option name="name" value="dependencyInsight" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Installs and runs instrumentation tests using all Device Providers." />
@@ -4266,6 +4664,11 @@
                 <option name="name" value="generateReleaseSources" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+                <option name="description" value="Displays a help message." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/paginationseekbarlib" />
+                <option name="name" value="help" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
                 <option name="description" value="Installs the android (on device) tests for the Debug build." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/paginationseekbarlib" />
                 <option name="name" value="installDebugAndroidTest" />
@@ -4321,6 +4724,11 @@
                 <option name="description" value="Creates a version of android.jar that's suitable for unit tests." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/paginationseekbarlib" />
                 <option name="name" value="mockableAndroidJar" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the configuration model of project ':paginationseekbarlib'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/paginationseekbarlib" />
+                <option name="name" value="model" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/paginationseekbarlib" />
@@ -4464,6 +4872,16 @@
                 <option name="name" value="processReleaseUnitTestJavaRes" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+                <option name="description" value="Displays the sub-projects of project ':paginationseekbarlib'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/paginationseekbarlib" />
+                <option name="name" value="projects" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the properties of project ':paginationseekbarlib'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/paginationseekbarlib" />
+                <option name="name" value="properties" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
                 <option name="description" value="Displays the signing info for each variant." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/paginationseekbarlib" />
                 <option name="name" value="signingReport" />
@@ -4472,6 +4890,11 @@
                 <option name="description" value="Prints out all the source sets defined in this project." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/paginationseekbarlib" />
                 <option name="name" value="sourceSets" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the tasks runnable from project ':paginationseekbarlib'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/paginationseekbarlib" />
+                <option name="name" value="tasks" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Run unit tests for all variants." />
@@ -4673,6 +5096,11 @@
                 <option name="name" value="compileReleaseUnitTestSources" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+                <option name="description" value="Displays the components produced by project ':pulltozoomview'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/pulltozoomview" />
+                <option name="name" value="components" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
                 <option name="description" value="Installs and runs instrumentation tests for all flavors on connected devices." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/pulltozoomview" />
                 <option name="name" value="connectedAndroidTest" />
@@ -4694,6 +5122,16 @@
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/pulltozoomview" />
                 <option name="name" value="copyReleaseLint" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays all dependencies declared in project ':pulltozoomview'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/pulltozoomview" />
+                <option name="name" value="dependencies" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the insight into a specific dependency in project ':pulltozoomview'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/pulltozoomview" />
+                <option name="name" value="dependencyInsight" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Installs and runs instrumentation tests using all Device Providers." />
@@ -4780,6 +5218,11 @@
                 <option name="name" value="generateReleaseSources" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+                <option name="description" value="Displays a help message." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/pulltozoomview" />
+                <option name="name" value="help" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
                 <option name="description" value="Installs the android (on device) tests for the Debug build." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/pulltozoomview" />
                 <option name="name" value="installDebugAndroidTest" />
@@ -4835,6 +5278,11 @@
                 <option name="description" value="Creates a version of android.jar that's suitable for unit tests." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/pulltozoomview" />
                 <option name="name" value="mockableAndroidJar" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the configuration model of project ':pulltozoomview'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/pulltozoomview" />
+                <option name="name" value="model" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/pulltozoomview" />
@@ -4983,6 +5431,16 @@
                 <option name="name" value="processReleaseUnitTestJavaRes" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+                <option name="description" value="Displays the sub-projects of project ':pulltozoomview'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/pulltozoomview" />
+                <option name="name" value="projects" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the properties of project ':pulltozoomview'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/pulltozoomview" />
+                <option name="name" value="properties" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
                 <option name="description" value="Displays the signing info for each variant." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/pulltozoomview" />
                 <option name="name" value="signingReport" />
@@ -4991,6 +5449,11 @@
                 <option name="description" value="Prints out all the source sets defined in this project." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/pulltozoomview" />
                 <option name="name" value="sourceSets" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the tasks runnable from project ':pulltozoomview'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/pulltozoomview" />
+                <option name="name" value="tasks" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Run unit tests for all variants." />
@@ -5197,6 +5660,11 @@
                 <option name="name" value="compileReleaseUnitTestSources" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+                <option name="description" value="Displays the components produced by project ':recyclerview_animators'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/recyclerview_animators" />
+                <option name="name" value="components" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
                 <option name="description" value="Installs and runs instrumentation tests for all flavors on connected devices." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/recyclerview_animators" />
                 <option name="name" value="connectedAndroidTest" />
@@ -5218,6 +5686,16 @@
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/recyclerview_animators" />
                 <option name="name" value="copyReleaseLint" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays all dependencies declared in project ':recyclerview_animators'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/recyclerview_animators" />
+                <option name="name" value="dependencies" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the insight into a specific dependency in project ':recyclerview_animators'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/recyclerview_animators" />
+                <option name="name" value="dependencyInsight" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Installs and runs instrumentation tests using all Device Providers." />
@@ -5304,6 +5782,11 @@
                 <option name="name" value="generateReleaseSources" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+                <option name="description" value="Displays a help message." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/recyclerview_animators" />
+                <option name="name" value="help" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
                 <option name="description" value="Installs the android (on device) tests for the Debug build." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/recyclerview_animators" />
                 <option name="name" value="installDebugAndroidTest" />
@@ -5364,6 +5847,11 @@
                 <option name="description" value="Creates a version of android.jar that's suitable for unit tests." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/recyclerview_animators" />
                 <option name="name" value="mockableAndroidJar" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the configuration model of project ':recyclerview_animators'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/recyclerview_animators" />
+                <option name="name" value="model" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/recyclerview_animators" />
@@ -5517,6 +6005,16 @@
                 <option name="name" value="processReleaseUnitTestJavaRes" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+                <option name="description" value="Displays the sub-projects of project ':recyclerview_animators'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/recyclerview_animators" />
+                <option name="name" value="projects" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the properties of project ':recyclerview_animators'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/recyclerview_animators" />
+                <option name="name" value="properties" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
                 <option name="description" value="Displays the signing info for each variant." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/recyclerview_animators" />
                 <option name="name" value="signingReport" />
@@ -5525,6 +6023,11 @@
                 <option name="description" value="Prints out all the source sets defined in this project." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/recyclerview_animators" />
                 <option name="name" value="sourceSets" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the tasks runnable from project ':recyclerview_animators'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/recyclerview_animators" />
+                <option name="name" value="tasks" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Run unit tests for all variants." />
@@ -5726,6 +6229,11 @@
                 <option name="name" value="compileReleaseUnitTestSources" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+                <option name="description" value="Displays the components produced by project ':sublimepickerlibrary'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/sublimepickerlibrary" />
+                <option name="name" value="components" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
                 <option name="description" value="Installs and runs instrumentation tests for all flavors on connected devices." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/sublimepickerlibrary" />
                 <option name="name" value="connectedAndroidTest" />
@@ -5747,6 +6255,16 @@
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/sublimepickerlibrary" />
                 <option name="name" value="copyReleaseLint" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays all dependencies declared in project ':sublimepickerlibrary'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/sublimepickerlibrary" />
+                <option name="name" value="dependencies" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the insight into a specific dependency in project ':sublimepickerlibrary'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/sublimepickerlibrary" />
+                <option name="name" value="dependencyInsight" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Installs and runs instrumentation tests using all Device Providers." />
@@ -5833,6 +6351,11 @@
                 <option name="name" value="generateReleaseSources" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+                <option name="description" value="Displays a help message." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/sublimepickerlibrary" />
+                <option name="name" value="help" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
                 <option name="description" value="Installs the android (on device) tests for the Debug build." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/sublimepickerlibrary" />
                 <option name="name" value="installDebugAndroidTest" />
@@ -5888,6 +6411,11 @@
                 <option name="description" value="Creates a version of android.jar that's suitable for unit tests." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/sublimepickerlibrary" />
                 <option name="name" value="mockableAndroidJar" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the configuration model of project ':sublimepickerlibrary'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/sublimepickerlibrary" />
+                <option name="name" value="model" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/sublimepickerlibrary" />
@@ -6036,6 +6564,16 @@
                 <option name="name" value="processReleaseUnitTestJavaRes" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+                <option name="description" value="Displays the sub-projects of project ':sublimepickerlibrary'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/sublimepickerlibrary" />
+                <option name="name" value="projects" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the properties of project ':sublimepickerlibrary'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/sublimepickerlibrary" />
+                <option name="name" value="properties" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
                 <option name="description" value="Displays the signing info for each variant." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/sublimepickerlibrary" />
                 <option name="name" value="signingReport" />
@@ -6044,6 +6582,11 @@
                 <option name="description" value="Prints out all the source sets defined in this project." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/sublimepickerlibrary" />
                 <option name="name" value="sourceSets" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the tasks runnable from project ':sublimepickerlibrary'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/sublimepickerlibrary" />
+                <option name="name" value="tasks" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Run unit tests for all variants." />
@@ -6081,7 +6624,7 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="17338152114000" />
+        <entry key="$PROJECT_DIR$" value="17338840731000" />
       </map>
     </option>
     <option name="projectBuildClasspath">
@@ -7278,14 +7821,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_keeper_add_house_equipment.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_keeper_add_house_relation.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_keeper_add_house_rental_cost.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_keeper_add_house_traffic.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_keeper_house_publish.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_keeper_lease_address.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_keeper_lease_fee.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_keeper_lease_relation.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_keeper_remark.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_keeper_return.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_landlord_relation.xml" />
@@ -7317,7 +7852,6 @@
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_message_list.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/housekeeper/client/net/JSONRequest.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/tenant/TenantRelationActivityEx.java" />
-        <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/HousePushIntentService.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/view/YesterdayEarningsAdapter.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/view/LoginAfterDialog.java" />
@@ -7329,6 +7863,15 @@
         <option value="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/tenant/TenantPersonalVerifyActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/item_message.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/layout_current_investment_source.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/app/build.gradle" />
+        <option value="$PROJECT_DIR$/app/external/cn/pedant/SweetAlert/ProgressHelper.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_tenant_agent_info.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_tenant_me_ex.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_tenant_payrent.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/keeper/KeeperHouseInfoPublishActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/wufriends/housekeeper/wxapi/WXEntryActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/menu/menu_main.xml" />
       </list>
     </option>
   </component>
@@ -7370,7 +7913,8 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="AndroidView">
         <subPane>
           <PATH>
@@ -7378,29 +7922,15 @@
               <option name="myItemId" value="Housekeeper4Android_tenant" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
             </PATH_ELEMENT>
-          </PATH>
-          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Housekeeper4Android_tenant" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+              <option name="myItemId" value="Gradle Scripts" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidBuildScriptsGroupNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="Housekeeper4Android_tenant" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -7411,14 +7941,6 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="app" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="layout" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderTypeNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -7497,7 +8019,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="activity" />
+              <option name="myItemId" value="client" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -7511,30 +8033,13 @@
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="housekeeper" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="activity" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tenant" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemId" value="manifests" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidManifestsGroupNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -7972,13 +8477,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="723" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25767368" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25767368" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3294893" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3294893" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39868203" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4497529" sideWeight="0.5129241" order="7" side_tool="true" content_ui="tabs" />
@@ -7987,7 +8492,7 @@
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3294893" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3756178" sideWeight="0.48707592" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3756178" sideWeight="0.48707592" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -8029,64 +8534,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/popup_pick_photo.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.62069">
-          <caret line="37" column="64" selection-start-line="37" selection-start-column="64" selection-end-line="37" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/umeng_update_dialog.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.46">
-          <caret line="20" column="49" selection-start-line="20" selection-start-column="49" selection-end-line="20" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/blue_text_selector.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.25641027">
-          <caret line="6" column="11" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_login.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.0">
-          <caret line="115" column="48" selection-start-line="115" selection-start-column="41" selection-end-line="115" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/yellow_text_selector.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="4" column="35" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/yellow_button_selector_2.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="7" column="11" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/yellow_button_selector.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.52991456">
-          <caret line="13" column="43" selection-start-line="13" selection-start-column="43" selection-end-line="13" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_feedback.xml">
       <provider editor-type-id="android-designer">
         <state />
@@ -8296,9 +8743,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="11" column="35" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
-          <folding>
-            <element signature="e#1787#1809#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -8306,10 +8750,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="63" column="31" selection-start-line="63" selection-start-column="31" selection-end-line="63" selection-end-column="31" />
-          <folding>
-            <element signature="e#4586#5005#0" expanded="false" />
-            <element signature="e#5004#5005#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -8341,7 +8781,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -8355,41 +8794,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_tenant_me_ex.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.31142858">
-          <caret line="166" column="52" selection-start-line="166" selection-start-column="52" selection-end-line="166" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/housekeeper/client/Constants.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="41" column="0" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/housekeeper/client/TransferClient.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="33" column="13" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#4532#4533#0" expanded="false" />
-            <element signature="e#4616#4617#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="682" column="38" selection-start-line="682" selection-start-column="32" selection-end-line="682" selection-end-column="38" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -8397,9 +8805,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -8407,7 +8813,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="301" column="49" selection-start-line="301" selection-start-column="49" selection-end-line="301" selection-end-column="49" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -8424,7 +8829,7 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="20.0">
+        <state vertical-scroll-proportion="0.0">
           <caret line="50" column="61" selection-start-line="50" selection-start-column="61" selection-end-line="50" selection-end-column="61" />
           <folding />
         </state>
@@ -8435,8 +8840,99 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.26708075">
+        <state vertical-scroll-proportion="0.0">
           <caret line="12" column="32" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/external/cn/pedant/SweetAlert/ProgressHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.25906736">
+          <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_tenant_payrent.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.16363636">
+          <caret line="6" column="35" selection-start-line="6" selection-start-column="35" selection-end-line="6" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_tenant_me_ex.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.054545455">
+          <caret line="2" column="67" selection-start-line="2" selection-start-column="67" selection-end-line="2" selection-end-column="67" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_tenant_agent_info.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.054545455">
+          <caret line="2" column="67" selection-start-line="2" selection-start-column="67" selection-end-line="2" selection-end-column="67" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/wufriends/housekeeper/wxapi/WXEntryActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="40" selection-start-line="0" selection-start-column="40" selection-end-line="0" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/menu/menu_main.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.15831135">
+          <caret line="4" column="83" selection-start-line="4" selection-start-column="83" selection-end-line="4" selection-end-column="83" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/housekeeper/activity/keeper/KeeperHouseInfoPublishActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.21372032">
+          <caret line="404" column="13" selection-start-line="404" selection-start-column="13" selection-end-line="404" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.27704486">
+          <caret line="7" column="48" selection-start-line="7" selection-start-column="48" selection-end-line="7" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/housekeeper/client/Constants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.45118734">
+          <caret line="47" column="56" selection-start-line="47" selection-start-column="56" selection-end-line="47" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="4.601583">
+          <caret line="744" column="38" selection-start-line="744" selection-start-column="38" selection-end-line="744" selection-end-column="38" />
           <folding />
         </state>
       </provider>

@@ -25,7 +25,7 @@ import com.housekeeper.activity.view.EquipmentAdapter;
 import com.housekeeper.client.RequestEnum;
 import com.housekeeper.client.net.JSONRequest;
 import com.housekeeper.model.EquipmentAppDtoEx;
-import com.wufriends.housekeeper.tenant.R;
+import com.wufriends.housekeeper.R;
 
 import org.codehaus.jackson.map.DeserializationConfig;
 import org.codehaus.jackson.map.ObjectMapper;

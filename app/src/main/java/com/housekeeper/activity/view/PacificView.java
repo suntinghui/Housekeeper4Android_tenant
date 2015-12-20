@@ -29,7 +29,7 @@ import com.ares.house.dto.app.ImageAppDto;
 import com.housekeeper.activity.BaseActivity;
 import com.housekeeper.activity.CropImageActivity;
 import com.housekeeper.utils.AdapterUtil;
-import com.wufriends.housekeeper.tenant.R;
+import com.wufriends.housekeeper.R;
 
 import java.io.ByteArrayOutputStream;
 import java.io.File;

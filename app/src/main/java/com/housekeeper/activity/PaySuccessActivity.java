@@ -9,7 +9,7 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import com.housekeeper.client.TransferInfo;
-import com.wufriends.housekeeper.tenant.R;
+import com.wufriends.housekeeper.R;
 
 public class PaySuccessActivity extends BaseActivity implements OnClickListener {
 

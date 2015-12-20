@@ -25,7 +25,7 @@ import android.widget.Toast;
 import com.ares.house.dto.app.DebtPackageAppDto;
 import com.housekeeper.activity.VoteOfScheduledActivity;
 import com.housekeeper.utils.AdapterUtil;
-import com.wufriends.housekeeper.tenant.R;
+import com.wufriends.housekeeper.R;
 
 public class VoteOfScheduledAdapter extends BaseAdapter {
 

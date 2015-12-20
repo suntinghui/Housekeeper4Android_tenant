@@ -13,7 +13,7 @@ import android.widget.RelativeLayout;
 import android.widget.SectionIndexer;
 import android.widget.TextView;
 
-import com.wufriends.housekeeper.tenant.R;
+import com.wufriends.housekeeper.R;
 
 public class SortAdapter extends BaseAdapter implements SectionIndexer {
 	private List<SortModel> list = null;

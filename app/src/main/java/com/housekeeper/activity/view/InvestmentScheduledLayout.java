@@ -25,7 +25,7 @@ import com.nhaarman.listviewanimations.appearance.simple.SwingBottomInAnimationA
 import com.whos.swiperefreshandload.view.SwipeRefreshLayout;
 import com.whos.swiperefreshandload.view.SwipeRefreshLayout.OnLoadListener;
 import com.whos.swiperefreshandload.view.SwipeRefreshLayout.OnRefreshListener;
-import com.wufriends.housekeeper.tenant.R;
+import com.wufriends.housekeeper.R;
 
 import android.annotation.SuppressLint;
 import android.content.Context;

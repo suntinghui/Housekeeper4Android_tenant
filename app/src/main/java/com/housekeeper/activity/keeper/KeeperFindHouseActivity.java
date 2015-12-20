@@ -10,7 +10,7 @@ import android.widget.Toast;
 import com.housekeeper.activity.BaseActivity;
 import com.housekeeper.client.ActivityManager;
 import com.umeng.analytics.MobclickAgent;
-import com.wufriends.housekeeper.tenant.R;
+import com.wufriends.housekeeper.R;
 
 /**
  * Created by sth on 9/16/15.

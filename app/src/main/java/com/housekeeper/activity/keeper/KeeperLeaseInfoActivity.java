@@ -8,7 +8,7 @@ import android.widget.TextView;
 import com.ares.house.dto.app.UserJoinAppDto;
 import com.ares.house.dto.app.WaitLeaseListAppDto;
 import com.housekeeper.activity.BaseActivity;
-import com.wufriends.housekeeper.tenant.R;
+import com.wufriends.housekeeper.R;
 
 /**
  * Created by sth on 10/8/15.

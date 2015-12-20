@@ -20,7 +20,7 @@ import android.widget.ListView;
 import com.daimajia.androidanimations.library.Techniques;
 import com.daimajia.androidanimations.library.YoYo;
 import com.housekeeper.HousekeeperApplication;
-import com.wufriends.housekeeper.tenant.R;
+import com.wufriends.housekeeper.R;
 
 public class ActivityUtil {
 

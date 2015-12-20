@@ -12,7 +12,7 @@ import com.ares.house.dto.app.WithdrawalMoneyAppDto;
 import com.housekeeper.activity.BaseActivity;
 import com.housekeeper.utils.BankUtil;
 import com.idunnololz.widgets.AnimatedExpandableListView;
-import com.wufriends.housekeeper.tenant.R;
+import com.wufriends.housekeeper.R;
 
 import java.util.ArrayList;
 import java.util.List;

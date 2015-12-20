@@ -8,7 +8,7 @@ import android.widget.TextView;
 import com.ares.house.dto.app.HouseAddListAppDto;
 import com.housekeeper.activity.BaseActivity;
 import com.housekeeper.activity.view.DavinciView;
-import com.wufriends.housekeeper.tenant.R;
+import com.wufriends.housekeeper.R;
 
 /**
  * Created by sth on 9/25/15.

@@ -20,7 +20,7 @@ import com.ares.house.dto.app.AppResponseStatus;
 import com.housekeeper.client.RequestEnum;
 import com.housekeeper.client.net.JSONRequest;
 import com.housekeeper.utils.ViewUtil;
-import com.wufriends.housekeeper.tenant.R;
+import com.wufriends.housekeeper.R;
 
 /**
  * 修改登录密码

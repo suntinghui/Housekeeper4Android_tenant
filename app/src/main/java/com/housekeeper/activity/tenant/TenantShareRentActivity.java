@@ -5,7 +5,7 @@ import android.view.View;
 import android.widget.TextView;
 
 import com.housekeeper.activity.BaseActivity;
-import com.wufriends.housekeeper.tenant.R;
+import com.wufriends.housekeeper.R;
 
 /**
  * Created by sth on 10/23/15.

@@ -20,7 +20,7 @@ import android.widget.Toast;
 
 import com.housekeeper.activity.view.CropImage;
 import com.housekeeper.activity.view.CropImageView;
-import com.wufriends.housekeeper.tenant.R;
+import com.wufriends.housekeeper.R;
 
 /**
  * 裁剪界面

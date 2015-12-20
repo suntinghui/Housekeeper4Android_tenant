@@ -40,7 +40,7 @@ import android.view.accessibility.AccessibilityManager;
 import java.util.ArrayList;
 import java.util.List;
 
-import com.wufriends.housekeeper.tenant.R;
+import com.wufriends.housekeeper.R;
 
 /**
  * Displays and detects the user's unlock attempt, which is a drag of a finger across 9 regions of the screen.

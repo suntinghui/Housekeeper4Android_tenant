@@ -14,7 +14,7 @@ import com.housekeeper.activity.HouseInfoActivity;
 import com.housekeeper.activity.keeper.KeeperHouseInfoPublishActivity;
 import com.housekeeper.client.Constants;
 import com.housekeeper.client.net.ImageCacheManager;
-import com.wufriends.housekeeper.tenant.R;
+import com.wufriends.housekeeper.R;
 import com.zhy.view.flowlayout.FlowLayout;
 import com.zhy.view.flowlayout.TagAdapter;
 import com.zhy.view.flowlayout.TagFlowLayout;

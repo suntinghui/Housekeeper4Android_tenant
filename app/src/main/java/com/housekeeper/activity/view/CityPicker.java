@@ -12,7 +12,7 @@ import com.google.gson.JsonObject;
 import com.google.gson.JsonParser;
 import com.housekeeper.utils.CitycodeUtil;
 import com.housekeeper.utils.FileUtil;
-import com.wufriends.housekeeper.tenant.R;
+import com.wufriends.housekeeper.R;
 
 import android.annotation.SuppressLint;
 import android.content.Context;

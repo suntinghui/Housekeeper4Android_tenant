@@ -20,7 +20,7 @@ import com.ares.house.dto.app.AppResponseStatus;
 import com.housekeeper.activity.view.VerifyTransferPWDDialog;
 import com.housekeeper.client.RequestEnum;
 import com.housekeeper.client.net.JSONRequest;
-import com.wufriends.housekeeper.tenant.R;
+import com.wufriends.housekeeper.R;
 
 /**
  * Created by sth on 9/2/15.

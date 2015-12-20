@@ -26,7 +26,7 @@ import com.idunnololz.widgets.AnimatedExpandableListView;
 import com.whos.swiperefreshandload.view.SwipeRefreshLayout;
 import com.whos.swiperefreshandload.view.SwipeRefreshLayout.OnLoadListener;
 import com.whos.swiperefreshandload.view.SwipeRefreshLayout.OnRefreshListener;
-import com.wufriends.housekeeper.tenant.R;
+import com.wufriends.housekeeper.R;
 
 import org.codehaus.jackson.map.DeserializationConfig;
 import org.codehaus.jackson.map.ObjectMapper;

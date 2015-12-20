@@ -9,7 +9,7 @@ import java.util.List;
 
 import com.android.volley.toolbox.NetworkImageView;
 import com.ares.house.dto.app.ImageAppDto;
-import com.wufriends.housekeeper.tenant.R;
+import com.wufriends.housekeeper.R;
 import com.housekeeper.client.Constants;
 import com.housekeeper.client.net.ImageCacheManager;
 

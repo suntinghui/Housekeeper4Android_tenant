@@ -13,7 +13,7 @@ import com.housekeeper.activity.ShowWebViewActivity;
 import com.housekeeper.activity.view.DavinciView;
 import com.housekeeper.client.Constants;
 import com.housekeeper.utils.ActivityUtil;
-import com.wufriends.housekeeper.tenant.R;
+import com.wufriends.housekeeper.R;
 
 import java.util.HashMap;
 

@@ -17,7 +17,7 @@ import com.housekeeper.activity.keeper.KeeperHouseInfoPublishActivity;
 import com.housekeeper.activity.tenant.TenantPayRentActivity;
 import com.housekeeper.client.Constants;
 import com.housekeeper.client.net.ImageCacheManager;
-import com.wufriends.housekeeper.tenant.R;
+import com.wufriends.housekeeper.R;
 
 /**
  * Created by sth on 12/11/15.

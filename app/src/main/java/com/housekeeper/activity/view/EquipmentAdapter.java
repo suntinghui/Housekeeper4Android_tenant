@@ -15,7 +15,7 @@ import android.widget.TextView;
 import com.housekeeper.HousekeeperApplication;
 import com.housekeeper.activity.BaseActivity;
 import com.housekeeper.model.EquipmentAppDtoEx;
-import com.wufriends.housekeeper.tenant.R;
+import com.wufriends.housekeeper.R;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -26,7 +26,7 @@ import com.housekeeper.activity.view.CustomNetworkImageView;
 import com.housekeeper.client.RequestEnum;
 import com.housekeeper.client.net.ImageCacheManager;
 import com.housekeeper.client.net.JSONRequest;
-import com.wufriends.housekeeper.tenant.R;
+import com.wufriends.housekeeper.R;
 
 import cn.pedant.SweetAlert.SweetAlertDialog;
 

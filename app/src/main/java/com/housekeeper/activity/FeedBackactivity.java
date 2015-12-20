@@ -33,7 +33,7 @@ import com.umeng.fb.SyncListener;
 import com.umeng.fb.model.Conversation;
 import com.umeng.fb.model.Reply;
 import com.umeng.fb.model.UserInfo;
-import com.wufriends.housekeeper.tenant.R;
+import com.wufriends.housekeeper.R;
 
 public class FeedBackactivity extends BaseActivity {
 

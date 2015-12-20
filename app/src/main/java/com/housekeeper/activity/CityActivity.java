@@ -9,7 +9,7 @@ import android.view.View.OnClickListener;
 import android.widget.Button;
 
 import com.housekeeper.activity.view.CityPicker;
-import com.wufriends.housekeeper.tenant.R;
+import com.wufriends.housekeeper.R;
 
 public class CityActivity extends BaseActivity implements OnClickListener {
 

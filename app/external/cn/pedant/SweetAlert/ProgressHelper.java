@@ -2,7 +2,7 @@ package cn.pedant.SweetAlert;
 
 import android.content.Context;
 
-import com.wufriends.housekeeper.tenant.R;
+import com.wufriends.housekeeper.R;
 
 public class ProgressHelper {
     private ProgressWheel mProgressWheel;

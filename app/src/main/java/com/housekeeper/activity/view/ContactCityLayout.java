@@ -14,7 +14,7 @@ import com.ares.house.dto.app.ContactAppDto;
 import com.ares.house.dto.app.OpenCityAppDto;
 import com.housekeeper.activity.BaseActivity;
 import com.housekeeper.client.Constants;
-import com.wufriends.housekeeper.tenant.R;
+import com.wufriends.housekeeper.R;
 
 
 /**

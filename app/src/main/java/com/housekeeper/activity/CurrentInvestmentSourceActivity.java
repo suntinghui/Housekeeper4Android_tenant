@@ -37,7 +37,7 @@ import com.housekeeper.client.net.JSONRequest;
 import com.housekeeper.client.net.ResponseErrorListener;
 import com.housekeeper.utils.ActivityUtil;
 import com.whos.swiperefreshandload.view.SwipeRefreshLayout;
-import com.wufriends.housekeeper.tenant.R;
+import com.wufriends.housekeeper.R;
 
 /**
  * Created by sth on 9/4/15.

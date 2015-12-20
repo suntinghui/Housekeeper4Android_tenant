@@ -11,7 +11,7 @@ import com.ares.house.dto.app.MessageListAppDto;
 import com.housekeeper.activity.BaseActivity;
 import com.housekeeper.client.Constants;
 import com.housekeeper.client.net.ImageCacheManager;
-import com.wufriends.housekeeper.tenant.R;
+import com.wufriends.housekeeper.R;
 
 import org.apache.commons.lang3.StringUtils;
 

@@ -15,7 +15,7 @@ import com.housekeeper.activity.BaseActivity;
 import com.housekeeper.activity.view.PacificView;
 import com.housekeeper.client.RequestEnum;
 import com.housekeeper.client.net.JSONRequest;
-import com.wufriends.housekeeper.tenant.R;
+import com.wufriends.housekeeper.R;
 
 import org.codehaus.jackson.map.DeserializationConfig;
 import org.codehaus.jackson.map.ObjectMapper;

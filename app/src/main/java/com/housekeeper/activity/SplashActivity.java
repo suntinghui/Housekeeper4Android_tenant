@@ -18,7 +18,7 @@ import android.widget.LinearLayout;
 import com.housekeeper.activity.tenant.TenantMainActivity;
 import com.housekeeper.utils.BankUtil;
 import com.housekeeper.utils.FileUtil;
-import com.wufriends.housekeeper.tenant.R;
+import com.wufriends.housekeeper.R;
 import com.housekeeper.client.Constants;
 import com.housekeeper.utils.ActivityUtil;
 

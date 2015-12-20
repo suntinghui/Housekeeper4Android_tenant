@@ -25,7 +25,7 @@ import com.housekeeper.client.net.ResponseErrorListener;
 import com.housekeeper.model.BankEntityEx;
 import com.housekeeper.utils.ActivityUtil;
 import com.housekeeper.utils.BankUtil;
-import com.wufriends.housekeeper.tenant.R;
+import com.wufriends.housekeeper.R;
 
 import org.codehaus.jackson.map.DeserializationConfig;
 import org.codehaus.jackson.map.ObjectMapper;

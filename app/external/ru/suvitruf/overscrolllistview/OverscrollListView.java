@@ -16,7 +16,7 @@
  */
 package ru.suvitruf.overscrolllistview;
 
-import com.wufriends.housekeeper.tenant.R;
+import com.wufriends.housekeeper.R;
 
 import android.content.Context;
 import android.content.res.TypedArray;

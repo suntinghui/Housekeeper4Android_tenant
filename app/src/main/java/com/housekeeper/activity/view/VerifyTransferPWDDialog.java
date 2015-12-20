@@ -11,7 +11,7 @@ import android.widget.TextView;
 import com.housekeeper.utils.ViewUtil;
 import com.jungly.gridpasswordview.GridPasswordView;
 import com.jungly.gridpasswordview.GridPasswordView.OnPasswordChangedListener;
-import com.wufriends.housekeeper.tenant.R;
+import com.wufriends.housekeeper.R;
 
 public class VerifyTransferPWDDialog extends Dialog {
 

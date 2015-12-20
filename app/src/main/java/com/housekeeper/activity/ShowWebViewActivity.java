@@ -14,7 +14,7 @@ import com.housekeeper.activity.view.NetErrorDialog;
 import com.housekeeper.activity.view.NoZoomControllWebView;
 import com.housekeeper.client.ActivityManager;
 import com.housekeeper.utils.NetUtil;
-import com.wufriends.housekeeper.tenant.R;
+import com.wufriends.housekeeper.R;
 
 public class ShowWebViewActivity extends BaseActivity implements OnClickListener {
 

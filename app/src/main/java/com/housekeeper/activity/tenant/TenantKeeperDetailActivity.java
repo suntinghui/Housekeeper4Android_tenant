@@ -9,7 +9,7 @@ import com.housekeeper.activity.BaseActivity;
 import com.housekeeper.activity.view.CustomNetworkImageView;
 import com.housekeeper.client.Constants;
 import com.housekeeper.client.net.ImageCacheManager;
-import com.wufriends.housekeeper.tenant.R;
+import com.wufriends.housekeeper.R;
 
 /**
  * Created by sth on 10/30/15.

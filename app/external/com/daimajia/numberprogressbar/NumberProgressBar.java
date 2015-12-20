@@ -2,7 +2,7 @@ package com.daimajia.numberprogressbar;
 
 import java.text.DecimalFormat;
 
-import com.wufriends.housekeeper.tenant.R;
+import com.wufriends.housekeeper.R;
 
 import android.content.Context;
 import android.content.res.TypedArray;

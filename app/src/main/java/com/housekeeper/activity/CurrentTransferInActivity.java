@@ -24,7 +24,7 @@ import com.housekeeper.client.TransferInfo;
 import com.housekeeper.utils.AdapterUtil;
 import com.housekeeper.utils.MathUtil;
 import com.housekeeper.utils.RateUtil;
-import com.wufriends.housekeeper.tenant.R;
+import com.wufriends.housekeeper.R;
 
 import org.apache.commons.lang3.StringUtils;
 

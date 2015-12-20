@@ -31,7 +31,7 @@ import com.housekeeper.client.net.JSONRequest;
 import com.housekeeper.utils.AdapterUtil;
 import com.readystatesoftware.viewbadger.BadgeView;
 import com.umeng.analytics.MobclickAgent;
-import com.wufriends.housekeeper.tenant.R;
+import com.wufriends.housekeeper.R;
 import com.yuan.magic.MagicScrollView;
 import com.yuan.magic.MagicTextView;
 

@@ -8,7 +8,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup.LayoutParams;
 
-import com.wufriends.housekeeper.tenant.R;
+import com.wufriends.housekeeper.R;
 import com.jeremyfeinstein.slidingmenu.lib.SlidingMenu;
 
 public class SlidingActivityHelper {

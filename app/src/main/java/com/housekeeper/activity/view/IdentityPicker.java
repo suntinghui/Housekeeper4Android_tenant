@@ -10,7 +10,7 @@ import android.widget.LinearLayout;
 
 import com.ares.house.dto.app.TreeNodeAppDto;
 import com.housekeeper.utils.IdentityUtil;
-import com.wufriends.housekeeper.tenant.R;
+import com.wufriends.housekeeper.R;
 
 import java.util.ArrayList;
 import java.util.HashMap;

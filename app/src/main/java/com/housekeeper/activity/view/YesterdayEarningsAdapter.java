@@ -11,7 +11,7 @@ import android.widget.TextView;
 import com.ares.house.dto.app.EarningsListAppDto;
 import com.housekeeper.activity.BaseActivity;
 import com.housekeeper.utils.AdapterUtil;
-import com.wufriends.housekeeper.tenant.R;
+import com.wufriends.housekeeper.R;
 
 import java.util.ArrayList;
 import java.util.List;

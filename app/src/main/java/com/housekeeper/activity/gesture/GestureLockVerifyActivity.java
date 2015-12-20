@@ -16,7 +16,7 @@ import com.daimajia.androidanimations.library.YoYo;
 import com.housekeeper.activity.LoginActivity;
 import com.housekeeper.activity.tenant.TenantHomeActivity;
 import com.housekeeper.activity.tenant.TenantMainActivity;
-import com.wufriends.housekeeper.tenant.R;
+import com.wufriends.housekeeper.R;
 import com.housekeeper.activity.BaseActivity;
 import com.housekeeper.activity.gesture.LockPatternView.Cell;
 import com.housekeeper.activity.gesture.LockPatternView.DisplayMode;

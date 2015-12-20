@@ -1,4 +1,4 @@
-package com.wufriends.housekeeper.tenant.wxapi;
+package com.wufriends.housekeeper.wxapi;
 
 import android.app.Activity;
 import android.os.Bundle;

@@ -20,7 +20,7 @@ import com.daimajia.androidanimations.library.YoYo;
 import com.housekeeper.activity.StagingUserActivity;
 import com.housekeeper.activity.StagingUserActivityEx;
 import com.housekeeper.client.net.ImageCacheManager;
-import com.wufriends.housekeeper.tenant.R;
+import com.wufriends.housekeeper.R;
 
 /**
  * 定投项目详情

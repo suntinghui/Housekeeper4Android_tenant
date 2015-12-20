@@ -15,7 +15,7 @@ import com.housekeeper.activity.MyTabActivity;
 import com.housekeeper.client.ActivityManager;
 import com.housekeeper.client.Constants;
 import com.umeng.analytics.MobclickAgent;
-import com.wufriends.housekeeper.tenant.R;
+import com.wufriends.housekeeper.R;
 
 /**
  * Created by sth on 9/10/15.

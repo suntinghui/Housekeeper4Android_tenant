@@ -13,7 +13,7 @@ import com.housekeeper.activity.gesture.GestureLockModifyActivity;
 import com.housekeeper.activity.gesture.GestureLockSetupActivity;
 import com.housekeeper.activity.gesture.GestureLockUtil;
 import com.housekeeper.activity.gesture.GestureLockVerifyActivity;
-import com.wufriends.housekeeper.tenant.R;
+import com.wufriends.housekeeper.R;
 
 /**
  * 管理手势密码

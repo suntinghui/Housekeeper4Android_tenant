@@ -22,7 +22,7 @@ import com.housekeeper.activity.view.ProductTourFragment;
 import com.housekeeper.client.Constants;
 import com.housekeeper.utils.ActivityUtil;
 import com.nineoldandroids.view.ViewHelper;
-import com.wufriends.housekeeper.tenant.R;
+import com.wufriends.housekeeper.R;
 
 /**
  * Created by sth on 10/30/15.

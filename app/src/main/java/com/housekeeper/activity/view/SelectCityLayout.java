@@ -13,7 +13,7 @@ import android.widget.Spinner;
 import android.widget.TextView;
 
 import com.ares.house.dto.app.TreeNodeAppDto;
-import com.wufriends.housekeeper.tenant.R;
+import com.wufriends.housekeeper.R;
 
 import java.util.List;
 

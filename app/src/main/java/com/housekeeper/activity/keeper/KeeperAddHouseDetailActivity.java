@@ -21,7 +21,7 @@ import com.housekeeper.activity.CityActivity;
 import com.housekeeper.activity.IdentityActivity;
 import com.housekeeper.client.RequestEnum;
 import com.housekeeper.client.net.JSONRequest;
-import com.wufriends.housekeeper.tenant.R;
+import com.wufriends.housekeeper.R;
 
 import org.angmarch.views.NiceSpinner;
 import org.codehaus.jackson.map.DeserializationConfig;

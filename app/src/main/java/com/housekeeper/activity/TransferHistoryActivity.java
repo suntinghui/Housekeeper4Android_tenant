@@ -36,7 +36,7 @@ import com.housekeeper.utils.ActivityUtil;
 import com.whos.swiperefreshandload.view.SwipeRefreshLayout;
 import com.whos.swiperefreshandload.view.SwipeRefreshLayout.OnLoadListener;
 import com.whos.swiperefreshandload.view.SwipeRefreshLayout.OnRefreshListener;
-import com.wufriends.housekeeper.tenant.R;
+import com.wufriends.housekeeper.R;
 
 /**
  * 交易记录

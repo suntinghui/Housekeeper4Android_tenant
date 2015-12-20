@@ -14,7 +14,7 @@ import android.widget.TextView;
 import com.housekeeper.activity.BaseActivity;
 import com.housekeeper.client.TransferClient;
 import com.housekeeper.client.TransferInfo;
-import com.wufriends.housekeeper.tenant.R;
+import com.wufriends.housekeeper.R;
 
 public class ConfirmPayDialog extends Dialog implements OnCheckedChangeListener {
 

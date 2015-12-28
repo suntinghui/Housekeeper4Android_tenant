@@ -1,6 +1,7 @@
 package com.housekeeper.activity.view;
 
 import android.content.Intent;
+import android.text.Html;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -90,7 +91,7 @@ public class PublishRoommateAdapter extends BaseAdapter {
         holder.headImageView.setImageUrl(Constants.HOST_IP + infoDto.getIndexImgUrl(), ImageCacheManager.getInstance().getImageLoader());
 
         holder.communityTextView.setText(infoDto.getCommunity() + "   " + infoDto.getHouseType());
-        holder.areaExTextView.setText(infoDto.getAreaStr() + " · " + infoDto.getLeaseType() + " · " + infoDto.getSize());
+        holder.areaExTextView.setText(Html.fromHtml(infoDto.getAreaStr() + " · " + infoDto.getSize() + "<font color=#FCAE34> · " + infoDto.getLeaseType() + "</font>"));
         holder.monthMoneyTextView.setText(infoDto.getMonthMoney());
         holder.flowlayout.setEnabled(false);
         holder.flowlayout.setAdapter(new TagAdapter<String>(infoDto.getTags()) {

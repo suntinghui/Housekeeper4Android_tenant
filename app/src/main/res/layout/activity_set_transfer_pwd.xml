@@ -29,17 +29,6 @@
             android:layout_centerInParent="true"
             android:text="设置交易密码" />
 
-        <TextView
-            android:id="@+id/stepTextView"
-            android:textSize="15sp"
-            android:textColor="#222222"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentRight="true"
-            android:layout_centerVertical="true"
-            android:paddingLeft="20dip"
-            android:paddingRight="20dip"
-            android:text="2/2" />
     </RelativeLayout>
 
     <!--

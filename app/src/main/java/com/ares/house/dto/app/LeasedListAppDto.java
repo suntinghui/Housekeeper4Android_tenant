@@ -47,29 +47,29 @@ public class LeasedListAppDto implements Serializable {
 	 */
 	private String userLogo;
 	/**
+	 * 用户手机号
+	 */
+	private String userTelphone;
+	/**
 	 * 租户名称
 	 */
 	private String userName;
-	/**
-	 * 租户身份证号
-	 */
-	private String userBankCard;
 	/**
 	 * 租户工作地点
 	 */
 	private String workAddress;
 	/**
-	 * 房东头像
+	 * 房东手机号
 	 */
-	private String landlordLogo;
-	/**
-	 * 房东名称
-	 */
-	private String landlordUserName;
+	private String landlordTelphone;
 	/**
 	 * b 正常 c退租中
 	 */
 	private char status;
+	/**
+	 * 实缴押金
+	 */
+	private String mortgageMoney;
 	/**
 	 * 退还押金
 	 */
@@ -78,6 +78,14 @@ public class LeasedListAppDto implements Serializable {
 	 * 退租时间
 	 */
 	private String takeBackTime;
+	/**
+	 * 剩多少天 -1说明不需要再交房租了
+	 */
+	private int surplusDay;
+	/**
+	 * 房租交至哪天 没交租之前为null
+	 */
+	private String lastPaidTimeStr;
 
 	public int getHouseId() {
 		return houseId;
@@ -167,36 +175,12 @@ public class LeasedListAppDto implements Serializable {
 		this.userName = userName;
 	}
 
-	public String getUserBankCard() {
-		return userBankCard;
-	}
-
-	public void setUserBankCard(String userBankCard) {
-		this.userBankCard = userBankCard;
-	}
-
 	public String getWorkAddress() {
 		return workAddress;
 	}
 
 	public void setWorkAddress(String workAddress) {
 		this.workAddress = workAddress;
-	}
-
-	public String getLandlordLogo() {
-		return landlordLogo;
-	}
-
-	public void setLandlordLogo(String landlordLogo) {
-		this.landlordLogo = landlordLogo;
-	}
-
-	public String getLandlordUserName() {
-		return landlordUserName;
-	}
-
-	public void setLandlordUserName(String landlordUserName) {
-		this.landlordUserName = landlordUserName;
 	}
 
 	public int getLeaseId() {
@@ -229,6 +213,46 @@ public class LeasedListAppDto implements Serializable {
 
 	public void setTakeBackTime(String takeBackTime) {
 		this.takeBackTime = takeBackTime;
+	}
+
+	public String getUserTelphone() {
+		return userTelphone;
+	}
+
+	public void setUserTelphone(String userTelphone) {
+		this.userTelphone = userTelphone;
+	}
+
+	public String getLandlordTelphone() {
+		return landlordTelphone;
+	}
+
+	public void setLandlordTelphone(String landlordTelphone) {
+		this.landlordTelphone = landlordTelphone;
+	}
+
+	public int getSurplusDay() {
+		return surplusDay;
+	}
+
+	public void setSurplusDay(int surplusDay) {
+		this.surplusDay = surplusDay;
+	}
+
+	public String getLastPaidTimeStr() {
+		return lastPaidTimeStr;
+	}
+
+	public void setLastPaidTimeStr(String lastPaidTimeStr) {
+		this.lastPaidTimeStr = lastPaidTimeStr;
+	}
+
+	public String getMortgageMoney() {
+		return mortgageMoney;
+	}
+
+	public void setMortgageMoney(String mortgageMoney) {
+		this.mortgageMoney = mortgageMoney;
 	}
 
 }

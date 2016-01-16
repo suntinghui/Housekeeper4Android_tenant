@@ -14,10 +14,8 @@ import com.ares.house.dto.app.AppMessageDto;
 import com.ares.house.dto.app.AppResponseStatus;
 import com.ares.house.dto.app.HouseAddListAppDto;
 import com.ares.house.dto.app.HouseInfoAppDto;
-import com.ares.house.dto.app.TrafficAppDto;
-import com.ares.house.dto.app.TreeNodeAppDto;
+import com.jayfang.dropdownmenu.TreeNodeAppDto;
 import com.housekeeper.activity.BaseActivity;
-import com.housekeeper.activity.CityActivity;
 import com.housekeeper.activity.IdentityActivity;
 import com.housekeeper.client.RequestEnum;
 import com.housekeeper.client.net.JSONRequest;
@@ -35,7 +33,7 @@ import java.util.List;
 
 /**
  * Created by sth on 9/25/15.
- * <p/>
+ * <p>
  * 房屋信息
  */
 public class KeeperAddHouseDetailActivity extends BaseActivity implements View.OnClickListener {
@@ -57,7 +55,7 @@ public class KeeperAddHouseDetailActivity extends BaseActivity implements View.O
 
     private Button commitBtn = null;
 
-    private TreeNodeAppDto cityDTO = null;
+    private TreeNodeAppDto cityDto = null;
     private String areaId = "";
 
     private HouseAddListAppDto infoDto = null;
@@ -119,7 +117,7 @@ public class KeeperAddHouseDetailActivity extends BaseActivity implements View.O
                     AppMessageDto<TreeNodeAppDto> dto = objectMapper.readValue(jsonObject, type);
                     if (dto.getStatus() == AppResponseStatus.SUCCESS) {
 
-                        cityDTO = dto.getData();
+                        cityDto = dto.getData();
 
                     } else {
                         Toast.makeText(KeeperAddHouseDetailActivity.this, dto.getMsg(), Toast.LENGTH_SHORT).show();
@@ -288,7 +286,7 @@ public class KeeperAddHouseDetailActivity extends BaseActivity implements View.O
                 break;
 
             case R.id.areaTextView: {
-                if (cityDTO == null) {
+                if (cityDto == null) {
                     requestCityArea();
                     Toast.makeText(this, "正在下载城市数据...", Toast.LENGTH_SHORT).show();
                     return;
@@ -297,7 +295,7 @@ public class KeeperAddHouseDetailActivity extends BaseActivity implements View.O
                 this.showProgress("正在加载...");
 
                 Intent intent = new Intent(this, IdentityActivity.class);
-                intent.putExtra("dto", cityDTO);
+                intent.putExtra("dto", cityDto);
                 intent.putExtra("code", areaId);
                 startActivityForResult(intent, 100);
             }

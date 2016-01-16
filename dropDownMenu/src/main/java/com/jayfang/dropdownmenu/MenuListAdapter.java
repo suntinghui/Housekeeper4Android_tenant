@@ -10,11 +10,9 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 /**
- *
- *  <a href="http://fangjie.info">JayFang</a>
- *  Email:JayFang1993@gmail.com
- *  GitHub:github.com/JayFang1993
- *
+ * <a href="http://fangjie.info">JayFang</a>
+ * Email:JayFang1993@gmail.com
+ * GitHub:github.com/JayFang1993
  */
 
 public class MenuListAdapter extends BaseAdapter {
@@ -30,15 +28,18 @@ public class MenuListAdapter extends BaseAdapter {
 
     public MenuListAdapter(Context context, String[] strs) {
         this.context = context;
-        this.strs=strs;
-        this.TextColor= Color.BLACK;
-        this.TextSize=15;
+        this.strs = strs;
+        this.TextColor = Color.BLACK;
+        this.TextSize = 15;
     }
 
     public void setSelectIndex(int selectIndex) {
         SelectIndex = selectIndex;
     }
 
+    public int getSelectIndex() {
+        return SelectIndex;
+    }
 
     public void setShowCheck(boolean showCheck) {
         this.showCheck = showCheck;
@@ -73,17 +74,17 @@ public class MenuListAdapter extends BaseAdapter {
 
     @Override
     public View getView(int position, View convertView, ViewGroup parent) {
-        View v= LayoutInflater.from(context).inflate(R.layout.menu_list_item,parent,false);
-        TextView textView=(TextView)v.findViewById(R.id.tv_menu_item);
+        View v = LayoutInflater.from(context).inflate(R.layout.menu_list_item, parent, false);
+        TextView textView = (TextView) v.findViewById(R.id.tv_menu_item);
         textView.setTextSize(TextSize);
         textView.setTextColor(TextColor);
         textView.setText(strs[position]);
 
-        if (showCheck&&SelectIndex==position) {
+        if (showCheck && SelectIndex == position) {
             ImageView imageView = (ImageView) v.findViewById(R.id.iv_menu_select);
             imageView.setVisibility(View.VISIBLE);
-            if (CheckIcon!=0)
-               imageView.setImageResource(CheckIcon);
+            if (CheckIcon != 0)
+                imageView.setImageResource(CheckIcon);
         }
         return v;
     }

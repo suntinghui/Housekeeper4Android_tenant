@@ -45,36 +45,40 @@ public class DownloadSplashImageService extends Service {
 
     @Override
     public int onStartCommand(Intent intent, int flags, int startId) {
-        List<StartupImageAppDto> list = (List<StartupImageAppDto>) intent.getSerializableExtra("LIST");
-        if (list == null) {
-            this.stopSelf();
-        }
-
-        // 首先判断是否存在文件夹，如果不存在直接创建
-        ArrayList<File> locList = FileUtil.fileList(DIR_NAME);
-
-        ArrayList<String> serviceList = new ArrayList<String>();
-        for (StartupImageAppDto dto : list) {
-            serviceList.add(MD5Util.getMD5String(dto.getImgUrl()) + ".jpg");
-        }
-
-        if (serviceList.isEmpty()) {
-            FileUtil.deleteFiles(DIR_NAME);
-            this.stopSelf();
-        }
-
-        for (File locFile : locList) {
-            if (!serviceList.contains(locFile.getName())) {
-                FileUtil.deleteFile(DIR_NAME, locFile.getName());
+        try {
+            List<StartupImageAppDto> list = (List<StartupImageAppDto>) intent.getSerializableExtra("LIST");
+            if (list == null) {
+                this.stopSelf();
             }
-        }
 
-        for (String serFile : serviceList) {
-            if (!locList.contains(serFile)) {
-                downloadCount++;
+            // 首先判断是否存在文件夹，如果不存在直接创建
+            ArrayList<File> locList = FileUtil.fileList(DIR_NAME);
 
-                new DownloadTask(Constants.HOST_IP + list.get(serviceList.indexOf(serFile)).getImgUrl(), serFile).execute();
+            ArrayList<String> serviceList = new ArrayList<String>();
+            for (StartupImageAppDto dto : list) {
+                serviceList.add(MD5Util.getMD5String(dto.getImgUrl()) + ".jpg");
             }
+
+            if (serviceList.isEmpty()) {
+                FileUtil.deleteFiles(DIR_NAME);
+                this.stopSelf();
+            }
+
+            for (File locFile : locList) {
+                if (!serviceList.contains(locFile.getName())) {
+                    FileUtil.deleteFile(DIR_NAME, locFile.getName());
+                }
+            }
+
+            for (String serFile : serviceList) {
+                if (!locList.contains(serFile)) {
+                    downloadCount++;
+
+                    new DownloadTask(Constants.HOST_IP + list.get(serviceList.indexOf(serFile)).getImgUrl(), serFile).execute();
+                }
+            }
+        } catch (Exception e) {
+            e.printStackTrace();
         }
 
         return START_STICKY;

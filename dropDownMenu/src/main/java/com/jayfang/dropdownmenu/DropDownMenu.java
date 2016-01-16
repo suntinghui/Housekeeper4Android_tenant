@@ -19,33 +19,38 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- *
- *  <a href="http://fangjie.info">JayFang</a>
- *  Email:JayFang1993@gmail.com
- *  GitHub:github.com/JayFang1993
- *
+ * <a href="http://fangjie.info">JayFang</a>
+ * Email:JayFang1993@gmail.com
+ * GitHub:github.com/JayFang1993
  */
-public class DropDownMenu extends LinearLayout{
+public class DropDownMenu extends LinearLayout {
 
     // Menu 展开的ListView 的 adapter
-    private List<MenuListAdapter> mMenuAdapters=new ArrayList<MenuListAdapter>();
+    private List<MenuListAdapter> mMenuAdapters = new ArrayList<MenuListAdapter>();
 
     // Menu 展开的 list item
-    private List<String[]> mMenuItems=new ArrayList<>();
+    private List<String[]> mMenuItems = new ArrayList<>();
 
     //菜单 上的文字
-    private List<TextView> mTvMenuTitles=new ArrayList<>();
+    private List<TextView> mTvMenuTitles = new ArrayList<>();
     //菜单 的背景布局
-    private List<RelativeLayout> mRlMenuBacks=new ArrayList<>();
+    private List<RelativeLayout> mRlMenuBacks = new ArrayList<>();
     //菜单 的箭头
-    private List<ImageView> mIvMenuArrow=new ArrayList<>();
+    private List<ImageView> mIvMenuArrow = new ArrayList<>();
 
     private Context mContext;
 
     private PopupWindow mPopupWindow;
 
+    private RelativeLayout mLeftLayout = null;
+
+    private RelativeLayout mRightLayout = null;
+
     // Menu 展开的ListView
     private ListView mMenuList;
+
+    private ListView mMenuList2;
+
     // Menu 展开的ListView 下部的阴影
     private RelativeLayout mRlShadow;
 
@@ -58,9 +63,9 @@ public class DropDownMenu extends LinearLayout{
     private int mShowCount;
 
     //选中行数
-    private int mRowSelected=0;
+    private int mRowSelected = 0;
     //选中列数
-    private int mColumnSelected=0;
+    private int mColumnSelected = 0;
 
     //Menu的字体颜色
     private int mMenuTitleTextColor;
@@ -94,16 +99,18 @@ public class DropDownMenu extends LinearLayout{
     //向下的箭头图片资源
     private int mDownArrow;
 
-    private boolean mDrawable=false;
+    private boolean mDrawable = false;
 
     private String[] mDefaultMenuTitle;
 
-    private boolean isDebug=true;
+    private int rightSelected = 0;
+    private List<TreeNodeAppDto> areNodeDtoList;
+
+    private boolean isDebug = true;
 
     public DropDownMenu(Context mContext) {
         super(mContext);
         init(mContext);
-
     }
 
     public DropDownMenu(Context mContext, AttributeSet attrs) {
@@ -111,35 +118,42 @@ public class DropDownMenu extends LinearLayout{
         init(mContext);
     }
 
-    private void init(Context mContext){
-        this.mContext=mContext;
+    private void init(Context mContext) {
+        this.mContext = mContext;
         View popWindows = LayoutInflater.from(mContext).inflate(R.layout.popupwindow_menu, null);
         mPopupWindow = new PopupWindow(popWindows, LinearLayout.LayoutParams.MATCH_PARENT, LinearLayout.LayoutParams.WRAP_CONTENT, true);
+        mLeftLayout = (RelativeLayout) popWindows.findViewById(R.id.leftLayout);
+        mRightLayout = (RelativeLayout) popWindows.findViewById(R.id.rightLayout);
         mMenuList = (ListView) popWindows.findViewById(R.id.lv_menu);
+        mMenuList2 = (ListView) popWindows.findViewById(R.id.lv_menu_2);
         mRlShadow = (RelativeLayout) popWindows.findViewById(R.id.rl_menu_shadow);
 
-        mMenuCount=2;
-        mShowCount=5;
-        mMenuTitleTextColor=getResources().getColor(R.color.default_menu_text);
-        mMenuPressedBackColor=getResources().getColor(R.color.default_menu_press_back);
-        mMenuPressedTitleTextColor=getResources().getColor(R.color.default_menu_press_text);
-        mMenuBackColor=getResources().getColor(R.color.default_menu_back);
-        mMenuListBackColor=getResources().getColor(R.color.white);
-        mMenuListSelectorRes=R.color.white;
-        mMenuTitleTextSize=18;
-        mArrowMarginTitle=10;
-        mShowCheck=true;
-        mShowDivider=true;
-        mCheckIcon=R.drawable.ico_make;
-        mUpArrow=R.drawable.arrow_up;
-        mDownArrow=R.drawable.arrow_down;
+        mMenuCount = 2;
+        mShowCount = 5;
+        mMenuTitleTextColor = getResources().getColor(R.color.default_menu_text);
+        mMenuPressedBackColor = getResources().getColor(R.color.default_menu_press_back);
+        mMenuPressedTitleTextColor = getResources().getColor(R.color.default_menu_press_text);
+        mMenuBackColor = getResources().getColor(R.color.default_menu_back);
+        mMenuListBackColor = getResources().getColor(R.color.white);
+        mMenuListSelectorRes = R.color.white;
+        mMenuTitleTextSize = 18;
+        mArrowMarginTitle = 10;
+        mShowCheck = true;
+        mShowDivider = true;
+        mCheckIcon = R.drawable.ico_make;
+        mUpArrow = R.drawable.arrow_up;
+        mDownArrow = R.drawable.arrow_down;
 
+    }
+
+    public void setAreaNodeList(List<TreeNodeAppDto> list) {
+        this.areNodeDtoList = list;
     }
 
     // 设置 Menu的item
     public void setmMenuItems(List<String[]> menuItems) {
         mMenuItems = menuItems;
-        mDrawable=true;
+        mDrawable = true;
         invalidate();
     }
 
@@ -205,17 +219,19 @@ public class DropDownMenu extends LinearLayout{
     //设置Menu list的字体颜色
     public void setmMenuListTextColor(int menuListTextColor) {
         mMenuListTextColor = menuListTextColor;
-        for (int i=0;i<mMenuAdapters.size();i++){
+        for (int i = 0; i < mMenuAdapters.size(); i++) {
             mMenuAdapters.get(i).setTextColor(mMenuListTextColor);
         }
     }
+
     //设置Menu list的字体大小
     public void setmMenuListTextSize(int menuListTextSize) {
         mMenuListTextSize = menuListTextSize;
-        for (int i=0;i<mMenuAdapters.size();i++){
+        for (int i = 0; i < mMenuAdapters.size(); i++) {
             mMenuAdapters.get(i).setTextSize(menuListTextSize);
         }
     }
+
     //设置是否显示对勾
     public void setShowCheck(boolean mShowCheck) {
         this.mShowCheck = mShowCheck;
@@ -241,6 +257,7 @@ public class DropDownMenu extends LinearLayout{
     @Override
     protected void onDraw(Canvas canvas) {
         super.onDraw(canvas);
+
         if (mDrawable) {
             mPopupWindow.setTouchable(true);
             mPopupWindow.setOutsideTouchable(true);
@@ -256,16 +273,83 @@ public class DropDownMenu extends LinearLayout{
             mMenuList.setOnItemClickListener(new AdapterView.OnItemClickListener() {
                 @Override
                 public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                    mPopupWindow.dismiss();
-                    mRowSelected = position;
+                    if (mColumnSelected == 0) { // 区域
 
-                    mTvMenuTitles.get(mColumnSelected).setText(mMenuItems.get(mColumnSelected)[mRowSelected]);
+                        mRowSelected = position;
+
+                        if (mRowSelected == 0) {
+                            mPopupWindow.dismiss();
+
+                            mTvMenuTitles.get(mColumnSelected).setText(mMenuItems.get(mColumnSelected)[mRowSelected]);
+                            mIvMenuArrow.get(mColumnSelected).setImageResource(mDownArrow);
+                            mMenuAdapters.get(mColumnSelected).setSelectIndex(mRowSelected);
+                            if (mMenuSelectedListener == null && isDebug)
+                                Toast.makeText(mContext, "MenuSelectedListener is  null", Toast.LENGTH_LONG).show();
+                            else
+                                mMenuSelectedListener.onSelected(view, areNodeDtoList.get(position).getId(), mColumnSelected);
+
+                            return;
+                        }
+
+                        mMenuAdapters.get(mColumnSelected).setSelectIndex(mRowSelected);
+
+                        mRightLayout.setVisibility(View.VISIBLE);
+
+                        String[] villages = CityUtil.getNameArray(areNodeDtoList.get(position).getChilds());
+
+                        MenuListAdapter adapter = new MenuListAdapter(mContext, villages);
+                        adapter.setSelectIndex(rightSelected);
+                        mMenuList2.setAdapter(adapter);
+
+                        MenuListAdapter leftAdapter = (MenuListAdapter) mMenuList.getAdapter();
+                        leftAdapter.setShowCheck(true);
+                        leftAdapter.setSelectIndex(position);
+                        leftAdapter.notifyDataSetChanged();
+
+                        View childView = adapter.getView(0, null, mMenuList2);
+                        childView.measure(MeasureSpec.makeMeasureSpec(0, MeasureSpec.UNSPECIFIED), MeasureSpec.makeMeasureSpec(0, MeasureSpec.UNSPECIFIED));
+                        RelativeLayout.LayoutParams parms = new RelativeLayout.LayoutParams(RelativeLayout.LayoutParams.MATCH_PARENT, childView.getMeasuredHeight() * mShowCount);
+                        mMenuList2.setLayoutParams(parms);
+
+                        if (!mShowDivider)
+                            mMenuList2.setDivider(null);
+
+                        mMenuList2.setBackgroundColor(mMenuListBackColor);
+                        mMenuList2.setSelector(mMenuListSelectorRes);
+
+                    } else { // 除区域外的其他类型，如租金、户型
+                        mPopupWindow.dismiss();
+                        mRowSelected = position;
+
+                        mTvMenuTitles.get(mColumnSelected).setText(mMenuItems.get(mColumnSelected)[mRowSelected]);
+                        mIvMenuArrow.get(mColumnSelected).setImageResource(mDownArrow);
+                        mMenuAdapters.get(mColumnSelected).setSelectIndex(mRowSelected);
+                        if (mMenuSelectedListener == null && isDebug)
+                            Toast.makeText(mContext, "MenuSelectedListener is  null", Toast.LENGTH_LONG).show();
+                        else
+                            mMenuSelectedListener.onSelected(view, mRowSelected, mColumnSelected);
+                    }
+                }
+            });
+
+            mMenuList2.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+                @Override
+                public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+                    mPopupWindow.dismiss();
+
+                    rightSelected = position;
+
+                    TreeNodeAppDto selectedDto = areNodeDtoList.get(mMenuAdapters.get(0).getSelectIndex()).getChilds().get(position);
+
+                    mTvMenuTitles.get(mColumnSelected).setText(selectedDto.getName());
                     mIvMenuArrow.get(mColumnSelected).setImageResource(mDownArrow);
-                    mMenuAdapters.get(mColumnSelected).setSelectIndex(mRowSelected);
-                    if (mMenuSelectedListener == null && isDebug)
-                        Toast.makeText(mContext, "MenuSelectedListener is  null", Toast.LENGTH_LONG).show();
-                    else
-                        mMenuSelectedListener.onSelected(view, mRowSelected, mColumnSelected);
+
+                    MenuListAdapter rightAdapter = (MenuListAdapter) mMenuList2.getAdapter();
+                    rightAdapter.setShowCheck(true);
+                    rightAdapter.setSelectIndex(rightSelected);
+                    rightAdapter.notifyDataSetChanged();
+
+                    mMenuSelectedListener.onSelected(view, selectedDto.getId(), mColumnSelected);
                 }
             });
 
@@ -299,18 +383,19 @@ public class DropDownMenu extends LinearLayout{
                     Toast.makeText(mContext, "If you want set Adapter by yourself,please ensure the number of adpaters equal mMenuCount", Toast.LENGTH_LONG).show();
                 return;
             }
+
             int width = getWidth();
 
             for (int i = 0; i < mMenuCount; i++) {
                 final RelativeLayout v = (RelativeLayout) LayoutInflater.from(mContext).inflate(R.layout.menu_item, null, false);
-                RelativeLayout.LayoutParams parms = new RelativeLayout.LayoutParams(width / mMenuCount, LayoutParams.WRAP_CONTENT);
+                RelativeLayout.LayoutParams parms = new RelativeLayout.LayoutParams(width / mMenuCount, RelativeLayout.LayoutParams.WRAP_CONTENT);
                 v.setLayoutParams(parms);
                 TextView tv = (TextView) v.findViewById(R.id.tv_menu_title);
                 tv.setTextColor(mMenuTitleTextColor);
                 tv.setTextSize(mMenuTitleTextSize);
-                if (mDefaultMenuTitle==null||mDefaultMenuTitle.length==0){
+                if (mDefaultMenuTitle == null || mDefaultMenuTitle.length == 0) {
                     tv.setText(mMenuItems.get(i)[0]);
-                }else{
+                } else {
                     tv.setText(mDefaultMenuTitle[i]);
                 }
                 this.addView(v, i);
@@ -333,30 +418,34 @@ public class DropDownMenu extends LinearLayout{
                     @Override
                     public void onClick(View view) {
                         mMenuList.setAdapter(mMenuAdapters.get(index));
-                        if (mMenuAdapters.get(index).getCount() > mShowCount) {
-                            View childView = mMenuAdapters.get(index).getView(0, null, mMenuList);
-                            childView.measure(MeasureSpec.makeMeasureSpec(0, MeasureSpec.UNSPECIFIED), MeasureSpec.makeMeasureSpec(0, MeasureSpec.UNSPECIFIED));
-                            RelativeLayout.LayoutParams parms = new RelativeLayout.LayoutParams(LayoutParams.MATCH_PARENT, childView.getMeasuredHeight() * mShowCount);
-                            mMenuList.setLayoutParams(parms);
-                        } else {
-                            View childView = mMenuAdapters.get(index).getView(0, null, mMenuList);
-                            childView.measure(MeasureSpec.makeMeasureSpec(0, MeasureSpec.UNSPECIFIED), MeasureSpec.makeMeasureSpec(0, MeasureSpec.UNSPECIFIED));
-                            RelativeLayout.LayoutParams parms = new RelativeLayout.LayoutParams(LayoutParams.MATCH_PARENT, LayoutParams.WRAP_CONTENT);
-                            mMenuList.setLayoutParams(parms);
-                        }
+
+                        View childView = mMenuAdapters.get(index).getView(0, null, mMenuList);
+                        childView.measure(MeasureSpec.makeMeasureSpec(0, MeasureSpec.UNSPECIFIED), MeasureSpec.makeMeasureSpec(0, MeasureSpec.UNSPECIFIED));
+                        RelativeLayout.LayoutParams parms = new RelativeLayout.LayoutParams(RelativeLayout.LayoutParams.MATCH_PARENT, childView.getMeasuredHeight() * mShowCount);
+                        mMenuList.setLayoutParams(parms);
+
                         if (!mShowDivider)
                             mMenuList.setDivider(null);
+
                         mMenuList.setBackgroundColor(mMenuListBackColor);
                         mMenuList.setSelector(mMenuListSelectorRes);
+
                         mColumnSelected = index;
+
                         mTvMenuTitles.get(index).setTextColor(mMenuPressedTitleTextColor);
                         mRlMenuBacks.get(index).setBackgroundColor(mMenuPressedBackColor);
                         mIvMenuArrow.get(index).setImageResource(mUpArrow);
                         mPopupWindow.showAsDropDown(v);
+
+                        if (mColumnSelected == 0 && mMenuAdapters.get(0).getSelectIndex() != 0) {
+                            mRightLayout.setVisibility(View.VISIBLE);
+                        } else {
+                            mRightLayout.setVisibility(View.GONE);
+                        }
                     }
                 });
             }
-            mDrawable=false;
+            mDrawable = false;
         }
     }
 

@@ -40,6 +40,8 @@ public class Constants {
     public static final String Password = "Password";
     public static final String USERID = "USERID";
 
+    public static final String CITY_CODE = "CITY_CODE";
+
     public static final String UMengPUSHId = "UMengPUSHId";
 
     public static final String WX_APP_ID = "wxf7baba5c341a6655";

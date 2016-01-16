@@ -6,7 +6,7 @@ import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
 
-import com.ares.house.dto.app.TreeNodeAppDto;
+import com.jayfang.dropdownmenu.TreeNodeAppDto;
 import com.housekeeper.activity.view.IdentityPicker;
 import com.wufriends.housekeeper.R;
 

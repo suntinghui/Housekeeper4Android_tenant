@@ -1,6 +1,6 @@
 package com.housekeeper.utils;
 
-import com.ares.house.dto.app.TreeNodeAppDto;
+import com.jayfang.dropdownmenu.TreeNodeAppDto;
 
 import java.util.ArrayList;
 import java.util.HashMap;

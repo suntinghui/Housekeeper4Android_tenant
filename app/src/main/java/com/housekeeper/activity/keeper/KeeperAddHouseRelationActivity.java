@@ -26,7 +26,7 @@ import com.ares.house.dto.app.AppMessageDto;
 import com.ares.house.dto.app.AppResponseStatus;
 import com.ares.house.dto.app.HouseAddListAppDto;
 import com.ares.house.dto.app.LandlordJoinAppDto;
-import com.ares.house.dto.app.TreeNodeAppDto;
+import com.jayfang.dropdownmenu.TreeNodeAppDto;
 import com.housekeeper.activity.BaseActivity;
 import com.housekeeper.activity.view.CustomNetworkImageView;
 import com.housekeeper.activity.view.SelectCityLayout;

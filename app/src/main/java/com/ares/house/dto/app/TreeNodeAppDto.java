@@ -38,7 +38,7 @@ public class TreeNodeAppDto implements Serializable {
 	/**
 	 * 子节点
 	 */
-	private List<TreeNodeAppDto> childs;
+	private List<com.jayfang.dropdownmenu.TreeNodeAppDto> childs;
 	/**
 	 * 节点层级深度
 	 */
@@ -76,14 +76,14 @@ public class TreeNodeAppDto implements Serializable {
 		this.parentId = parentId;
 	}
 
-	public List<TreeNodeAppDto> getChilds() {
+	public List<com.jayfang.dropdownmenu.TreeNodeAppDto> getChilds() {
 		return childs;
 	}
 
-	public void setChilds(List<TreeNodeAppDto> childs) {
-		Collections.sort(childs, new Comparator<TreeNodeAppDto>() {
+	public void setChilds(List<com.jayfang.dropdownmenu.TreeNodeAppDto> childs) {
+		Collections.sort(childs, new Comparator<com.jayfang.dropdownmenu.TreeNodeAppDto>() {
 			@Override
-			public int compare(TreeNodeAppDto o1, TreeNodeAppDto o2) {
+			public int compare(com.jayfang.dropdownmenu.TreeNodeAppDto o1, com.jayfang.dropdownmenu.TreeNodeAppDto o2) {
 				return o1.getOrderby() < o2.getOrderby() ? -1 : 1;
 			}
 		});

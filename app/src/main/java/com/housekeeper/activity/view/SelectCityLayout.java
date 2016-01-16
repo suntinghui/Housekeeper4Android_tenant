@@ -12,7 +12,7 @@ import android.widget.LinearLayout;
 import android.widget.Spinner;
 import android.widget.TextView;
 
-import com.ares.house.dto.app.TreeNodeAppDto;
+import com.jayfang.dropdownmenu.TreeNodeAppDto;
 import com.wufriends.housekeeper.R;
 
 import java.util.List;

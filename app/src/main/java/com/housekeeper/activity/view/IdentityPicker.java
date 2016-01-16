@@ -8,7 +8,7 @@ import android.util.AttributeSet;
 import android.view.LayoutInflater;
 import android.widget.LinearLayout;
 
-import com.ares.house.dto.app.TreeNodeAppDto;
+import com.jayfang.dropdownmenu.TreeNodeAppDto;
 import com.housekeeper.utils.IdentityUtil;
 import com.wufriends.housekeeper.R;
 

@@ -11,7 +11,7 @@ import android.widget.Toast;
 import com.android.volley.Response;
 import com.ares.house.dto.app.AppMessageDto;
 import com.ares.house.dto.app.AppResponseStatus;
-import com.ares.house.dto.app.TreeNodeAppDto;
+import com.jayfang.dropdownmenu.TreeNodeAppDto;
 import com.housekeeper.activity.view.SelectCityLayout;
 import com.housekeeper.client.RequestEnum;
 import com.housekeeper.client.net.JSONRequest;

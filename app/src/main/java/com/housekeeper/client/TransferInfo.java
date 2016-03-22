@@ -2,6 +2,7 @@ package com.housekeeper.client;
 
 import java.io.Serializable;
 import java.text.DecimalFormat;
+import java.util.HashMap;
 
 public class TransferInfo implements Serializable {
 
@@ -15,6 +16,24 @@ public class TransferInfo implements Serializable {
 	// 银行名称与尾号，冗余信息，纯粹是为了取值方便
 	private String bankName = "";
 	private String tailNum = "";
+
+	// 其他可能用到的参数
+	private HashMap<String, Object> paramMap = new HashMap<String, Object>();
+
+
+	/**
+	 *
+	 * @param id   债权包标⽰
+	 * @param transferMoney  投资金额
+	 * @param balanceAmount  账户余额
+	 * @param paramMap  其他参数
+	 */
+	public TransferInfo(int id, double transferMoney, double balanceAmount, HashMap<String, Object> paramMap) {
+		this.id = id;
+		this.transferMoney = transferMoney;
+		this.balanceAmount = balanceAmount;
+		this.paramMap = paramMap;
+	}
 
 	/**
 	 * 
@@ -66,6 +85,14 @@ public class TransferInfo implements Serializable {
 
 	public void setTailNum(String tailNum) {
 		this.tailNum = tailNum;
+	}
+
+	public HashMap<String, Object> getParamMap() {
+		return paramMap;
+	}
+
+	public void setParamMap(HashMap<String, Object> paramMap) {
+		this.paramMap = paramMap;
 	}
 
 	/**

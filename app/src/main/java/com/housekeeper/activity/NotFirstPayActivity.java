@@ -66,6 +66,9 @@ public class NotFirstPayActivity extends BaseActivity implements OnClickListener
     private int currentTime = Constants.SMS_MAX_TIME;
     private Timer timer = null;
 
+    // 此字段是标识是活期投资还是租户交房租
+    private boolean currentPayFlag = false;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -74,6 +77,8 @@ public class NotFirstPayActivity extends BaseActivity implements OnClickListener
 
         transferInfo = (TransferInfo) this.getIntent().getSerializableExtra("INFO");
         transferMap = (HashMap<String, String>) this.getIntent().getSerializableExtra("MAP");
+
+        currentPayFlag = transferInfo.getParamMap().containsKey("CurrentPay");
 
         initView();
 
@@ -191,16 +196,22 @@ public class NotFirstPayActivity extends BaseActivity implements OnClickListener
     private HashMap<String, String> getRequestMap() {
 
         HashMap<String, String> tempMap = new HashMap<String, String>();
-        tempMap.put("houseId", transferInfo.getId());
-        //tempMap.put("money", transferInfo.getTransferMoney());
-        tempMap.put("isSurplus", String.valueOf(transferInfo.isUseBalance()));
-        //tempMap.put("password", "");
+
+        if (currentPayFlag) {
+            tempMap.put("id", transferInfo.getId());
+            tempMap.put("money", transferInfo.getTransferMoney());
+            tempMap.put("surplus", String.valueOf(transferInfo.isUseBalance()));
+            tempMap.put("password", "");
+        } else {
+            tempMap.put("houseId", transferInfo.getId());
+            tempMap.put("isSurplus", String.valueOf(transferInfo.isUseBalance()));
+        }
 
         return tempMap;
     }
 
     private void requestSendCode() {
-        JSONRequest request = new JSONRequest(this, RequestEnum.LEASE_PAY_RENT_SENDVCODE, getRequestMap(), false, false, new Response.Listener<String>() {
+        JSONRequest request = new JSONRequest(this, currentPayFlag ? RequestEnum.DEBT_BUY_SENDVCODE : RequestEnum.LEASE_PAY_RENT_SENDVCODE, getRequestMap(), false, false, new Response.Listener<String>() {
 
             @Override
             public void onResponse(String jsonObject) {
@@ -233,11 +244,20 @@ public class NotFirstPayActivity extends BaseActivity implements OnClickListener
 
     private void requestPay() {
         final HashMap<String, String> tempMap = this.getRequestMap();
-        tempMap.put("houseId", transferInfo.getId() + "");
-        tempMap.put("isSurplus", String.valueOf(transferInfo.isUseBalance()));
-        tempMap.put("vcode", codeEditText.getText().toString().trim());
 
-        JSONRequest request = new JSONRequest(this, RequestEnum.LEASE_PAY_RENT, tempMap, false, false, new Response.Listener<String>() {
+        if (currentPayFlag) {
+            tempMap.put("id", reponseId);
+            tempMap.put("money", transferInfo.getTransferMoney());
+            tempMap.put("surplus", String.valueOf(transferInfo.isUseBalance()));
+            tempMap.put("vcode", codeEditText.getText().toString().trim());
+
+        } else {
+            tempMap.put("houseId", transferInfo.getId() + "");
+            tempMap.put("isSurplus", String.valueOf(transferInfo.isUseBalance()));
+            tempMap.put("vcode", codeEditText.getText().toString().trim());
+        }
+
+        JSONRequest request = new JSONRequest(this, currentPayFlag ? RequestEnum.DEBT_BUY : RequestEnum.LEASE_PAY_RENT, tempMap, false, false, new Response.Listener<String>() {
 
             @Override
             public void onResponse(String jsonObject) {

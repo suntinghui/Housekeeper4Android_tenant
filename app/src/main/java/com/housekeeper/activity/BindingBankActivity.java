@@ -40,6 +40,7 @@ import com.housekeeper.utils.BankUtil;
 import com.housekeeper.utils.IDCardValidate;
 import com.wufriends.housekeeper.R;
 
+import org.apache.commons.lang3.StringUtils;
 import org.codehaus.jackson.map.DeserializationConfig;
 import org.codehaus.jackson.map.ObjectMapper;
 import org.codehaus.jackson.type.JavaType;
@@ -122,6 +123,29 @@ public class BindingBankActivity extends BaseActivity implements OnClickListener
 
             realnameEditText = (EditText) this.findViewById(R.id.realnameEditText);
             idCardEditText = (EditText) this.findViewById(R.id.idCardEditText);
+
+            try{
+                HashMap<String, String> map = (HashMap<String, String>) getIntent().getSerializableExtra("MAP");
+
+                if (StringUtils.isNotBlank(map.get("BANK_REALNAME"))) {
+                    realnameEditText.setText(map.get("BANK_REALNAME"));
+                    realnameEditText.setEnabled(false);
+                } else {
+                    realnameEditText.setText("");
+                    realnameEditText.setEnabled(true);
+                }
+
+                if (StringUtils.isNotBlank(map.get("BANK_ID_CARD"))) {
+                    idCardEditText.setText(map.get("BANK_ID_CARD"));
+                    idCardEditText.setEnabled(false);
+                } else {
+                    idCardEditText.setText("");
+                    idCardEditText.setEnabled(true);
+                }
+
+            } catch(Exception e) {
+                e.printStackTrace();
+            }
 
             bankTextView = (TextView) this.findViewById(R.id.bankTextView);
             bankTextView.setOnClickListener(this);

@@ -2,11 +2,333 @@
 <items version="2" >
 
     <item
+        jar="/workspace/androidstudio/Housekeeper4Android_tenant/app/libs/SocialSDK_WeiXin_1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="47f4993168154fa73377d7470b9f6887d48a8023">
+        <dex dex="/workspace/androidstudio/Housekeeper4Android_tenant/app/build/intermediates/pre-dexed/release/SocialSDK_WeiXin_1-fbb9d6ddb686e17d8b6509f377507c24028146d5.jar" />
+    </item>
+    <item
+        jar="/workspace/androidstudio/Housekeeper4Android_tenant/app/libs/org.json.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="4fb50781fad714570ba8529c867bb5aef5713ba1">
+        <dex dex="/workspace/androidstudio/Housekeeper4Android_tenant/app/build/intermediates/pre-dexed/release/org.json-b3bedda1bfc6e7290723d09b604eae38c41b9e8b.jar" />
+    </item>
+    <item
+        jar="/workspace/androidstudio/Housekeeper4Android_tenant/app/libs/commons-lang3-3.3.2.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="659861b4acde07a0527211e40d256119face1d15">
+        <dex dex="/workspace/androidstudio/Housekeeper4Android_tenant/app/build/intermediates/pre-dexed/release/commons-lang3-3.3.2-91a98442995680c60894a14940e24cc7972372ac.jar" />
+    </item>
+    <item
+        jar="/Users/sth/.gradle/caches/modules-2/files-2.1/com.mcxiaoke.volley/library/1.0.19/a8f23f65fc1e522ee4a1a697ee569901a46741fa/library-1.0.19.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="a8f23f65fc1e522ee4a1a697ee569901a46741fa">
+        <dex dex="/workspace/androidstudio/Housekeeper4Android_tenant/app/build/intermediates/pre-dexed/release/library-1.0.19-db82a9e32d744a232b114c15f343f5b26b30fd32.jar" />
+    </item>
+    <item
+        jar="/workspace/androidstudio/Housekeeper4Android_tenant/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="c31e21b53ff2f74664e498248d01453a32e32d48">
+        <dex dex="/workspace/androidstudio/Housekeeper4Android_tenant/app/build/intermediates/pre-dexed/release/classes-11eca20f90d70d63e533ccadee918cf27147b3b9.jar" />
+    </item>
+    <item
         jar="/workspace/androidstudio/Housekeeper4Android_tenant/app/build/intermediates/exploded-aar/Housekeeper4Android_tenant/dropDownMenu/unspecified/jars/classes.jar"
         jumboMode="false"
         revision="23.0.1"
-        sha1="3e93eb056fd5ad0638dacb45be21d66190af4f8e">
+        sha1="68927e6125c8120ad088f263826ad630789cbf27">
         <dex dex="/workspace/androidstudio/Housekeeper4Android_tenant/app/build/intermediates/pre-dexed/release/classes-f7693e5421e8961636d6dce850fd323f610a4ff7.jar" />
+    </item>
+    <item
+        jar="/workspace/androidstudio/Housekeeper4Android_tenant/app/build/intermediates/exploded-aar/qrcodecore-1.0.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="8178801618e148cfe9b940511836c28671e0ef11">
+        <dex dex="/workspace/androidstudio/Housekeeper4Android_tenant/app/build/intermediates/pre-dexed/release/classes-e93ab05450a8bd753b61879949402eeb8ba6359e.jar" />
+    </item>
+    <item
+        jar="/workspace/androidstudio/Housekeeper4Android_tenant/app/libs/umeng-analytics-v5.4.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="cdbe5b692334ae8452fa5aa9ba2982fef4a6fff2">
+        <dex dex="/workspace/androidstudio/Housekeeper4Android_tenant/app/build/intermediates/pre-dexed/release/umeng-analytics-v5.4.1-e2a1b2a1478b9f8eda00ffdd6ca59fc019e0ba93.jar" />
+    </item>
+    <item
+        jar="/workspace/androidstudio/Housekeeper4Android_tenant/app/libs/com.umeng.message.lib_v2.0.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="3112ab21f6d213069b5606fd1b47524630be010e">
+        <dex dex="/workspace/androidstudio/Housekeeper4Android_tenant/app/build/intermediates/pre-dexed/release/com.umeng.message.lib_v2.0.0-37c878f7f7484bdc2b7b4a3bce24caa4399d176d.jar" />
+    </item>
+    <item
+        jar="/workspace/androidstudio/Housekeeper4Android_tenant/app/libs/listviewanimations_lib-core-slh_3.1.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="a4fe703aabd23e8c287c90396514418119109dd1">
+        <dex dex="/workspace/androidstudio/Housekeeper4Android_tenant/app/build/intermediates/pre-dexed/release/listviewanimations_lib-core-slh_3.1.0-ca974c5a215fc79b97d5eb9db9ca7b954318c59f.jar" />
+    </item>
+    <item
+        jar="/workspace/androidstudio/Housekeeper4Android_tenant/app/libs/jackson-jaxrs-1.9.5.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="81f50fa27e9c049aafd0d15ced64667addc3d5d1">
+        <dex dex="/workspace/androidstudio/Housekeeper4Android_tenant/app/build/intermediates/pre-dexed/release/jackson-jaxrs-1.9.5-75efae578913b90e4efd5f54352c675754c5924d.jar" />
+    </item>
+    <item
+        jar="/workspace/androidstudio/Housekeeper4Android_tenant/app/libs/SocialSDK_QQZone_3.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="931ab461b91c2a2fd5c697e7f622cdca8c2b3ac5">
+        <dex dex="/workspace/androidstudio/Housekeeper4Android_tenant/app/build/intermediates/pre-dexed/release/SocialSDK_QQZone_3-ffa92e0d6a5077fe204fd6ff7176eabb30a27530.jar" />
+    </item>
+    <item
+        jar="/workspace/androidstudio/Housekeeper4Android_tenant/app/libs/umeng-onlineconfig_v1.0.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="3a1276002febee0f4b50d4ba1b94d41a65d6c75d">
+        <dex dex="/workspace/androidstudio/Housekeeper4Android_tenant/app/build/intermediates/pre-dexed/release/umeng-onlineconfig_v1.0.0-1da8bfe393d5f62e8befe7d68c6299b7ff745998.jar" />
+    </item>
+    <item
+        jar="/workspace/androidstudio/Housekeeper4Android_tenant/app/libs/rebound-0.3.7.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="da23f0d13a0a572e01a1b53b547cbdc7a5b52209">
+        <dex dex="/workspace/androidstudio/Housekeeper4Android_tenant/app/build/intermediates/pre-dexed/release/rebound-0.3.7-77475085809b4904514cd367037a947401482155.jar" />
+    </item>
+    <item
+        jar="/workspace/androidstudio/Housekeeper4Android_tenant/app/libs/SocialSDK_QQZone_2.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="4a69b33758dcba3ef519cbd4b6c8af5f41603c4f">
+        <dex dex="/workspace/androidstudio/Housekeeper4Android_tenant/app/build/intermediates/pre-dexed/release/SocialSDK_QQZone_2-64173f2be41840fb17116d186607f273443ebfdb.jar" />
+    </item>
+    <item
+        jar="/workspace/androidstudio/Housekeeper4Android_tenant/app/build/intermediates/exploded-aar/Housekeeper4Android_tenant/sublimepickerlibrary/unspecified/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="e71f5d106ed1b5ac7bbb1221514455072cb80814">
+        <dex dex="/workspace/androidstudio/Housekeeper4Android_tenant/app/build/intermediates/pre-dexed/release/classes-3ac76dc219da39c58468c99cbedef6619eaf1b57.jar" />
+    </item>
+    <item
+        jar="/workspace/androidstudio/Housekeeper4Android_tenant/app/libs/AndroidViewAnimations-1.1.3.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="d8db345547f7a025130d1622f2608ec68e761641">
+        <dex dex="/workspace/androidstudio/Housekeeper4Android_tenant/app/build/intermediates/pre-dexed/release/AndroidViewAnimations-1.1.3-421b635b4187299b6edc24caf21422ce1dc6467a.jar" />
+    </item>
+    <item
+        jar="/workspace/androidstudio/Housekeeper4Android_tenant/app/build/intermediates/exploded-aar/Housekeeper4Android_tenant/nice_spinner/unspecified/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="deebc2d6ca1e8d8de870b65700cc95f0b2afaa71">
+        <dex dex="/workspace/androidstudio/Housekeeper4Android_tenant/app/build/intermediates/pre-dexed/release/classes-ec18f42b361f9949c8c16407ad5c7e77a0e87d88.jar" />
+    </item>
+    <item
+        jar="/workspace/androidstudio/Housekeeper4Android_tenant/app/libs/SocialSDK_WeiXin_2.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="4aa8d4cde1e2201e5360daaae4bd9fdbf4194d2a">
+        <dex dex="/workspace/androidstudio/Housekeeper4Android_tenant/app/build/intermediates/pre-dexed/release/SocialSDK_WeiXin_2-20bc3f8c5d438f6cb19e22b7167b21d1067a95de.jar" />
+    </item>
+    <item
+        jar="/workspace/androidstudio/Housekeeper4Android_tenant/app/libs/nineoldandroids-2.4.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="59f19e43354d32de831379c23ce03bb259a4c2b7">
+        <dex dex="/workspace/androidstudio/Housekeeper4Android_tenant/app/build/intermediates/pre-dexed/release/nineoldandroids-2.4.0-2e0603c5513c4dc6cadcf7b09ba751a6a4de90da.jar" />
+    </item>
+    <item
+        jar="/workspace/androidstudio/Housekeeper4Android_tenant/app/build/intermediates/exploded-aar/com.zhy/flowlayout-lib/1.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="21788c289e5fb01fb112c233ae9fde8b0a7548a2">
+        <dex dex="/workspace/androidstudio/Housekeeper4Android_tenant/app/build/intermediates/pre-dexed/release/classes-80cb230360124757e23846030c74192424e37fcc.jar" />
+    </item>
+    <item
+        jar="/workspace/androidstudio/Housekeeper4Android_tenant/app/build/intermediates/exploded-aar/Housekeeper4Android_tenant/recyclerview_animators/unspecified/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="e3ef9e018b16ea80f37eea1974703671e95857aa">
+        <dex dex="/workspace/androidstudio/Housekeeper4Android_tenant/app/build/intermediates/pre-dexed/release/classes-3df3f6a4ec147c9ed4ecd136129b2af82a63b200.jar" />
+    </item>
+    <item
+        jar="/workspace/androidstudio/Housekeeper4Android_tenant/app/libs/jackson-xc-1.9.5.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="1b5530ce6fdd2379c3f55db31028e28726457917">
+        <dex dex="/workspace/androidstudio/Housekeeper4Android_tenant/app/build/intermediates/pre-dexed/release/jackson-xc-1.9.5-0be10efb118cb62ef5a09719831e523667423736.jar" />
+    </item>
+    <item
+        jar="/workspace/androidstudio/Housekeeper4Android_tenant/app/build/intermediates/exploded-aar/Housekeeper4Android_tenant/pulltozoomview/unspecified/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="1b9206a54965c8cd77e413a45276001538c0bbe6">
+        <dex dex="/workspace/androidstudio/Housekeeper4Android_tenant/app/build/intermediates/pre-dexed/release/classes-b97f999beaf017d01889797f26c7dc9479556178.jar" />
+    </item>
+    <item
+        jar="/workspace/androidstudio/Housekeeper4Android_tenant/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.0.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="4356e230a981d1bbf047d848b91bc0d9b7c5bacc">
+        <dex dex="/workspace/androidstudio/Housekeeper4Android_tenant/app/build/intermediates/pre-dexed/release/classes-7b452bbfc7a66778beb0f53d0092ffabf824c69b.jar" />
+    </item>
+    <item
+        jar="/Users/sth/.gradle/caches/modules-2/files-2.1/com.squareup.picasso/picasso/2.5.2/7446d06ec8d4f7ffcc53f1da37c95f200dcb9387/picasso-2.5.2.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="/workspace/androidstudio/Housekeeper4Android_tenant/app/build/intermediates/pre-dexed/release/picasso-2.5.2-a8f9b0e2d95b279786509b12a07b5de1802a23f7.jar" />
+    </item>
+    <item
+        jar="/android-sdk-macosx/extras/android/m2repository/com/android/support/support-annotations/23.0.1/support-annotations-23.0.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="1fce89a6428c51467090d7f424e4c9c3dbd55f7e">
+        <dex dex="/workspace/androidstudio/Housekeeper4Android_tenant/app/build/intermediates/pre-dexed/release/support-annotations-23.0.1-4a8e767e65c7ce1b37d0b7d0bd60954b8f2d4dab.jar" />
+    </item>
+    <item
+        jar="/workspace/androidstudio/Housekeeper4Android_tenant/app/build/intermediates/exploded-aar/Housekeeper4Android_tenant/paginationseekbarlib/unspecified/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="83d1b24805aa3ab06228683de2d68f1422c99ea4">
+        <dex dex="/workspace/androidstudio/Housekeeper4Android_tenant/app/build/intermediates/pre-dexed/release/classes-870043eb42563a949e48242ac3e18f6d0b184812.jar" />
+    </item>
+    <item
+        jar="/workspace/androidstudio/Housekeeper4Android_tenant/app/build/intermediates/exploded-aar/Housekeeper4Android_tenant/menuanimationlibrary/unspecified/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="4ef769e0da1065bdc458c63e557201a33db1d32c">
+        <dex dex="/workspace/androidstudio/Housekeeper4Android_tenant/app/build/intermediates/pre-dexed/release/classes-3f6145e62ec1d023c96ba3d095c6ec0eaf784b6c.jar" />
+    </item>
+    <item
+        jar="/workspace/androidstudio/Housekeeper4Android_tenant/app/libs/com.umeng.fb.v5.1.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="877e13f8424604c708dfd061b2ef731c13289519">
+        <dex dex="/workspace/androidstudio/Housekeeper4Android_tenant/app/build/intermediates/pre-dexed/release/com.umeng.fb.v5.1.0-57c775a8a4900cce2abb5e4ed8e17b43c39b4fe6.jar" />
+    </item>
+    <item
+        jar="/workspace/androidstudio/Housekeeper4Android_tenant/app/libs/jackson-mapper-asl-1.9.5.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="a731291051b447bbf8da50f232688e34d3d1d53c">
+        <dex dex="/workspace/androidstudio/Housekeeper4Android_tenant/app/build/intermediates/pre-dexed/release/jackson-mapper-asl-1.9.5-24cd3e13b09ff92dc4539047c4accbad600fb7f6.jar" />
+    </item>
+    <item
+        jar="/workspace/androidstudio/Housekeeper4Android_tenant/app/libs/listviewanimations_lib-core_3.1.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="f3f9629b068554d8513a2aaf34418171bf430851">
+        <dex dex="/workspace/androidstudio/Housekeeper4Android_tenant/app/build/intermediates/pre-dexed/release/listviewanimations_lib-core_3.1.0-ee218f62aa61292691bfa10e0da41ad81b88072f.jar" />
+    </item>
+    <item
+        jar="/workspace/androidstudio/Housekeeper4Android_tenant/app/libs/listviewanimations_lib-manipulation_3.1.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="63737e512fcd9e0ebe9bcd0bb375c2dded74116f">
+        <dex dex="/workspace/androidstudio/Housekeeper4Android_tenant/app/build/intermediates/pre-dexed/release/listviewanimations_lib-manipulation_3.1.0-7caf67b410e78bf816beecd5015b88076f0cad50.jar" />
+    </item>
+    <item
+        jar="/workspace/androidstudio/Housekeeper4Android_tenant/app/libs/SocialSDK_QQZone_1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="c184c69f43b1fe46390f7123717c65bd844bccb6">
+        <dex dex="/workspace/androidstudio/Housekeeper4Android_tenant/app/build/intermediates/pre-dexed/release/SocialSDK_QQZone_1-556831b9635983c4df14271c3ac0c161791cc747.jar" />
+    </item>
+    <item
+        jar="/workspace/androidstudio/Housekeeper4Android_tenant/app/libs/httpmime-4.1.3.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="e70d34d98f7f7f3b2b92105b9f2fe2a7a7184461">
+        <dex dex="/workspace/androidstudio/Housekeeper4Android_tenant/app/build/intermediates/pre-dexed/release/httpmime-4.1.3-295981299a73e020096270c5da70fed7b9cccf24.jar" />
+    </item>
+    <item
+        jar="/workspace/androidstudio/Housekeeper4Android_tenant/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/jars/libs/internal_impl-23.0.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="aa92916125166649d8ad4ba3940c3dd7515596d3">
+        <dex dex="/workspace/androidstudio/Housekeeper4Android_tenant/app/build/intermediates/pre-dexed/release/internal_impl-23.0.1-45d58458396b53204eeccb066cb6c947ff2aa0a8.jar" />
+    </item>
+    <item
+        jar="/workspace/androidstudio/Housekeeper4Android_tenant/app/build/intermediates/exploded-aar/Housekeeper4Android_tenant/asymmetric_gridview/unspecified/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="1817a83b60ba5d1585112768085178e682125736">
+        <dex dex="/workspace/androidstudio/Housekeeper4Android_tenant/app/build/intermediates/pre-dexed/release/classes-e423f2953fc74ed61deb55ae970a3292c800f98d.jar" />
+    </item>
+    <item
+        jar="/workspace/androidstudio/Housekeeper4Android_tenant/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="d86429b0f0b3f3cafbeb78dda1b9d89119ccb05d">
+        <dex dex="/workspace/androidstudio/Housekeeper4Android_tenant/app/build/intermediates/pre-dexed/release/classes-299ffe6c1aa44fdc44563604bdabad3073996f74.jar" />
+    </item>
+    <item
+        jar="/workspace/androidstudio/Housekeeper4Android_tenant/app/libs/disklrucache-2.0.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="cdfda74b941164bbf3622347940ba0dd88d2dc91">
+        <dex dex="/workspace/androidstudio/Housekeeper4Android_tenant/app/build/intermediates/pre-dexed/release/disklrucache-2.0.1-73dc9133cb42ba66b556c555c6f1fd5af13faf79.jar" />
+    </item>
+    <item
+        jar="/workspace/androidstudio/Housekeeper4Android_tenant/app/libs/umeng-update-v2.6.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="8f00af139315de2cd24466f0c72e497fccd0b631">
+        <dex dex="/workspace/androidstudio/Housekeeper4Android_tenant/app/build/intermediates/pre-dexed/release/umeng-update-v2.6.0-2238ab6be1cefc667f0451919e4036873e364dbb.jar" />
+    </item>
+    <item
+        jar="/Users/sth/.gradle/caches/modules-2/files-2.1/com.jakewharton/butterknife/7.0.1/d5d13ea991eab0252e3710e5df3d6a9d4b21d461/butterknife-7.0.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="d5d13ea991eab0252e3710e5df3d6a9d4b21d461">
+        <dex dex="/workspace/androidstudio/Housekeeper4Android_tenant/app/build/intermediates/pre-dexed/release/butterknife-7.0.1-eb2766824d048fc7464b0c79eb8b4d012583971a.jar" />
+    </item>
+    <item
+        jar="/workspace/androidstudio/Housekeeper4Android_tenant/app/libs/BaiduLBS_Android.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="8679acccfb211dff73b2df4162285c2aa5162e30">
+        <dex dex="/workspace/androidstudio/Housekeeper4Android_tenant/app/build/intermediates/pre-dexed/release/BaiduLBS_Android-25a6efcc8a7e3f560eb8cde8a7e42ffbc928fafd.jar" />
+    </item>
+    <item
+        jar="/workspace/androidstudio/Housekeeper4Android_tenant/app/libs/gson-2.2.4.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="973e832af433b44c3ed11c426f2f390b29f3f3f8">
+        <dex dex="/workspace/androidstudio/Housekeeper4Android_tenant/app/build/intermediates/pre-dexed/release/gson-2.2.4-6687eed265596d3c820482fa51832124ac46a1fb.jar" />
+    </item>
+    <item
+        jar="/workspace/androidstudio/Housekeeper4Android_tenant/app/build/intermediates/exploded-aar/zbar-1.0.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="ad3fd024799f5bedcde4e82e60202b413888114b">
+        <dex dex="/workspace/androidstudio/Housekeeper4Android_tenant/app/build/intermediates/pre-dexed/release/classes-c5c4b1797bfcaee0125dadf0f523b02de192cea1.jar" />
+    </item>
+    <item
+        jar="/workspace/androidstudio/Housekeeper4Android_tenant/app/libs/umeng_social_sdk.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="4688dc44ccef22b7f057301ee6abbe187a8d35ea">
+        <dex dex="/workspace/androidstudio/Housekeeper4Android_tenant/app/build/intermediates/pre-dexed/release/umeng_social_sdk-992c944a6952835ab7a665b892c2dfcaefcddf0c.jar" />
+    </item>
+    <item
+        jar="/workspace/androidstudio/Housekeeper4Android_tenant/app/build/intermediates/exploded-aar/zbar-1.0.1/jars/libs/zbar.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="7bbdf7ba57a8a157c0cad51e455609c70887812e">
+        <dex dex="/workspace/androidstudio/Housekeeper4Android_tenant/app/build/intermediates/pre-dexed/release/zbar-5f312fa5b414a3b385c1678435cffb355c5600e9.jar" />
+    </item>
+    <item
+        jar="/workspace/androidstudio/Housekeeper4Android_tenant/app/libs/jackson-core-asl-1.9.5.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="af39988dc5ec30dba5f327791676d67501e79f93">
+        <dex dex="/workspace/androidstudio/Housekeeper4Android_tenant/app/build/intermediates/pre-dexed/release/jackson-core-asl-1.9.5-cbbdcc94178226fca8be0caded510c3588c08b02.jar" />
     </item>
 
 </items>

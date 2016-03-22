@@ -29,6 +29,7 @@ import com.wufriends.housekeeper.R;
 import org.apache.commons.lang3.StringUtils;
 
 import java.math.BigDecimal;
+import java.util.HashMap;
 
 /**
  * Created by sth on 9/2/15.
@@ -129,7 +130,12 @@ public class CurrentTransferInActivity extends BaseActivity implements View.OnCl
                 if (checkValue()) {
                     try {
                         ConfirmPayDialog dialog = new ConfirmPayDialog(this);
-                        dialog.setTransferInfo(new TransferInfo(infoDto.getDebtId(), Double.parseDouble(moneyEditText.getText().toString().trim()), Double.parseDouble(infoDto.getUserMoney())));
+
+                        HashMap<String, Object> map = new HashMap<String, Object>();
+                        map.put("CurrentPay", true);
+
+                        TransferInfo info = new TransferInfo(infoDto.getDebtId(), Double.parseDouble(moneyEditText.getText().toString().trim()), Double.parseDouble(infoDto.getUserMoney()), map);
+                        dialog.setTransferInfo(info);
                         dialog.show();
 
                     } catch (Exception e) {
